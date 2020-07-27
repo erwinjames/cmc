@@ -3691,7 +3691,7 @@ textarea.input1+.shadow-input1 {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: #e74c3c;
+    background: #3a9beb;
     padding-top: 10px;
     color: #fff;
     font-weight: bold;
@@ -3713,7 +3713,7 @@ textarea.input1+.shadow-input1 {
     width: 100%;
     height: 178px;
     bottom: 0;
-    background: rgb(238, 238, 238);
+    background: #fff;
     padding: 30px;
     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
   }
@@ -3727,7 +3727,7 @@ textarea.input1+.shadow-input1 {
     left: 0;
     color: #fff;
     text-transform: uppercase;
-    background: #e74c3c;
+    background: #3a9beb;
     padding: 10px 15px;
     font-weight: bold;
   }
