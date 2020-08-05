@@ -3531,6 +3531,9 @@ textarea.input1+.shadow-input1 {
     background: rgb(228, 228, 228);
     margin: 10px;
     box-sizing: border-box;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #5ea8ca;
 }
 
 .card .imgBx {
@@ -3557,70 +3560,72 @@ textarea.input1+.shadow-input1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #5ea8ca;
 }
 
-.card .details .content {
+.card .details .contents {
     padding: 20px;
     box-sizing: border-box;
 }
 
-.card .details .content h2 {
+.card .details .contents h2 {
     margin: 0;
     padding: 0;
     font-size: 24px;
     line-height: 0.85em;
     font-weight: 600;
+    color: #5ea8ca;
 }
 
-.card .details .content h2 span {
+.card .details .contents h2 span {
     font-size: 14px;
-    color: #777;
+    color: rgb(117, 189, 236);
 }
 
-.card .details .content ul {
+.card .details .contents ul {
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-.card .details .content ul li {
+.card .details .contents ul li {
     list-style: none;
     margin-left: 2px;
 }
 
-.card .details .content ul li a {
+.card .details .contents ul li a {
     color: #fff;
     border: none;
 }
 
-.card .details .content ul li:nth-child(1) a {
+.card .details .contents ul li:nth-child(1) a {
     background: #3b5995;
 }
 
-.card .details .content ul li:nth-child(2) a {
+.card .details .contents ul li:nth-child(2) a {
     background: #55acee;
 }
 
-.card .details .content ul li:nth-child(3) a {
+.card .details .contents ul li:nth-child(3) a {
     background: #b31217;
 }
 
-.card .details .content ul li:nth-child(4) a {
+.card .details .contents ul li:nth-child(4) a {
     background: #0077b5;
 }
 
-.card .details .content a {
+.card .details .contents a {
     display: inline-block;
     text-decoration: none;
     padding: 5px 10px;
     margin-top: 10px;
-    border: 2px solid #262626;
-    color: #262626;
+    border: 2px solid #5ea8ca;
+    color: #5ea8ca;
     font-weight: 500;
 }
 
-.card .details .content a:hover {
-    background: #262626;
+.card .details .contents a:hover {
+    background: #5ea8ca;
     color: #fff;
 }
 
@@ -3665,7 +3670,14 @@ textarea.input1+.shadow-input1 {
     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
     transition: transform .3s ease-out 0s;
   }
-   
+  .contents {
+    width: 100%;
+    height: 178px;
+    border-style: solid;
+    bottom: 0;
+    padding: 30px;
+    transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  }
   .cards::before, .cards::after {
     position: absolute;
     top: 0;
@@ -3690,6 +3702,7 @@ textarea.input1+.shadow-input1 {
 .hover {
     flex: 1;
     padding: 0 25px;
+    
   }
   .demo-title {
     color: #666;
@@ -3705,6 +3718,9 @@ textarea.input1+.shadow-input1 {
     transition: all 0.3s linear 0s;
     overflow: hidden;
     position: relative;
+    border-color:#5ea8ca;
+    border-style: solid;
+    border-width: 0.5px;
   }
   .module:hover {
     box-shadow: 0 1px 35px 0 rgba(0, 0, 0, 0.3);
@@ -3749,9 +3765,11 @@ textarea.input1+.shadow-input1 {
     width: 100%;
     height: 178px;
     border-style: solid;
+    background: rgb(236, 236, 236);
     bottom: 0;
     padding: 30px;
     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+   
   }
   .module:hover .content {
     height: 278px;
@@ -3777,7 +3795,7 @@ textarea.input1+.shadow-input1 {
   .sub-title {
     margin: 0;
     padding: 0 0 20px;
-    color: #e74c3c;
+    color: #65bce4;
     font-size: 20px;
     font-weight: 400;
   }
