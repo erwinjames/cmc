@@ -33,7 +33,7 @@
     $(
             '<div id="titleBar">' +
             '<a href="#navPanel" class="toggle"></a>' +
-            '<span class="title">' + '<h1 >Cordova Multipurpose Cooperative</h1>' + '</span>' +
+            '<span class="title">' + '<h1>Cordova Multipurpose Cooperative</h1>' + '</span>' +
             '</div>'
         )
         .appendTo($body);

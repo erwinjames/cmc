@@ -2815,6 +2815,7 @@ button.small,
         text-align: center;
         color: #fff;
         z-index: 1;
+        font-size:15px;
     }
     #titleBar .title em {
         font-style: normal;
