@@ -2498,11 +2498,13 @@ button.small,
     position: inherit;
     align-content: center;
 }
+
 .history_div h1 {
     text-align: center;
 }
+
 .history_div p {
-    font-size:15px;
+    font-size: 15px;
     padding: 0 3.5em 3.5em 3.5em;
 }
 
@@ -2823,7 +2825,7 @@ button.small,
         text-align: center;
         color: #fff;
         z-index: 1;
-        font-size:15px;
+        font-size: 15px;
     }
     #titleBar .title em {
         font-style: normal;
@@ -3665,20 +3667,24 @@ textarea.input1+.shadow-input1 {
         margin: 10px auto;
     }
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.05);
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     transition: transform .3s ease-out 0s;
-  }
-  .contents {
+}
+
+.contents {
     width: 100%;
     height: 178px;
     border-style: solid;
     bottom: 0;
     padding: 30px;
     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-  }
-  .cards::before, .cards::after {
+}
+
+.cards::before,
+.cards::after {
     position: absolute;
     top: 0;
     right: 0;
@@ -3689,57 +3695,69 @@ textarea.input1+.shadow-input1 {
     background: rgba(255, 255, 255, 0.1);
     content: '';
     pointer-events: none;
-  }
-  .card::before {
+}
+
+.card::before {
     transform-origin: left top;
-  }
-  .card::after {
+}
+
+.card::after {
     transform-origin: right bottom;
-  }
-  .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+}
+
+.card:hover::before,
+.card:hover::after,
+.card:focus::before,
+.card:focus::after {
     transform: scale3d(1, 1, 1);
-  }
+}
+
 .hover {
     flex: 1;
     padding: 0 25px;
-    
-  }
-  .demo-title {
+}
+
+.demo-title {
     color: #666;
     margin: 0 0 15px;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-  }
-  .module {
+}
+
+.module {
     min-width: 270px;
     height: 470px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
     transition: all 0.3s linear 0s;
     overflow: hidden;
     position: relative;
-    border-color:#5ea8ca;
+    border-color: #5ea8ca;
     border-style: solid;
     border-width: 0.5px;
-  }
-  .module:hover {
+}
+
+.module:hover {
     box-shadow: 0 1px 35px 0 rgba(0, 0, 0, 0.3);
-  }
-  .thumbnail {
+}
+
+.thumbnail {
     position: relative;
     overflow: hidden;
     background: black;
-  }
-  .thumbnail img {
+}
+
+.thumbnail img {
     width: 120%;
     transition: all 0.3s;
-  }
-  .module:hover .thumbnail img {
+}
+
+.module:hover .thumbnail img {
     transform: scale(1.1);
     opacity: 0.6;
-  }
-  
-  .thumbnail .date {
+}
+
+.thumbnail .date {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -3755,12 +3773,14 @@ textarea.input1+.shadow-input1 {
     align-items: center;
     font-size: 12px;
     text-transform: uppercase;
-  }
-  .date div:first-child {
+}
+
+.date div:first-child {
     font-size: 18px;
     line-height: 1.2;
-  }
-  .content {
+}
+
+.content {
     position: absolute;
     width: 100%;
     height: 178px;
@@ -3769,13 +3789,13 @@ textarea.input1+.shadow-input1 {
     bottom: 0;
     padding: 30px;
     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-   
-  }
-  .module:hover .content {
+}
+
+.module:hover .content {
     height: 278px;
-  }
-  
-  .content .category {
+}
+
+.content .category {
     position: absolute;
     top: -34px;
     left: 0;
@@ -3784,22 +3804,25 @@ textarea.input1+.shadow-input1 {
     background: #3a9beb;
     padding: 10px 15px;
     font-weight: bold;
-  }
-  .title {
+}
+
+.title {
     margin: 0;
     padding: 0 0 10px;
     color: #333333;
     font-size: 24px;
     font-weight: 700;
-  }
-  .sub-title {
+}
+
+.sub-title {
     margin: 0;
     padding: 0 0 20px;
     color: #65bce4;
     font-size: 20px;
     font-weight: 400;
-  }
-  .description {
+}
+
+.description {
     color: #666666;
     font-size: 14px;
     line-height: 1.8em;
@@ -3807,58 +3830,67 @@ textarea.input1+.shadow-input1 {
     opacity: 1;
     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
     overflow: hidden;
-  }
-  .module:hover .description {
+}
+
+.module:hover .description {
     height: 100px;
-  }
-  .meta {
+}
+
+.meta {
     margin: 30px 0 0;
     color: #999999;
-  }
-  .cards {
-      background: rgb(230, 230, 230);
-      border-style: solid;
-      border-color: rgb(140, 209, 241);
-      border-width: 0.5px;
-  }
-  .items{
-    padding-left:5px;
-    padding-right:5px;
-    background:rgb(247, 247, 247);
+}
 
-  }
-  .item-card{
-    transition:0.5s;
-    cursor:pointer;
-  }
-  .item-card-title{  
-    font-size:15px;
-    transition:1s;
-    cursor:pointer;
+.cards {
+    background: rgb(230, 230, 230);
+    border-style: solid;
+    border-color: rgb(140, 209, 241);
+    border-width: 0.5px;
+}
+
+.items {
+    padding-left: 5px;
+    padding-right: 5px;
+    background: rgb(247, 247, 247);
+}
+
+.item-card {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.item-card-title {
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
     text-align: center;
-  }
-  .item-card-title i{  
-    font-size:15px;
-    transition:1s;
-    cursor:pointer;
-    color:#ffa710
-  }
-  .card-title i:hover{
-    transform: scale(1.25) rotate(100deg); 
-    color:#18d4ca;
-    
-  }
-  .cards:hover{
+}
+
+.item-card-title i {
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
+    color: #ffa710
+}
+
+.card-title i:hover {
+    transform: scale(1.25) rotate(100deg);
+    color: #18d4ca;
+}
+
+.cards:hover {
     transform: scale(1.05);
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
-  }
-  .card-text{
-    height:100px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-text {
+    height: 100px;
     font-size: 13px;
-    padding: 0 2em 2em 2em;  
-  }
-  
-  .cards::before, .cards::after {
+    padding: 0 2em 2em 2em;
+}
+
+.cards::before,
+.cards::after {
     position: absolute;
     top: 0;
     right: 0;
@@ -3869,17 +3901,28 @@ textarea.input1+.shadow-input1 {
     background: rgba(255, 255, 255, 0.1);
     content: '';
     pointer-events: none;
-  }
-  .cards::before {
+}
+
+.cards::before {
     transform-origin: left top;
-  }
-  .cards::after {
+}
+
+.cards::after {
     transform-origin: right bottom;
-  }
-  .cards:hover::before, .cards:hover::after, .cards:focus::before, .cards:focus::after {
+}
+
+.cards:hover::before,
+.cards:hover::after,
+.cards:focus::before,
+.cards:focus::after {
     transform: scale3d(1, 1, 1);
-  }
-.cards img{
-    height:150px;
-    width:100%;
+}
+
+.cards img {
+    height: 150px;
+    width: 100%;
+}
+
+.Box {
+    width: 400px;
 }
