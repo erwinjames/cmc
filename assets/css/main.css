@@ -3846,6 +3846,7 @@ textarea.input1+.shadow-input1 {
     border-style: solid;
     border-color: rgb(140, 209, 241);
     border-width: 0.5px;
+    padding-bottom: 1em;
 }
 
 .items {
@@ -4074,6 +4075,21 @@ textarea.input1+.shadow-input1 {
   margin: auto;
   margin-top:-30px;
   }
-  
- 
-  
+  .cards a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px ;
+    margin-top: 50px;
+    margin-left: 29%;
+    border: 2px solid #5ea8ca;
+    color: #5ea8ca;
+    font-weight: 500;
+    font-size:15px;
+  }
+  .cards a i{
+      font-size:10px;
+  }
+  .card a:hover{
+    background: #5ea8ca;
+    color: #fff;
+  }
