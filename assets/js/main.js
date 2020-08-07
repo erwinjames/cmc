@@ -62,10 +62,6 @@
 
 })(jQuery);
 
-
-
-
-
 $("#slideshows > img:gt(0)").hide();
 
 setInterval(function() { 
