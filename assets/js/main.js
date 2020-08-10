@@ -109,3 +109,5 @@ $(document).ready(function() {
     e.preventDefault();
     $('.modal').toggleClass('is-visible');
   });
+  
+  
