@@ -1721,6 +1721,7 @@ header.major {
 
 header.major h2 {
     font-size: 2.25em;
+    font-weight: 300px;
 }
 
 header.major p {
@@ -4093,3 +4094,6 @@ textarea.input1+.shadow-input1 {
     background: #5ea8ca;
     color: #fff;
   }
+.services{
+padding: 3em 0 0 0;
+}
