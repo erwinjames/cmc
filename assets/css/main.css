@@ -3240,8 +3240,7 @@ iframe {
 
 .container-contact1 {
     width: 1163px;
-    background: #fff;
-    border-radius: 10px;
+    background: rgb(231, 231, 231);
     overflow: hidden;
     display: -webkit-box;
     display: -webkit-flex;
