@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/util.css" />
+
 </head>
 
 <body class="is-preload">
@@ -17,11 +17,11 @@
 
             <!-- Logo -->
             <div class="row">
-                <div class="col-md-5 col-sm-12">
-                    <img src="images/cmc.png" alt="">
+                <div class=" logo">
+                    <img width="2%" src="images/cmc.png" alt="">
                 </div>
 
-                <div class="col-md-6 col-sm-12 header_tag">
+                <div class=" header_tag">
                     <h1 style="font-size:60px;font-family:'Times New Roman', Times, serif;color:rgb(16, 157, 238);text-decoration: none;">Cordova Multipurpose Cooperative</h1>
                     <small style="top:0;">Official Website</small>
 
@@ -39,7 +39,7 @@
 
                         </ul>
                     </li>
-                    <li>
+                    <li class="current">
                         <a href="#">Products and Services</a>
                         <ul>
                             <li><a href="savings_products.html">Savings</a></li>
@@ -50,7 +50,7 @@
                             <li><a href="lumberAndcunsumer.html">Lumber and Cosumer</a></li>
                         </ul>
                     </li>
-                    <li class="current">
+                    <li>
                         <a href="contacts.html">Contact Us</a>
                         <ul>
                             <li>
@@ -102,53 +102,19 @@
         </div>
 
         <!-- Main -->
-        <section class=" style1">
-
-            <div class="contact1">
-                <div class="container-contact1">
-                    <div class="contact1-pic js-tilt" data-tilt>
-                        <img src="images/img-01.png" alt="IMG">
+        <section class="wrapper style1">
+            <div class="container mt-2">
+                <div class="row">
+                    <div class="col-3 col-12-narrower items">
+                        <div class="cards item-card card-block">
+                            <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
+                            <h5 class="item-card-title mt-3 mb-3">Savings Deposit</h5>
+                            <p class="card-text"></p>
+                        </div>
                     </div>
-
-                    <form class="contact1-form validate-form">
-                        <span class="contact1-form-title">
-                                Get in touch
-                            </span>
-
-                        <div class="wrap-input1 validate-input" data-validate="Name is required">
-                            <input class="input1" type="text" name="name" placeholder="Name">
-                            <span class="shadow-input1"></span>
-                        </div>
-
-                        <div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                            <input class="input1" type="text" name="email" placeholder="Email">
-                            <span class="shadow-input1"></span>
-                        </div>
-
-                        <div class="wrap-input1 validate-input" data-validate="Subject is required">
-                            <input class="input1" type="text" name="subject" placeholder="Subject">
-                            <span class="shadow-input1"></span>
-                        </div>
-
-                        <div class="wrap-input1 validate-input" data-validate="Message is required">
-                            <textarea class="input1" name="message" placeholder="Message"></textarea>
-                            <span class="shadow-input1"></span>
-                        </div>
-
-                        <div class="container-contact1-form-btn">
-                            <button class="contact1-form-btn">
-                                    <span>
-                                        Send Email
-                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                                    </span>
-                                </button>
-                        </div>
-                    </form>
 
                 </div>
             </div>
-
-
         </section>
 
         <!-- Footer -->
@@ -156,30 +122,37 @@
             <div class="container">
                 <div class="row">
                     <section class="col-3 col-6-narrower col-12-mobilep">
-                        <h3>Links to Stuff</h3>
+                        <h3>BRANCHES</h3>
                         <ul class="links">
-                            <li><a href="#">Mattis et quis rutrum</a></li>
-                            <li><a href="#">Suspendisse amet varius</a></li>
-                            <li><a href="#">Sed et dapibus quis</a></li>
-                            <li><a href="#">Rutrum accumsan dolor</a></li>
-                            <li><a href="#">Mattis rutrum accumsan</a></li>
-                            <li><a href="#">Suspendisse varius nibh</a></li>
-                            <li><a href="#">Sed et dapibus mattis</a></li>
-                        </ul>
-                    </section>
-                    <section class="col-3 col-6-narrower col-12-mobilep">
-                        <h3>More Links to Stuff</h3>
-                        <ul class="links">
-                            <li><a href="#">Duis neque nisi dapibus</a></li>
-                            <li><a href="#">Sed et dapibus quis</a></li>
-                            <li><a href="#">Rutrum accumsan sed</a></li>
-                            <li><a href="#">Mattis et sed accumsan</a></li>
-                            <li><a href="#">Duis neque nisi sed</a></li>
-                            <li><a href="#">Sed et dapibus quis</a></li>
-                            <li><a href="#">Rutrum amet varius</a></li>
-                        </ul>
-                    </section>
+                            <li><a href="#">MAIN BRANCH</a></li>
+                            <li><a href="#">LAPU-LAPU BRANCH</a></li>
+                            <li><a href="#">BASAK BRANCH</a></li>
+                            <li><a href="#">OLANGO BRANCH</a></li>
+                            <li><a href="#">MANDAUE OFFICE</a></li>
 
+                        </ul>
+                    </section>
+                    <section class="col-6 col-12-narrower">
+                        <h3>Get In Touch</h3>
+                        <form>
+                            <div class="row gtr-50">
+                                <div class="col-6 col-12-mobilep">
+                                    <input type="text" name="name" id="name" placeholder="Name" />
+                                </div>
+                                <div class="col-6 col-12-mobilep">
+                                    <input type="email" name="email" id="email" placeholder="Email" />
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <ul class="actions">
+                                        <li><input type="submit" class="button alt" value="Send Message" /></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
                 </div>
             </div>
 
@@ -210,41 +183,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="vendor/select2/select2.min.js"></script>
-    <script src="vendor/tilt/tilt.jquery.min.js"></script>
-    <script>
-        $('.js-tilt').tilt({
-            scale: 1.1
-        })
-    </script>
-    <script>
-        // Initialize and add the map
-        function initMap() {
-            // The location of Uluru
-            var uluru = {
-                lat: -25.344,
-                lng: 131.036
-            };
-            // The map, centered at Uluru
-            var map = new google.maps.Map(
-                document.getElementById('map'), {
-                    zoom: 4,
-                    center: uluru
-                });
-            // The marker, positioned at Uluru
-            var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
-            });
-        }
-    </script>
-    <!--Load the API from the specified URL
-                * The async attribute allows the browser to render the page while the API loads
-                * The key parameter will contain your own API key (which is not needed for this tutorial)
-                * The callback parameter executes the initMap() function
-                -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-    </script>
 
 </body>
 

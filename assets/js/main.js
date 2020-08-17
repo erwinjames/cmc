@@ -33,7 +33,7 @@
     $(
             '<div id="titleBar">' +
             '<a href="#navPanel" class="toggle"></a>' +
-            '<span class="title">' + '<h1 >Cordova Multipurpose Cooperative</h1>' + '</span>' +
+            '<span class="title">' + '<h1>Cordova Multipurpose Cooperative</h1>' + '</span>' +
             '</div>'
         )
         .appendTo($body);
@@ -61,3 +61,53 @@
         });
 
 })(jQuery);
+
+$("#slideshows > img:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshows > img:first')
+    .fadeOut(3000)
+    .next()
+    .fadeIn(3000)
+    .end()
+    .appendTo('#slideshows');
+},  5000);
+
+$( document ).ready(function() {
+   
+	var timerId=setInterval(function() { 
+	
+		$('h3.whr-title').each(function() {
+			
+		  var href=$(this).children().first().attr('href');
+		  		  
+		  var new_content=$(this).parent().html() + "<div class='apply-now-btn'><a href='"+ href +"' target='_blank'>Apply Now</a></div>";
+		  
+		  $(this).parent().html(new_content) ;
+		  
+		  clearInterval(timerId);
+		});
+		
+	},  1000);
+});
+
+$(document).ready(function() {
+    $("#toggle").click(function() {
+      var elem = $("#toggle").text();
+      if (elem == "Read More") {
+        $("#toggle").text("Read Less");
+        $("#text").slideDown();
+      } else {
+      
+        $("#toggle").text("Read More");
+        $("#text").slideUp();
+      }
+    });
+  });
+
+  $('.modal-toggle').on('click', function(e) {
+    e.preventDefault();
+    $('.modal').toggleClass('is-visible');
+  });
+  
+  
