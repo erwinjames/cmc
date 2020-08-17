@@ -4350,7 +4350,6 @@ div .picture {
     width: calc(100% - 60px);
     height: calc(100% - 60px);
     filter: drop-shadow(0 3px 15px black);
-    cursor: url(close-button.png), grab;
 }
 
 .picture:not(.show):hover img {

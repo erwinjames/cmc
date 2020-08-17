@@ -1,5 +1,3 @@
-// TODO: touch events
-
 const divs = document.querySelectorAll('div');
 const body = document.body;
 const prev = document.querySelector('.prev');
