@@ -4061,21 +4061,6 @@ textarea.input1+.shadow-input1 {
     overflow: hidden;
 }
 
-div.overlay {
-    text-align: center;
-    position: absolute;
-    top: 450px;
-    font-size: 20px;
-    line-height: 3em;
-    color: #424242;
-    background-color: white;
-    opacity: 0.5;
-    margin: auto;
-    padding: 20px;
-    min-width: 20%;
-    position: absolute;
-}
-
 .esb {
     font-family: karla;
 }
