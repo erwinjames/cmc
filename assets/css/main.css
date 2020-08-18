@@ -4260,7 +4260,7 @@ textarea.input1+.shadow-input1 {
 
 .prev:hover,
 .next:hover {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(3, 3, 3, 0.8);
 }
 
 .prev {
