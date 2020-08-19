@@ -3885,7 +3885,7 @@ textarea.input1+.shadow-input1 {
 }
 
 .card-text {
-    height: 100px;
+    height: 100%;
     font-size: 13px;
     padding: 0 2em 2em 2em;
 }
