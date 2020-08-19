@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <!-- <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css"> -->
+    
 </head>
 
 <body class="is-preload">
@@ -112,7 +113,7 @@
         <section class="wrapper style1">
             <div class="container mt-2">
                 <div class="row">
-                    <div class="col-3 col-12-narrower items">
+                    <div class="col-3 col-12-narrower items" data-aos="fade-up">
                         <div class="cards item-card card-block">
                             <img src="images/fixed_deposit.jpg" alt="Photo of sunset">
                             <h5 class="item-card-title mt-3 mb-3">Fixed Deposit</h5>
@@ -129,7 +130,7 @@
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items">
-                        <div class="cards item-card card-block">
+                        <div class="cards item-card card-block" aos="fade-up">
                             <img src="images/saving_products.jpg" alt="Photo of sunset">
                             <h5 class="item-card-title mt-3 mb-3">Savings Products</h5>
                             <p class="card-text">
@@ -145,7 +146,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-3 col-12-narrower items">
+                    <div class="col-3 col-12-narrower items" aos="fade-up">
                         <div class="cards item-card card-block">
                             <img src="images/savngs_deposit.jpg" alt="Photo of sunset">
                             <h5 class="item-card-title mt-3 mb-3">Time Deposit</h5>
@@ -226,6 +227,7 @@
     </div>
 
     <!-- Scripts -->
+ 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.dropotron.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
@@ -236,3 +238,9 @@
 </body>
 
 </html>
+<script src="assets/js/aos.js"></script>
+<script>
+    $(function() {
+         AOS.init();
+    });
+</script>
