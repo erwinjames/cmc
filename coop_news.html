@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="is-preload">
@@ -111,7 +112,7 @@
         <section class="wrapper style1">
             <div class="container">
                 <div class="col-12 col-12-narrower">
-                    <div class='hover'>
+                    <div class='hover' data-aos="fade-up" data-aos-duration="1000">
                         <div class='module'>
                             <div class='thumbnail'>
                                 <img src="images/building_nav.png">
@@ -210,5 +211,8 @@
     <script src="assets/js/main.js"></script>
 
 </body>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
