@@ -1,5 +1,7 @@
 (function($) {
 
+ 
+
     var $window = $(window),
         $body = $('body');
 
@@ -110,4 +112,5 @@ $(document).ready(function() {
     $('.modal').toggleClass('is-visible');
   });
   
+
   
