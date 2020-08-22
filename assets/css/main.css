@@ -2258,7 +2258,11 @@ button.small,
     border-style: solid;
     border-color: #189bd3;
 }
-
+.box.Bod {
+    text-align: center;
+    border-style: solid;
+    border-color:darkred ;
+}
 .box.post {
     position: relative;
     margin: 0 0 2em 0;
@@ -3848,7 +3852,17 @@ textarea.input1+.shadow-input1 {
     border-width: 0.5px;
     padding-bottom: 1em;
 }
-
+.cardsss {
+    width: 2.45in;
+    background: rgb(230, 230, 230);
+    border-style: solid;
+    border-color: rgb(140, 209, 241);
+    border-width: 0.5px;
+    padding-bottom: .1in;
+    padding-top: .1in;
+    padding-left: .1in;
+    padding-right: .1in;
+}
 .items {
     padding-left: 5px;
     padding-right: 5px;
@@ -3880,6 +3894,10 @@ textarea.input1+.shadow-input1 {
 }
 
 .cards:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.cardsss:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
@@ -3920,6 +3938,10 @@ textarea.input1+.shadow-input1 {
 }
 
 .cards img {
+    height: 150px;
+    width: 100%;
+}
+.cardss img {
     height: 150px;
     width: 100%;
 }
