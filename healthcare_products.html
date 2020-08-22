@@ -6,10 +6,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
 <body class="is-preload">
+    <div class="se-pre-con"></div>
     <div id="page-wrapper">
 
         <!-- Header -->
@@ -67,21 +69,21 @@
                             <li>
                                 <a href="#">Branches And Offices</a>
                                 <ul>
-                                    <li><a href="#">Head Office</a></li>
-                                    <li><a href="#">Main Office</a></li>
-                                    <li><a href="#">Lapu-Lapu Branch</a></li>
-                                    <li><a href="#">Basak Branch</a></li>
-                                    <li><a href="#">Olango Branch</a></li>
-                                    <li><a href="#">Mandaue Office</a></li>
-                                    <li><a href="#">Business Enterprise</a></li>
+                                    <li><a href="branches/coop_ho.html">Head Office</a></li>
+                                    <li><a href="branches/coop_main.html">Main Office</a></li>
+                                    <li><a href="branches/coop_llc.html">Lapu-Lapu Branch</a></li>
+                                    <li><a href="branches/coop_basak.html">Basak Branch</a></li>
+                                    <li><a href="branches/coop_olango.html">Olango Branch</a></li>
+                                    <li><a href="branches/coop_mandaue.html">Mandaue Office</a></li>
+                                    <li><a href="branches/coop_be.html">Business Enterprise</a></li>
 
                                 </ul>
                             </li>
                             <li><a href="coop_history.html">Coop History</a></li>
-                            <li><a href="#">Mission,Vision,Goals</a></li>
-                            <li><a href="#">Awards and Recognations</a></li>
-                            <li><a href="#">Officers</a></li>
-                            <li><a href="#">Organization Structure</a></li>
+                            <li><a href="officers/coop_VMG.html">Mission,Vision,Goals</a></li>
+                            <li><a href="awardsAndRecognation.html">Awards and Recognations</a></li>
+                            <li><a href="officers/coop_officers.html">Officers</a></li>
+                            <li><a href="OrganizationalStructure.html">Organization Structure</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                         </ul>
                     </li>
@@ -102,11 +104,18 @@
         </div>
 
         <!-- Main -->
+        <section id="cta" class="wrapper style2">
+            <div class="container">
+                <header>
+                    <h2>PRODUCTS AND SERVICES / HEALTHCARE</h2>
+                </header>
+            </div>
+        </section>
         <section class="wrapper style1">
             <div class="container mt-2">
                 <div class="row">
                     <div class="col-3 col-12-narrower items">
-                        <div class="cards item-card card-block">
+                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
                             <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
                             <h5 class="item-card-title mt-3 mb-3">Savings Deposit</h5>
                             <p class="card-text"></p>
@@ -159,10 +168,10 @@
             <!-- Icons -->
             <ul class="icons">
                 <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                <!-- <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
                 <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                <li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+                <li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li> -->
             </ul>
 
             <!-- Copyright -->
@@ -177,13 +186,20 @@
     </div>
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+ <!-- <script src="assets/js/jquery.min.js"></script> -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <script src="assets/js/jquery.dropotron.min.js"></script>
+ <script src="assets/js/browser.min.js"></script>
+ <script src="assets/js/breakpoints.min.js"></script>
+ <script src="assets/js/util.js"></script>
+ <script src="assets/js/main.js"></script>
+ <script src="assets/js/carousel.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+ <script src="assets/js/loading.js"></script>
 
 </body>
-
+<script src="assets/js/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>

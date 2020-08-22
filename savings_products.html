@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <!-- <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 </head>
 
 <body class="is-preload">
+    <div class="se-pre-con"></div>
     <div id="page-wrapper">
 
         <!-- Header -->
@@ -67,18 +70,18 @@
                             <li>
                                 <a href="#">Branches And Offices</a>
                                 <ul>
-                                    <li><a href="#">Head Office</a></li>
-                                    <li><a href="#">Main Office</a></li>
-                                    <li><a href="#">Lapu-Lapu Branch</a></li>
-                                    <li><a href="#">Basak Branch</a></li>
-                                    <li><a href="#">Olango Branch</a></li>
-                                    <li><a href="#">Mandaue Office</a></li>
-                                    <li><a href="#">Business Enterprise</a></li>
+                                    <li><a href="branches/coop_ho.html">Head Office</a></li>
+                                    <li><a href="branches/coop_main.html">Main Office</a></li>
+                                    <li><a href="branches/coop_llc.html">Lapu-Lapu Branch</a></li>
+                                    <li><a href="branches/coop_basak.html">Basak Branch</a></li>
+                                    <li><a href="branches/coop_olango.html">Olango Branch</a></li>
+                                    <li><a href="branches/coop_mandaue.html">Mandaue Office</a></li>
+                                    <li><a href="branches/coop_be.html">Business Enterprise</a></li>
 
                                 </ul>
                             </li>
                             <li><a href="coop_history.html">Coop History</a></li>
-                            <li><a href="#">Mission,Vision,Goals</a></li>
+                            <li><a href="officers/coop_VMG.html">Mission,Vision,Goals</a></li>
                             <li><a href="#">Awards and Recognations</a></li>
                             <li><a href="#">Officers</a></li>
                             <li><a href="#">Organization Structure</a></li>
@@ -102,45 +105,66 @@
         </div>
 
         <!-- Main -->
+        <section id="cta" class="wrapper style2">
+            <div class="container">
+                <header>
+                    <h2>PRODUCTS AND SERVICES / COOP SAVINGS</h2>
+                </header>
+            </div>
+        </section>
         <section class="wrapper style1">
             <div class="container mt-2">
                 <div class="row">
-                    <div class="col-3 col-12-narrower items">
-                        <div class="cards item-card card-block">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
-                            <h5 class="item-card-title mt-3 mb-3">Savings Deposit</h5>
-                            <p class="card-text">wrote something here</p>
-                        </div>
-                    </div>
-                    <div class="col-3 col-12-narrower items">
-                        <div class="cards item-card card-block">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
-                            <h5 class="item-card-title mt-3 mb-3">Savings Deposit</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum est id leo vehicula consequat. </p>
-                        </div>
-                    </div>
-                    <div class="col-3 col-12-narrower items">
-                        <div class="cards item-card card-block">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
-                            <h5 class="item-card-title mt-3 mb-3">Savings Deposit</h5>
-                            <p class="card-text">wrote something here</p>
-                        </div>
-                    </div>
-                    <div class="col-3 col-12-narrower items">
-                        <div class="cards item-card card-block">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
-                            <h5 class="item-card-title mt-3 mb-3">Savings Deposit</h5>
-                            <p class="card-text">wrote something here</p>
-                        </div>
-                    </div>
-                    <div class="col-3 col-12-narrower items">
-                        <div class="cards item-card card-block">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
-                            <h5 class="item-card-title mt-3 mb-3">Savings Deposit</h5>
-                            <p class="card-text">wrote something here</p>
-                        </div>
-                    </div>
+                    <div  class="col-3 col-12-narrower items">
+                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
+                            <img src="images/fixed_deposit.jpg" alt="Photo of sunset">
+                            <h5 class="item-card-title mt-3 mb-3">Fixed Deposit</h5>
+                            <p class="card-text">
+                              <b>Share Capital</b><br>
 
+                                •	It is considered as fix investment in the coop. <br>
+                                •	Yearly Dividend     <br>
+                                •	Initial deposit of PHP 300.00 <br>
+                                •	Non-withdrawable <br>
+                                •	One of the bases for loan evaluation.	 <br>
+                                •	A PHP 50.00 charge in case of close account <br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-12-narrower items">
+                        <div class="cards item-card card-block" data-aos="fade-up"  data-aos-duration="2000">
+                            <img src="images/saving_products.jpg" alt="Photo of sunset">
+                            <h5 class="item-card-title mt-3 mb-3">Savings Products</h5>
+                            <p class="card-text">
+                                <b>REGULAR SAVINGS</b> <br>
+
+                                        •	Open to all Regular Member <br>
+                                        •	Open account for at least PHP 200.00<br>
+                                        •	Bears a competitive interest of 4% per annum<br>
+                                        •	NO monthly charges<br>
+                                        •	Withdrawable from Monday – Friday during official banking hours (8:00-3:00)<br>
+                                        •	Interest earned is not subject to withholding tax<br>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-12-narrower items" >
+                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="=3000">
+                            <img src="images/savngs_deposit.jpg" alt="Photo of sunset" >
+                            <h5 class="item-card-title mt-3 mb-3">Time Deposit</h5>
+                            <p class="card-text">
+                               <b> TIME DEPOSIT </b> <br>
+                                •	Open to all regular & associate member <br>
+                                •	Minimum amount for this account is PHP 5,000.00 <br>
+                                •	Bears a competitive interest rate base on the amount placed upon the bracket amount and term. <br>
+                                •	Renewable upon maturity and interest can be withdrawn monthly. <br>
+                                •	Pre-termination is allowed but the rate to be used in computing the interest <br>
+                                •	Shall be based on the rates above. <br>
+                                •	Interest earned is not subject to withholding <br>
+                                
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -205,13 +229,22 @@
     </div>
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+ 
+ <!-- <script src="assets/js/jquery.min.js"></script> -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <script src="assets/js/jquery.dropotron.min.js"></script>
+ <script src="assets/js/browser.min.js"></script>
+ <script src="assets/js/breakpoints.min.js"></script>
+ <script src="assets/js/util.js"></script>
+ <script src="assets/js/main.js"></script>
+ <script src="assets/js/carousel.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+ <script src="assets/js/loading.js"></script>
 
 </body>
-
+<script src="assets/js/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
+
