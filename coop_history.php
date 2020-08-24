@@ -14,7 +14,7 @@
     <div id="page-wrapper">
 
         <!-- Header -->
-        <?php include "includes/header.php"?>  
+        <?php include "includes/header.php";?>  
         <nav id="nav">
     <ul>
         <li ><a href="index.php">Home</a></li>
