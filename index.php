@@ -13,7 +13,6 @@
 <body class="is-preload">
     <div class="se-pre-con"></div>
     <div id="page-wrapper">
-
         <!-- Header -->
       <?php include "includes/header.php"?>
       <nav id="nav">
@@ -90,9 +89,7 @@
       </div>
 
         <!-- Banner -->
-
         <section id="banner">
-
             <header>
                 <h2>HOW TO BECOME A MEMBER </h2>&nbsp;&nbsp;
                 <em><small>DO YOU WANT TO AVAIL OUR COOPERATIVE'S PRODUCTS AND SERVICES</small></em>

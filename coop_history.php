@@ -37,7 +37,7 @@
             </ul>
         </li>
         <li>
-            <a href="contacts.php">Contact Us</a>
+            <a>Contact Us</a>
             <ul>
                 <li>
                     <a href="contact_details.php">Contact Details</a>
