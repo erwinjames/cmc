@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/util.css" />
+    <link href="assets/css/aos.css" rel="stylesheet">
 </head>
 
 <body class="is-preload">

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/util.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="assets/css/aos.css" rel="stylesheet">
 
 </head>
 
@@ -39,7 +39,7 @@
                 <li><a href="lumberAndcunsumer.php">Lumber and Cosumer</a></li>
             </ul>
         </li>
-        <li class="current">
+        <li >
             <a >Contact Us</a>
             <ul>
                 <li>
