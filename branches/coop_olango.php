@@ -12,7 +12,7 @@
     <div id="page-wrapper">
 
         <!-- Header -->
-        <?php include "../includes/header2.php"?>
+        <?php include "../includes/header2.php" ;?>
             <!-- Nav -->
             <nav id="nav">
                 <ul>
