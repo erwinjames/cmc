@@ -16,71 +16,71 @@
             <!-- Nav -->
             <nav id="nav">
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.php">Home</a></li>
                     <li>
                         <a href="#">Blog</a>
                         <ul>
-                            <li><a href="../coop_news.html">Coop News</a></li>
-                            <li><a href="../coop_career.html">Coop Career</a></li>
+                            <li><a href="../coop_news.php">Coop News</a></li>
+                            <li><a href="../coop_career.php">Coop Career</a></li>
 
                         </ul>
                     </li>
                     <li>
                         <a href="#">Products and Services</a>
                         <ul>
-                            <li><a href="../savings_products.html">Savings</a></li>
-                            <li><a href="../loans_products.html">Loans</a></li>
-                            <li><a href="../youlabco.html">YOULABCO</a></li>
-                            <li><a href="../mortuary_services.html">Mortaury</a></li>
-                            <li><a href="../healthcare_products.html">Health care</a></li>
-                            <li><a href="../lumberAndcunsumer.html">Lumber and Cosumer</a></li>
+                            <li><a href="../savings_products.php">Savings</a></li>
+                            <li><a href="../loans_products.php">Loans</a></li>
+                            <li><a href="../youlabco.php">YOULABCO</a></li>
+                            <li><a href="../mortuary_services.php">Mortaury</a></li>
+                            <li><a href="../healthcare_products.php">Health care</a></li>
+                            <li><a href="../lumberAndcunsumer.php">Lumber and Cosumer</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="../contacts.html">Contact Us</a>
+                        <a href="../contacts.php">Contact Us</a>
                         <ul>
                             <li>
-                                <a href="../contact_details.html">Contact Details</a>
+                                <a href="../contact_details.php">Contact Details</a>
                             </li>
-                            <li><a href="../message_us.html">Message Us</a></li>
+                            <li><a href="../message_us.php">Message Us</a></li>
 
                         </ul>
                     </li>
                     <!-- <li><a href="right-sidebar.html">About us</a></li> -->
                     <li  class="current">
-                        <a href="../about_us.html">About Us</a>
+                        <a href="../about_us.php">About Us</a>
                         <ul>
                             <li>
                                 <a href="#">Branches And Offices</a>
                                 <ul>
-                                    <li><a href="../branches/coop_ho.html">Head Office</a></li>
-                                    <li><a href="../branches/coop_main.html">Main Office</a></li>
-                                    <li><a href="../branches/coop_llc.html">Lapu-Lapu Branch</a></li>
-                                    <li><a href="../branches/coop_basak.html">Basak Branch</a></li>
-                                    <li><a href="../branches/coop_olango.html">Olango Branch</a></li>
-                                    <li><a href="../branches/coop_mandaue.html">Mandaue Office</a></li>
-                                    <li><a href="../branches/coop_be.html">Business Enterprise</a></li>
+                                    <li><a href="../branches/coop_ho.php">Head Office</a></li>
+                                    <li><a href="../branches/coop_main.php">Main Office</a></li>
+                                    <li><a href="../branches/coop_llc.php">Lapu-Lapu Branch</a></li>
+                                    <li><a href="../branches/coop_basak.php">Basak Branch</a></li>
+                                    <li><a href="../branches/coop_olango.php">Olango Branch</a></li>
+                                    <li><a href="../branches/coop_mandaue.php">Mandaue Office</a></li>
+                                    <li><a href="../branches/coop_be.php">Business Enterprise</a></li>
 
                                 </ul>
                             </li>
-                            <li><a href="../coop_history.html">Coop History</a></li>
+                            <li><a href="../coop_history.php">Coop History</a></li>
                             <li><a href="#">Mission,Vision,Goals</a></li>
                             <li><a href="#">Awards and Recognations</a></li>
                             <li><a href="#">Officers</a></li>
                             <li><a href="#">Organizational Structure</a></li>
-                            <li><a href="../gallery.html">Gallery</a></li>
+                            <li><a href="../gallery.php">Gallery</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="">Membership</a>
                         <ul>
                             <li>
-                                <a href="../regular_membership.html">Regular Membership</a>
+                                <a href="../regular_membership.php">Regular Membership</a>
                             </li>
-                            <li><a href="../Online Membership">Online Membership</a></li>
+                            <li><a href="../Online_Membership.php">Online Membership</a></li>
                         </ul>
                     </li>
-                    <li><a href="../downloads.html">Downloads</a></li>
+                    <li><a href="../downloads.php">Downloads</a></li>
                     <!-- <li><a href="two-sidebar.html">Two Sidebar</a></li>
                     <li><a href="no-sidebar.html">No Sidebar</a></li> -->
                 </ul>

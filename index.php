@@ -98,10 +98,7 @@
             <div class="container">
             </div>
         </section>
-
         <!-- Highlights -->
-
-
         <section>
             <div class="container">
                 <div class="row">
@@ -124,9 +121,7 @@
                       </symbol>
                     </defs>
                   </svg>
-
                         <section class="Carousel">
-
                             <div class="display">
                                 <div class="slide">
                                     <a class="link" href="#">
@@ -144,16 +139,16 @@
                                     </a>
                                 </div>
 
-                                <a class="btn btn-left">
+                                <!-- <a class=" btn-left">
                                     <svg class="icon icon-arrow-left">
                           <use xlink:href="#icon-arrow-left"></use>
                         </svg>
                                 </a>
-                                <a class="btn btn-right">
+                                <a class=" btn-right">
                                     <svg class="icon icon-arrow-right">
                           <use xlink:href="#icon-arrow-right"></use>
                         </svg>
-                                </a>
+                                </a> -->
                             </div>
 
                         </section>
@@ -168,8 +163,6 @@
                 </div>
 
             </div>
-
-
         </section>
         <section class="style2">
 
@@ -241,7 +234,7 @@
                         <br>
                         <b>March 14, 1972</b> <br> Registered as Pre-coop at the Cooperative Administration Office with the name CORDOVA COOPERATIVE CREDIT UNION <br>
                         <b>July 5, 1978</b><br> Consumer Store was opened, due to members demand the capital was from member’s dividend & patronage refund
-                        <a href="coop_history.html">Read More</a>
+                        <a href="coop_history.php">Read More</a>
                     </p>
 
 
@@ -261,67 +254,11 @@
         </section>
 
         <!-- Footer -->
-        <div id="footer">
-            <div class="container">
-                <div class="row">
-                    <section class="col-3 col-6-narrower col-12-mobilep">
-                        <h3>BRANCHES</h3>
-                        <ul class="links">
-                            <li><a href="#">MAIN BRANCH</a></li>
-                            <li><a href="#">LAPU-LAPU BRANCH</a></li>
-                            <li><a href="#">BASAK BRANCH</a></li>
-                            <li><a href="#">OLANGO BRANCH</a></li>
-                            <li><a href="#">MANDAUE OFFICE</a></li>
-
-                        </ul>
-                    </section>
-                    <section class="col-6 col-12-narrower">
-                        <h3>Get In Touch</h3>
-                        <form>
-                            <div class="row gtr-50">
-                                <div class="col-6 col-12-mobilep">
-                                    <input type="text" name="name" id="name" placeholder="Name" />
-                                </div>
-                                <div class="col-6 col-12-mobilep">
-                                    <input type="email" name="email" id="email" placeholder="Email" />
-                                </div>
-                                <div class="col-12">
-                                    <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <ul class="actions">
-                                        <li><input type="submit" class="button alt" value="Send Message" /></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </form>
-                    </section>
-                </div>
-            </div>
-
-            <!-- Icons -->
-            <ul class="icons">
-                <li data-aos="fade-up" data-aos-duration="1000"><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                <li data-aos="fade-up" data-aos-duration="2000"><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li data-aos="fade-up" data-aos-duration="3000"><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                <li data-aos="fade-up" data-aos-duration="2000"><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                <li data-aos="fade-up" data-aos-duration="1000"><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
-            </ul>
-
-            <!-- Copyright -->
-            <div class="copyright">
-                <ul class="menu">
-                    <li data-aos="fade-up" data-aos-duration="400">&copy; CORDOVAMPC. All rights reserved</li>
-                </ul>
-            </div>
-
-        </div>
-
-    </div>
+    <?php include "includes/footer.php"?>
 
     <!-- Scripts -->
     <!-- <script src="assets/js/jquery.min.js"></script> -->
-      <script src="assets/js/jquery.min1.js"></script>
+  <script src="assets/js/jquery.min1.js"></script>
   <script src="assets/js/jquery.dropotron.min.js"></script>
   <script src="assets/js/browser.min.js"></script>
   <script src="assets/js/breakpoints.min.js"></script>
