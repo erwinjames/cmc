@@ -3,7 +3,7 @@
 <!-- Logo -->
 <div class="row">
     <div class="col-md-5 col-sm-12">
-        <img src="images/cmc.png" alt="">
+        <img src="../images/cmc.png" alt="">
     </div>
 
     <div class="col-md-6 col-sm-12 header_tag">
