@@ -125,21 +125,46 @@
                             <div class="display">
                                 <div class="slide">
                                     <a class="link" href="#">
-                                        <img src="https://source.unsplash.com/700x400/?light">
+                                        <img src="images/slider/FONUS.jpg">
                                     </a>
                                 </div>
                                 <div class="slide">
                                     <a class="link" href="#">
-                                        <img src="https://source.unsplash.com/600x400/?light">
+                                        <img src="images/slider/CnE92X2XEAAmcAp.jpg">
                                     </a>
                                 </div>
                                 <div class="slide">
                                     <a class="link" href="#">
-                                        <img src="https://source.unsplash.com/500x400/?light">
+                                        <img src="images/slider/HealthCare.jpg">
+                                    </a>
+                                </div>
+                                <div class="slide">
+                                    <a class="link" href="#">
+                                        <img src="images/slider/KiddieSaving.jpg">
+                                    </a>
+                                </div>
+                                <div class="slide">
+                                    <a class="link" href="#">
+                                        <img src="images/slider/LoanServices.jpg">
+                                    </a>
+                                </div>
+                                <div class="slide">
+                                    <a class="link" href="#">
+                                        <img src="images/slider/Membership.jpg">
+                                    </a>
+                                </div>
+                                <div class="slide">
+                                    <a class="link" href="#">
+                                        <img src="images/slider/time-deposit.jpg">
+                                    </a>
+                                </div>
+                                <div class="slide">
+                                    <a class="link" href="#">
+                                        <img src="images/slider/TimeDeposit.jpg">
                                     </a>
                                 </div>
 
-                                <!-- <a class=" btn-left">
+                                <a class=" btn-left">
                                     <svg class="icon icon-arrow-left">
                           <use xlink:href="#icon-arrow-left"></use>
                         </svg>
@@ -148,7 +173,7 @@
                                     <svg class="icon icon-arrow-right">
                           <use xlink:href="#icon-arrow-right"></use>
                         </svg>
-                                </a> -->
+                                </a>
                             </div>
 
                         </section>
