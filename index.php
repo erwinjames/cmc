@@ -264,7 +264,7 @@
 
 
                 </div>
-                <div class="col-6 col-12-narrower "></div>
+              
             </div>
 
         </section>

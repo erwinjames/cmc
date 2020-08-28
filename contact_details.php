@@ -39,7 +39,7 @@
                 <li><a href="lumberAndcunsumer.php">Lumber and Cosumer</a></li>
             </ul>
         </li>
-        <li >
+        <li class="current">
             <a >Contact Us</a>
             <ul>
                 <li>
@@ -50,7 +50,7 @@
             </ul>
         </li>
         <!-- <li><a href="right-sidebar.html">About us</a></li> -->
-        <li >
+        <li>
             <a >About Us</a>
             <ul>
                 <li>
