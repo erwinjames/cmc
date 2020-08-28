@@ -83,8 +83,7 @@
             </ul>
         </li>
         <li><a href="downloads.php">Downloads</a></li>
-        <!-- <li><a href="two-sidebar.html">Two Sidebar</a></li>
-        <li><a href="no-sidebar.html">No Sidebar</a></li> -->
+    
     </ul>
 </nav>
       </div>
