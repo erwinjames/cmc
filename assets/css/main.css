@@ -3787,9 +3787,10 @@ textarea.input1+.shadow-input1 {
     border-style: solid;
     background: rgb(236, 236, 236);
     bottom: 0;
-    padding: 30px;
+    padding: 20px;
     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
 }
+
 
 .module:hover .content {
     height: 278px;
@@ -3836,8 +3837,8 @@ textarea.input1+.shadow-input1 {
     height: 100px;
 }
 
-.meta {
-    margin: 30px 0 0;
+.metas {
+    
     color: #999999;
 }
 

@@ -96,8 +96,8 @@
             </div>
         </section>
         <section class="wrapper style1">
-            <div class="row">
-            <div class="container ">
+        <div class="container">
+            <div class="row gtr-50">
                 <div class="col-6 col-12-narrower">
                     <div class='hover'>
                         <div class='module'>
@@ -113,7 +113,35 @@
                                 <h1 class='title'>coop news title</h1>
                                 <h2 class='sub-title'>coop news subtitle</h2>
                                 <p class="description">description area</p>
-                                <div class="meta">
+                                <div class="metas">
+                                    <span class="timestamp">
+                                    <i class='fa fa-clock-o'></i> 6 mins ago
+                                  </span>
+                                    <span class="comments">
+                                    <i class='fa fa-comments'></i>
+                                    <a href="#"> 39 comments</a>
+                                  </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-12-narrower">
+                    <div class='hover'>
+                        <div class='module'>
+                            <div class='thumbnail'>
+                                <img src="images/building_nav.png">
+                                <div class='date'>
+                                    <div>27</div>
+                                    <div>Mar</div>
+                                </div>
+                            </div>
+                            <div class='content'>
+                                <div class="category">Photos</div>
+                                <h1 class='title'>coop news title</h1>
+                                <h2 class='sub-title'>coop news subtitle</h2>
+                                <p class="description">description area</p>
+                                <div class="metas">
                                     <span class="timestamp">
                                     <i class='fa fa-clock-o'></i> 6 mins ago
                                   </span>
