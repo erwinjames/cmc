@@ -75,13 +75,19 @@
                         <a href="">Membership</a>
                         <ul>
                             <li>
+<<<<<<< HEAD:coop_VMG.html
+<<<<<<< HEAD:coop_VMG.html
                                 <a href="#">Officers</a>
                                 <ul>
                                     <li><a href="officers/coop_officers.html">BOD</a></li>
                                     <li><a href="officers/coop_officers.html">Committee</a></li>
                                 </ul>
+=======
                                 <a href="../regular_membership.html">Regular Membership</a>
+>>>>>>> 3e84e7510bd68d5276933751f5bc71c2e7ea5426:officers/coop_VMG.html
+=======
                                 <a href="../regular_membership.php">Regular Membership</a>
+>>>>>>> 2690d942ffde0b0b519d602e02a61c0fe6f20d02:officers/coop_VMG.php
                             </li>
                             <li><a href="../Online_Membership.php">Online Membership</a></li>
                         </ul>

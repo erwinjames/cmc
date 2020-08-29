@@ -2495,7 +2495,6 @@ button.small,
     width: 100%;
     height: auto;
 }
-
 .history_div {
     background: rgb(221, 235, 243);
     width: 50%;
@@ -2770,6 +2769,7 @@ button.small,
     /* Footer */
     #footer {
         text-align: center;
+        
     }
     #footer .container {
         margin-bottom: 4em;
@@ -3104,7 +3104,8 @@ small {
 .link img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;   
+   
 }
 
 .icon {
@@ -3320,13 +3321,12 @@ textarea.input1+.shadow-input1 {
 .input1 {
     display: block;
     width: 100%;
-    background: #e6e6e6;
+    background: #ffffff;
     font-family: Montserrat-Bold;
     font-size: 15px;
     line-height: 1.5;
     color: #666666;
 }
-
 .shadow-input1 {
     content: '';
     display: block;
@@ -3791,9 +3791,10 @@ textarea.input1+.shadow-input1 {
     border-style: solid;
     background: rgb(236, 236, 236);
     bottom: 0;
-    padding: 30px;
+    padding: 20px;
     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
 }
+
 
 .module:hover .content {
     height: 278px;
@@ -3840,8 +3841,8 @@ textarea.input1+.shadow-input1 {
     height: 100px;
 }
 
-.meta {
-    margin: 30px 0 0;
+.metas {
+    
     color: #999999;
 }
 
@@ -4076,7 +4077,7 @@ textarea.input1+.shadow-input1 {
 }
 
 .containimage {
-    height: 500px;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -4101,7 +4102,7 @@ textarea.input1+.shadow-input1 {
 }
 
 .positiontest {
-    width: 1000px;
+    width: 100%;
     margin: auto;
     margin-top: -30px;
 }

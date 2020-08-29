@@ -37,7 +37,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="../contacts.php">Contact Us</a>
+                        <a>Contact Us</a>
                         <ul>
                             <li>
                                 <a href="../contact_details.php">Contact Details</a>
@@ -47,19 +47,19 @@
                         </ul>
                     </li>
                     <!-- <li><a href="right-sidebar.html">About us</a></li> -->
-                    <li  class="current">
+                    <li class="current">
                         <a href="../about_us.php">About Us</a>
                         <ul>
                             <li>
                                 <a href="#">Branches And Offices</a>
                                 <ul>
-                                    <li><a href="../branches/coop_ho.php">Head Office</a></li>
-                                    <li><a href="../branches/coop_main.php">Main Office</a></li>
-                                    <li><a href="../branches/coop_llc.php">Lapu-Lapu Branch</a></li>
-                                    <li><a href="../branches/coop_basak.php">Basak Branch</a></li>
-                                    <li><a href="../branches/coop_olango.php">Olango Branch</a></li>
-                                    <li><a href="../branches/coop_mandaue.php">Mandaue Office</a></li>
-                                    <li><a href="../branches/coop_be.php">Business Enterprise</a></li>
+                                    <li><a href="coop_ho.php">Head Office</a></li>
+                                    <li><a href="coop_main.php">Main Office</a></li>
+                                    <li><a href="coop_llc.php">Lapu-Lapu Branch</a></li>
+                                    <li><a href="coop_basak.php">Basak Branch</a></li>
+                                    <li><a href="coop_olango.php">Olango Branch</a></li>
+                                    <li><a href="coop_mandaue.php">Mandaue Office</a></li>
+                                    <li><a href="coop_be.php">Business Enterprise</a></li>
 
                                 </ul>
                             </li>
@@ -75,12 +75,6 @@
                         <a href="">Membership</a>
                         <ul>
                             <li>
-                                <a href="#">Officers</a>
-                                <ul>
-                                    <li><a href="officers/coop_officers.html">BOD</a></li>
-                                    <li><a href="officers/coop_officers.html">Committee</a></li>
-                                </ul>
-                                <a href="../regular_membership.html">Regular Membership</a>
                                 <a href="../regular_membership.php">Regular Membership</a>
                             </li>
                             <li><a href="../Online_Membership.php">Online Membership</a></li>
@@ -96,68 +90,83 @@
         <!-- Main -->
         <section class="wrapper style1">
             <div class="container">
-                <div class="row gtr-200">
-                    <div class="col-4 col-12-narrower">
-                        <div id="sidebar">
-
-                            <!-- Sidebar -->
-
-                            <section>
-                                <h2>CORE VALUES</h2>
-                                <h2 style="color:red;">CMC LOVES ME</h2>
-                                <p><a style="color:red;">L</a> - Loyal to the cooperative </p>
-                                <p><a style="color:red;">O</a> - Oneness in achieving our goals </p>
-                                <p><a style="color:red;">V</a>- Valor in upholding fairness, accountability and transparency </p>
-                                <p><a style="color:red;">E</a> - Excellence in all that we do</p>
-                                <p><a style="color:red;">S</a>- Socially and environmentally responsible</p>
-                                <p><a style="color:red;">M</a>- Motivated to serve with a heart and </p>
-                                <p><a style="color:red;">E</a> - Empowered to make a difference </p>
-                                <footer>
-                                    <p>SERVES WITH A HEART</p>
-                                    <!--   <a href="#" class="button">Continue Reading</a> -->
-                                </footer>
-                            </section>
 
 
-                        </div>
-                    </div>
-                    <div class="col-8  col-12-narrower imp-narrower">
-                        <div id="content">
+                <div class="col-8  col-12-narrower imp-narrower">
+                    <div id="content">
 
-                            <!-- Content -->
+                        <!-- Content -->
 
-                            <article>
-                                <header style="float: center;">
-                                    <h2>VISSION</h2>
 
-                                </header>
+                        <header>
+                            <h2>Mandaue Office</h2>
 
-                                <span class="image featured"><img src="../images/VISION.jpg" alt="" /></span>
+                        </header>
 
-                            </article>
+                        <span class="image featured"><img src="../images/history.png" alt="" /></span>
 
-                            <article>
-                                <header style="float: center;">
-                                    <h2>MISSION</h2>
+                        <article>
+                            <div class="row gtr-200">
+                                <section class="col-4 col-12-narrower">
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/branches/mandaue/" alt=""></i>
+                                    </div>  
+                                <div class="info">
+                                        <h4>Debbie T. Flores</h4>
+                                        <p>Branch Manager</p>
+                                </div>
+                                </section>
+                                <section class="col-4 col-12-narrower">
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/branches/mandaue/ian.png" alt=""></i>
+                                    </div>  
+                                <div class="info">
+                                        <h4>Michael Ian P. Tajanlangit</h4>
+                                        <p>Loan Officer</p>
+                                </div>
+                                </section>
+                                <section class="col-4 col-12-narrower">
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/branches/mandaue/alex.png" alt=""></i>
+                                    </div>  
+                                <div class="info">
+                                        <h4>Alexander Shien Crisosto</h4>
+                                        <p>Loan Assistant</p>
+                                </div>
+                                </section>
+                                <section class="col-4 col-12-narrower">
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/branches/mandaue/" alt=""></i>
+                                    </div>  
+                                <div class="info">
+                                        <h4>Junriel G. Cutab</h4>
+                                        <p>Credit Investigator</p>
+                                </div>
+                                </section>
+                                <section class="col-4 col-12-narrower">
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/branches/mandaue/louie.png" alt=""></i>
+                                    </div>  
+                                <div class="info">
+                                        <h4>Louie Jones L. Inoc</h4>
+                                        <p>New Accounts</p>
+                                </div>
+                                </section>
+                                <section class="col-4 col-12-narrower">
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/branches/mandaue/" alt=""></i>
+                                    </div>  
+                                <div class="info">
+                                        <h4>Bonifacio S. Libaton</h4>
+                                        <p>Collector</p>
+                                </div>
+                                </section>
+                            </div>
+                        </article>
 
-                                </header>
-
-                                <span class="image featured"><img src="../images/mission.jpg" alt="" /></span>
-
-                            </article>
-                            <article>
-                                <header style="float: center;">
-                                    <h2>OBJECTIVES</h2>
-
-                                </header>
-
-                                <span class="image featured"><img src="../images/OBJECTIVES.jpg" alt="" /></span>
-
-                            </article>
-
-                        </div>
                     </div>
                 </div>
+
             </div>
         </section>
 

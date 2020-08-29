@@ -90,7 +90,9 @@ $( document ).ready(function() {
 		  clearInterval(timerId);
 		});
 		
-	},  1000);
+  },  1000);
+  
+  
 });
 
 $(document).ready(function() {
