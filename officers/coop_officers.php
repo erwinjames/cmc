@@ -52,13 +52,13 @@
                             <li>
                                 <a href="#">Branches And Offices</a>
                                 <ul>
-                                    <li><a href="/branches/coop_ho.html">Head Office</a></li>
-                                    <li><a href="/branches/coop_main.html">Main Office</a></li>
-                                    <li><a href="/branches/coop_llc.html">Lapu-Lapu Branch</a></li>
-                                    <li><a href="/branches/coop_basak.html">Basak Branch</a></li>
-                                    <li><a href="/branches/coop_olango.html">Olango Branch</a></li>
-                                    <li><a href="/branches/coop_mandaue.html">Mandaue Office</a></li>
-                                    <li><a href="/branches/coop_be.html">Business Enterprise</a></li>
+                                <li><a href="../branches/coop_ho.php">Head Office</a></li>
+                                    <li><a href="../branches/coop_main.php">Main Office</a></li>
+                                    <li><a href="../branches/coop_llc.php">Lapu-Lapu Branch</a></li>
+                                    <li><a href="../branches/coop_basak.php">Basak Branch</a></li>
+                                    <li><a href="../branches/coop_olango.php">Olango Branch</a></li>
+                                    <li><a href="../branches/coop_mandaue.php">Mandaue Office</a></li>
+                                    <li><a href="../branches/coop_be.php">Business Enterprise</a></li>
 
                                 </ul>
                             </li>
