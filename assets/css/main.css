@@ -3853,16 +3853,19 @@ textarea.input1+.shadow-input1 {
     padding-bottom: 1em;
 }
 .cardsss {
-    width: 2.45in;
+    width: 3.2in;
     background: rgb(230, 230, 230);
     border-style: solid;
     border-color: rgb(140, 209, 241);
-    border-width: 0.5px;
-    padding-bottom: .1in;
     padding-top: .1in;
     padding-left: .1in;
     padding-right: .1in;
+    padding-bottom: .1in;
+    text-align: center;
+    font-style: italic;
+ 
 }
+
 .items {
     padding-left: 5px;
     padding-right: 5px;
@@ -3898,6 +3901,16 @@ textarea.input1+.shadow-input1 {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 .cardsss:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+   
+}
+.info{
+    width: 3in;
+    text-align: center;
+    font-style:italic;
+}
+.cardsimg:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
