@@ -47,7 +47,7 @@
 
             </ul>
         </li>
-        <!-- <li><a href="right-sidebar.html">About us</a></li> -->
+      
         <li >
             <a >About Us</a>
             <ul>
@@ -82,12 +82,11 @@
             </ul>
         </li>
         <li><a href="downloads.php">Downloads</a></li>
-        <!-- <li><a href="two-sidebar.html">Two Sidebar</a></li>
-        <li><a href="no-sidebar.html">No Sidebar</a></li> -->
+     
     </ul>
 </nav>
       </div>
-        <!-- Main -->
+   
         <section id="cta" class="wrapper style2">
             <div class="container">
                 <header>
