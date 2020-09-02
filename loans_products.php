@@ -149,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal">
+                <div class="modal col-12-narrower">
                     <div class="modal-overlay modal-toggle"></div>
                     <div class="modal-wrapper modal-transition">
                         <div class="modal-header">
