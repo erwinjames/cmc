@@ -99,7 +99,27 @@
         <section class="wrapper style1">
                 <div class="container mt-2">
                     <div class="row gtr-200">
+                               
                             <h5>Regular Membership</h5>
+                            <div class="regular__container">
+                            <div class="col-12 col-12-narrower">
+                                <h1>STEP 1</h1>
+                                 <span> Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span>                      
+                            </div>
+                            <div class="col-12 col-12-narrower">
+                                <h1>STEP 2</h1>
+                                <span> Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span>                          
+                            </div>
+                            <div class="col-12 col-12-narrower">
+                                <h1>STEP 3</h1>
+                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br> 
+                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br> 
+                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br> 
+                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br> 
+                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br>                     
+                            </div>
+                           
+                            </div>
                     </div>
 
                 </div>
@@ -171,7 +191,6 @@
  <script src="assets/js/breakpoints.min.js"></script>
  <script src="assets/js/util.js"></script>
  <script src="assets/js/main.js"></script>
- <script src="assets/js/carousel.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
  <script src="assets/js/loading.js"></script>
 
