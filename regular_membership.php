@@ -89,10 +89,21 @@
 </nav>
       </div>
         <!-- Main -->
-        <section class="wrapper style1">
-
+        <section id="cta" class="wrapper style2">
+            <div class="container">
+                <header>
+                    <h2>Membership/Regular Member</h2>
+                </header>
+            </div>
         </section>
+        <section class="wrapper style1">
+                <div class="container mt-2">
+                    <div class="row gtr-200">
+                            <h5>Regular Membership</h5>
+                    </div>
 
+                </div>
+        </section>
         <!-- Footer -->
         <div id="footer">
             <div class="container">
