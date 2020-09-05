@@ -110,11 +110,11 @@
                             <div class="col-12 col-12-narrower">
                                 <h2>STEP 2</h2>
                                 <h6>Payments and Deposit:</h6>
-                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 1:00 to 3:00 PM.</span> <br> 
-                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br> 
-                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br> 
-                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br> 
-                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br>                     
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp; Membership Fee P 100.00</span> <br> 
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp;  Initial Share Capital Deposit P 1250</span> <br> 
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp; Initial Savings P500.00</span> <br> 
+                                  <span class="bullets"> <i class="fa fa-check"></i> &nbsp;  Funos P 720.00</span> <br> 
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp; Health Care (optional) P 500</span> <br>                     
                             </div>
                            
                             </div>

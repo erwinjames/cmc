@@ -2258,11 +2258,13 @@ button.small,
     border-style: solid;
     border-color: #189bd3;
 }
+
 .box.Bod {
     text-align: center;
     border-style: solid;
-    border-color:darkred ;
+    border-color: darkred;
 }
+
 .box.post {
     position: relative;
     margin: 0 0 2em 0;
@@ -2495,6 +2497,7 @@ button.small,
     width: 100%;
     height: auto;
 }
+
 .history_div {
     background: rgb(221, 235, 243);
     width: 50%;
@@ -2769,7 +2772,6 @@ button.small,
     /* Footer */
     #footer {
         text-align: center;
-        
     }
     #footer .container {
         margin-bottom: 4em;
@@ -3104,8 +3106,7 @@ small {
 .link img {
     width: 100%;
     height: 100%;
-    object-fit: fill;   
-   
+    object-fit: fill;
 }
 
 .icon {
@@ -3327,6 +3328,7 @@ textarea.input1+.shadow-input1 {
     line-height: 1.5;
     color: #666666;
 }
+
 .shadow-input1 {
     content: '';
     display: block;
@@ -3795,7 +3797,6 @@ textarea.input1+.shadow-input1 {
     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
 }
 
-
 .module:hover .content {
     height: 278px;
 }
@@ -3842,7 +3843,6 @@ textarea.input1+.shadow-input1 {
 }
 
 .metas {
-    
     color: #999999;
 }
 
@@ -3853,6 +3853,7 @@ textarea.input1+.shadow-input1 {
     border-width: 0.5px;
     padding-bottom: 1em;
 }
+
 .cardsss {
     width: 3.2in;
     background: rgb(230, 230, 230);
@@ -3864,7 +3865,6 @@ textarea.input1+.shadow-input1 {
     padding-bottom: .1in;
     text-align: center;
     font-style: italic;
- 
 }
 
 .items {
@@ -3901,16 +3901,18 @@ textarea.input1+.shadow-input1 {
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
+
 .cardsss:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-   
 }
-.info{
+
+.info {
     width: 3in;
     text-align: center;
-    font-style:italic;
+    font-style: italic;
 }
+
 .cardsimg:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
@@ -3955,6 +3957,7 @@ textarea.input1+.shadow-input1 {
     height: 150px;
     width: 100%;
 }
+
 .cardss img {
     height: 150px;
     width: 100%;
@@ -4394,14 +4397,28 @@ div .picture {
 .active .picture:not(.show) img {
     filter: blur(3px);
 }
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
 .se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url(../../images/loading/loader2.gif) center no-repeat #fff;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../../images/loading/loader2.gif) center no-repeat #fff;
+}
+
+.bullets i .fa-check {
+    color: green;
 }
