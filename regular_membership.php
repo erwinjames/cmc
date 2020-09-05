@@ -103,16 +103,14 @@
                             <h5>Regular Membership</h5>
                             <div class="regular__container">
                             <div class="col-12 col-12-narrower">
-                                <h1>STEP 1</h1>
-                                 <span> Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span>                      
+                                <h2>STEP 1</h2>
+                                 <span> Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 10:00 to 11:00 AM and 1:00 to 2:00 PM.</span>                      
                             </div>
+                           
                             <div class="col-12 col-12-narrower">
-                                <h1>STEP 2</h1>
-                                <span> Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span>                          
-                            </div>
-                            <div class="col-12 col-12-narrower">
-                                <h1>STEP 3</h1>
-                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br> 
+                                <h2>STEP 2</h2>
+                                <h6>Payments and Deposit:</h6>
+                                  <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 1:00 to 3:00 PM.</span> <br> 
                                   <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br> 
                                   <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br> 
                                   <span><i class="fa fa-check"></i> &nbsp; Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 9:00 to 10:00 AM and 2:00 to 3:00 PM.</span> <br> 
