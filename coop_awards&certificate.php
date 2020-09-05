@@ -74,7 +74,7 @@
                                 </ul>
             
                             </li>
-                <li><a href="coop_organizational.php">Organization Structure</a></li>
+                <li><a href="#">Organization Structure</a></li>
                 <li><a href="gallery.php">Gallery</a></li>
             </ul>
         </li>
@@ -94,10 +94,20 @@
 </nav>
       </div>
         <!-- Main -->
+        
         <section class="wrapper style1">
             <div class="container">
-                <div class="row ">
-                <span class="image featured"><img src="images/org.png" alt="" /></span>
+                <div class="row gtr-200">
+                 <div id="content">
+                 <section class="col-4 col-12-narrower">
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/BOD/amodia.jpg" alt=""></i>
+                                       <h3> Maria Eleanor O. Amodia</h3>
+                                        <p>BOD Chairperson</p>
+                                     </div>
+                                </section>
+                 </div>
+                    <span></span>
                 </div>
             </div>
         </section>
