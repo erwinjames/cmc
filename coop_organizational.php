@@ -74,7 +74,7 @@
                                 </ul>
             
                             </li>
-                <li><a href="coop_organizational.php">Organization Structure</a></li>
+                <li><a href="#">Organization Structure</a></li>
                 <li><a href="gallery.php">Gallery</a></li>
             </ul>
         </li>

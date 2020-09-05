@@ -68,8 +68,8 @@
                             <li><a href="#">Awards and Recognations</a></li>
                             <li><a href="#">Officers</a>
                                 <ul>
-                                    <li><a href="coop_officers.html">BOD</a></li>
-                                    <li><a href="coop_officers2.html">COMMITTEES</a></li>
+                                    <li><a href="../officers/coop_officers.php">BOD</a></li>
+                                    <li><a href="../officers/coop_officers2.php ">COMMITTEES</a></li>
                                 </ul>
             
                             </li>
