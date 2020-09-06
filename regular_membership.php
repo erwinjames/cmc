@@ -92,7 +92,7 @@
         <section id="cta" class="wrapper style2">
             <div class="container">
                 <header>
-                    <h2>Membership/Regular Member</h2>
+                    <h2>Membership/Regular Membership</h2>
                 </header>
             </div>
         </section>
