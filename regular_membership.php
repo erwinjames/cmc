@@ -98,10 +98,10 @@
         </section>
         <section class="wrapper style1">
                 <div class="container mt-2">
-                    <div class="row gtr-200">
-                               
-                            <h5>Regular Membership</h5>
+                    <div class="row gtr-200">       
+                           
                             <div class="regular__container">
+                            <h5>Regular Membership</h5>
                             <div class="col-12 col-12-narrower">
                                 <h2>STEP 1</h2>
                                  <span> Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 10:00 to 11:00 AM and 1:00 to 2:00 PM.</span>                      
@@ -113,7 +113,7 @@
                                   <span class="bullets"><i class="fa fa-check"></i> &nbsp; Membership Fee P 100.00</span> <br> 
                                   <span class="bullets"><i class="fa fa-check"></i> &nbsp;  Initial Share Capital Deposit P 1250</span> <br> 
                                   <span class="bullets"><i class="fa fa-check"></i> &nbsp; Initial Savings P500.00</span> <br> 
-                                  <span class="bullets"> <i class="fa fa-check"></i> &nbsp;  Funos P 720.00</span> <br> 
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp;  Funos P 720.00</span> <br> 
                                   <span class="bullets"><i class="fa fa-check"></i> &nbsp; Health Care (optional) P 500</span> <br>                     
                             </div>
                            
