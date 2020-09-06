@@ -4422,3 +4422,12 @@ div .picture {
 .fa-check {
     color: green;
 }
+
+.download__file {
+    margin-top: 20px;
+    margin-bottom: 5rem;
+}
+
+.fa-file-download {
+    font-size: 30px;
+}

@@ -104,19 +104,22 @@
                             <h5>Regular Membership</h5>
                             <div class="col-12 col-12-narrower">
                                 <h2>STEP 1</h2>
-                                 <span> Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at 10:00 to 11:00 AM and 1:00 to 2:00 PM.</span>                      
+                                 <span> Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at <b>10:00 to 11:00 AM</b and 1:00 to 2:00 PM.</span>                      
                             </div>
                            
                             <div class="col-12 col-12-narrower">
                                 <h2>STEP 2</h2>
                                 <h6>Payments and Deposit:</h6>
-                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp; Membership Fee P 100.00</span> <br> 
-                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp;  Initial Share Capital Deposit P 1250</span> <br> 
-                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp; Initial Savings P500.00</span> <br> 
-                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp;  Funos P 720.00</span> <br> 
-                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp; Health Care (optional) P 500</span> <br>                     
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp; Membership Fee P <b>100.00</b></span> <br> 
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp;  Initial Share Capital Deposit P <b>1250</b></span> <br> 
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp; Initial Savings P<b>500.00</b></span> <br> 
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp;  Funos P <b>720.00</b></span> <br> 
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp; Health Care (optional) P <b>500</b></span> <br>                     
                             </div>
-                           
+
+                            <div class="download__file">
+                            <i class="fas fa-file-download"></i>&nbsp;&nbsp;<a href="#">Download Membership Form</a>
+                            </div>
                             </div>
                     </div>
 
