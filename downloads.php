@@ -16,7 +16,6 @@
     <div class="se-pre-con"></div>
     <div id="page-wrapper">
 
-        <!-- Header -->
         <?php include "includes/header.php";?>  
         <nav id="nav">
     <ul>
@@ -47,12 +46,11 @@
                     <a href="contact_details.php">Contact Details</a>
                 </li>
                 <li><a href="message_us.php">Message Us</a></li>
-
             </ul>
         </li>
-        <!-- <li><a href="right-sidebar.html">About us</a></li> -->
-        <li >
-            <a >About Us</a>
+    
+        <li>
+            <a>About Us</a>
             <ul>
                 <li>
                     <a href="#">Branches And Offices</a>
@@ -85,8 +83,7 @@
             </ul>
         </li>
         <li class="current"><a href="downloads.php">Downloads</a></li>
-        <!-- <li><a href="two-sidebar.html">Two Sidebar</a></li>
-        <li><a href="no-sidebar.html">No Sidebar</a></li> -->
+        
     </ul>
 </nav>
       </div>
@@ -104,43 +101,43 @@
                     <div class="col-3 col-12-narrower items" >
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
                             <img src="images/building_nav.png" alt="Photo of sunset">
-                            <a href=""><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
+                            <a href="downloadable/Authority-to-Debit-Deposit-Account.pdf" download><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items" >
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="2000">
                             <img src="images/building_nav.png" alt="Photo of sunset">
-                            <a href=""><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
+                            <a href="downloadable/PROMISSORY-NOT-NEW.pdf" download><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items" >
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="3000">
                             <img src="images/building_nav.png" alt="Photo of sunset">
-                            <a href=""><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
+                            <a href="downloadable/STANDARD-CO-MAKER-STATEMENT.pdf" download><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items" >
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="4000">
                             <img src="images/building_nav.png" alt="Photo of sunset">
-                            <a href=""><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
+                            <a href="downloadable/STANDARD-LOAN-APPLICATION-FORM.pdf" download><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items" >
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
                             <img src="images/building_nav.png" alt="Photo of sunset">
-                            <a href=""><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
+                            <a href=""><i class="fas fa-download" download></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items" >
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="2000">
                             <img src="images/building_nav.png" alt="Photo of sunset">
-                            <a href=""><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
+                            <a href=""><i class="fas fa-download" download></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items">
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="3000">
                             <img src="images/building_nav.png" alt="Photo of sunset">
-                            <a href=""><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
+                            <a href=""><i class="fas fa-download" download></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
 
