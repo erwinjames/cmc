@@ -104,7 +104,7 @@
 
         <!-- Footer -->
         <?php include "includes/footer.php"?>
-    </div>
+   
 
     <!-- Scripts -->
    <!-- <script src="assets/js/jquery.min.js"></script> -->

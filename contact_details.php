@@ -217,43 +217,9 @@
         </section>
 
         <!-- Footer -->
-        <div id="footer">
-            <div class="container">
-                <div class="row">
-                    <section class="col-3 col-6-narrower col-12-mobilep">
-                        <h3>BRANCHES</h3>
-                        <ul class="links">
-                            <li><a href="#">MAIN BRANCH</a></li>
-                            <li><a href="#">LAPU-LAPU BRANCH</a></li>
-                            <li><a href="#">BASAK BRANCH</a></li>
-                            <li><a href="#">OLANGO BRANCH</a></li>
-                            <li><a href="#">MANDAUE OFFICE</a></li>
-
-                        </ul>
-                    </section>
-
-                </div>
-            </div>
-
-            <!-- Icons -->
-            <ul class="icons">
-                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                <li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
-            </ul>
-
-            <!-- Copyright -->
-            <div class="copyright">
-                <ul class="menu">
-                    <li>&copy; CORDOVAMPC. All rights reserved</li>
-                </ul>
-            </div>
-
-        </div>
-
-    </div>
+        <?php include "includes/footer.php"?>
+  
+   
 
     <!-- Scripts -->
      <!-- <script src="assets/js/jquery.min.js"></script> -->
@@ -263,7 +229,6 @@
      <script src="assets/js/breakpoints.min.js"></script>
      <script src="assets/js/util.js"></script>
      <script src="assets/js/main.js"></script>
-     <script src="assets/js/carousel.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
      <script src="assets/js/loading.js"></script>
 
