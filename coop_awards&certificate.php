@@ -47,7 +47,7 @@
 
             </ul>
         </li>
-        <!-- <li><a href="right-sidebar.html">About us</a></li> -->
+      
         <li class="current">
             <a >About Us</a>
             <ul>
@@ -88,30 +88,136 @@
             </ul>
         </li>
         <li><a href="downloads.php">Downloads</a></li>
-        <!-- <li><a href="two-sidebar.html">Two Sidebar</a></li>
-        <li><a href="no-sidebar.html">No Sidebar</a></li> -->
     </ul>
 </nav>
       </div>
-        <!-- Main -->
-        
-        <section class="wrapper style1">
+        <section id="cta" class="wrapper style2">
             <div class="container">
-                <div class="row gtr-200">
-                 <div id="content">
-                 <section class="col-4 col-12-narrower">
-                                    <div class="cardsss">
-                                        <i class=""><img src="../images/BOD/amodia.jpg" alt=""></i>
-                                       <h3> Maria Eleanor O. Amodia</h3>
-                                        <p>BOD Chairperson</p>
-                                     </div>
-                                </section>
-                 </div>
-                    <span></span>
-                </div>
+                <header>
+                    <h2>Awards and Recognations</h2>
+                </header>
             </div>
         </section>
+        <section class="wrapper style1">
 
+<div class="container">
+    <div class="row">
+        <div class="col-6 col-12-narrower">
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                <div class="imgBx">
+                <img src="Awards&Recognations/CE5.jpg" alt="">
+                </div>
+                 <div class="details">
+                    <div class="info">
+                         <h3>FULL CETF REMITTER </h3>
+                  
+                        Award given by NATCCO on April 16, 2016
+                         During the 14th Congress and 39th NATCCO 
+                         General Assembly at Henann Resort, Alona Beach,
+                          Panglao Island, Bohol City, Philippines.
+                         <br>
+                    </div>
+                      
+                 </div>
+            </div>
+        </div>
+        <div class="col-6 col-12-narrower">
+            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                <div class="imgBx">
+                    <img src="Awards&Recognations/CE5.jpg" alt="">
+                </div>
+                <div class="details">
+                    <div class="info">
+                       <h3> CERTIFICATION OF MEMBER IN GOOD STANDING (MIGS) FOR THE YEAR 2016.</h3> 
+                        
+                        	Award given by NATCCO on April 16, 2016
+                            During the 14th Congress and 39th NATCCO General Assembly 
+                            at Henann Resort, Alona Beach, Panglao Island, Bohol City, Philippines.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 col-12-narrower">
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                <div class="imgBx">
+                    <img src="Awards&Recognations/CER9.jpg" alt="">
+                </div>
+                <div class="details">
+                    <div class="info">
+                        <h3>CERTIFICATE OF APPRECIATION</h3>
+                        For Active participation in the implementation 
+                        of the Brigada Eskwela 2016 ( National School Maintenance Week)
+                         as a Partner-Donor
+                         <br>
+                         Cordova National High School given opn June 4, 2016 
+                        At Cordova, Cebu Philippines.
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-12-narrower">
+            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                <div class="imgBx">
+                    <img src="Awards&Recognations/CER15.jpg" alt="">
+                </div>
+                <div class="details">
+                    <div class="info">
+                        <h3> CERTIFICATE OF RECOGNATION</h3>
+                        For the invaluable cooperation in joining the Brigada   
+                        Eskela 2016 and share their time, efforts, and resources 
+                        in order to prepare the children and teachers 
+                        For the school year 2016-2017.
+                        Sta. Rosa Elementary School on May 31, 2016 at Sta. Rosa Lapu-lapu City    
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 col-12-narrower">
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                <div class="imgBx">
+                    <img src="Awards&Recognations/CE9.jpg" alt="">
+                </div>
+                <div class="details">
+                    <div class="info">
+                        <h3>CERTIFICATE OF RECOGNATION</h3>
+
+                        Recognition and administration for invaluable
+                         support and concern in sports development contributing 
+                         in a large measure in the overall success of the 
+                         Basketball- Volleyball- Tennis Tournament of the 9th Addy Sitoy Cup 2015.
+                          August 6, 2015 at Cordova Sport Complex, Cordova Cebu
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-12-narrower">
+            <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                <div class="imgBx">
+                    <img src="Awards&Recognations/CER13.jpg" alt="">
+                </div>
+                <div class="details">
+                    <div class="info">
+                        <h3>CERTIFICATE OF APPRECIATION </h3>
+                        For the valuable contribution physical and
+                         financial support during the Brigada Eskawela 2015.
+                         Catarman Elementary School on May 23, 2015 at Catarman Cordova, Cebu
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
         <!-- Footer -->
         <?php include "includes/footer.php"?>
    
