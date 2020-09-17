@@ -2262,7 +2262,11 @@ button.small,
 .box.Bod {
     text-align: center;
     border-style: solid;
+<<<<<<< HEAD
+    border:2px solid red;
+=======
     border-color: darkred;
+>>>>>>> 55907000c09f70f34dfd092ce01e828bc98f71ca
 }
 
 .box.post {
@@ -3531,6 +3535,47 @@ textarea.input1+.shadow-input1 {
     width: 100%;
     /* The width is the width of the web page */
 }
+.awardCard{
+width: 100%;
+min-height: 200px;
+box-sizing: border-box;
+background-color: rgb(129, 198, 245);
+margin: 0;
+}
+.awardCard .infos{
+position: absolute;
+top:0;
+left: 20%;
+min-height: 200px;
+align-items: center;
+text-align: center;
+padding-top: 5%;
+background-color:white;
+color: black;
+
+}
+.awardCard .infos h2{
+    margin: 0%;
+    padding: 0;
+    font-size: 24px;
+    line-height: 0.85em;
+    font-weight: 600;
+;
+}
+.awardimg{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.awardCard .awardimg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    padding: 5px 5px 5px 5px;
+
+}
 
 .card {
     position: relative;
@@ -3543,13 +3588,12 @@ textarea.input1+.shadow-input1 {
     border-width: 0.5px;
     border-color: #5ea8ca;
 }
-
+  
 .card .imgBx {
     position: absolute;
     width: 50%;
     height: 100%;
 }
-
 .card .imgBx img {
     position: absolute;
     top: 0;
@@ -3558,7 +3602,6 @@ textarea.input1+.shadow-input1 {
     height: 100%;
     object-fit: cover;
 }
-
 .card .details {
     position: absolute;
     right: 0;
@@ -3570,12 +3613,10 @@ textarea.input1+.shadow-input1 {
     align-items: center;
     color: #5ea8ca;
 }
-
 .card .details .contents {
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
-
 .card .details .contents h2 {
     margin: 0;
     padding: 0;
@@ -3648,6 +3689,11 @@ textarea.input1+.shadow-input1 {
         width: calc(70% - 20px);
         margin: 10px auto;
     }
+    .awardCard
+    {
+        width: calc(70% - 20px);
+        margin: 10px auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -3655,7 +3701,20 @@ textarea.input1+.shadow-input1 {
         width: calc(70% - 20px);
         margin: 10px auto;
     }
+    .awardCard{
+        width: calc(70% - 20px);
+        margin: 10px auto;
+    }
+    .awardCard .awardimg{
+        width: calc(70% - 20px);
+        margin: 10px auto;
+    }
     .card .imgBx {
+        position: relative;
+        width: 100%;
+        height: 200px;
+    }
+    .awardCard .infos{
         position: relative;
         width: 100%;
         height: 200px;
@@ -3672,9 +3731,18 @@ textarea.input1+.shadow-input1 {
         width: calc(100% - 40px);
         margin: 10px auto;
     }
+    .awardCard{
+        width: calc(100% - 40px);
+        margin: 10px auto;
+    }
 }
 
 .card:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    transition: transform .3s ease-out 0s;
+}
+.awardCard:hover{
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     transition: transform .3s ease-out 0s;
@@ -3908,6 +3976,7 @@ textarea.input1+.shadow-input1 {
 }
 
 .info {
+
     width: 3in;
     text-align: center;
     font-style: italic;
