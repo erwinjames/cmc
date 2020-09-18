@@ -100,47 +100,28 @@
                 <div class="row gtr-200">
                     <div class="col-3 col-12-narrower items" >
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
+                            <img src="images/download/1st.jpg">
                             <a href="downloadable/Authority-to-Debit-Deposit-Account.pdf" download><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items" >
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="2000">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
+                            <img src="images/download/prommisorry.jpg" >
                             <a href="downloadable/PROMISSORY-NOT-NEW.pdf" download><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items" >
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="3000">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
+                            <img src="images/download/standarCoMakerStatement.jpg">
                             <a href="downloadable/STANDARD-CO-MAKER-STATEMENT.pdf" download><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items" >
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="4000">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
-                            <a href="downloadable/STANDARD-LOAN-APPLICATION-FORM.pdf" download><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
+                            <img src="images/download/standardLoanApplication.jpg">
+                            <a href="downloadable/STANDARD-LOAN-APPLICATION-FORM.pdf" download><i class="fas fa-download "></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
-                    <div class="col-3 col-12-narrower items" >
-                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
-                            <a href=""><i class="fas fa-download" download></i>&nbsp;&nbsp;Downloads</a>
-                        </div>
-                    </div>
-                    <div class="col-3 col-12-narrower items" >
-                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="2000">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
-                            <a href=""><i class="fas fa-download" download></i>&nbsp;&nbsp;Downloads</a>
-                        </div>
-                    </div>
-                    <div class="col-3 col-12-narrower items">
-                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="3000">
-                            <img src="images/building_nav.png" alt="Photo of sunset">
-                            <a href=""><i class="fas fa-download" download></i>&nbsp;&nbsp;Downloads</a>
-                        </div>
-                    </div>
-
 
                 </div>
             </div>
@@ -157,7 +138,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/carousel.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
     <script src="assets/js/loading.js"></script>
 
@@ -166,5 +146,5 @@
 <script src="assets/js/aos.js"></script>
 <script>
     AOS.init();
-  </script>
+ </script>
 </html>

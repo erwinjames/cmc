@@ -18,78 +18,97 @@
       <nav id="nav">
     <ul>
         <li class="current"><a href="index.php">Home</a></li>
-        <li>
-            <a href="#">Blog</a>
+            <li>
+            <a>About Us</a>
             <ul>
-                <li><a href="coop_news.php">Coop News</a></li>
-                <li><a href="coop_career.php">Coop Career</a></li>
+            <li><a href="officers/coop_VMG.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Mission,Vision,Goals</a></li>
+        <li><a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Board And Officers</a>
+                                <ul>
+                                    <li><a href="officers/coop_officers.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>BOD</a></li>
+                                    <li><a href="officers/coop_officers2.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>COMMITTEES</a></li>
+                                </ul>
+           </li>
+            <li><a href="coop_history.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop Profile</a></li>
+                <li>
+                <a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Branches And Offices</a>
+                    <ul>
+                        <li><a href="../branches/coop_ho.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Head Office</a></li>
+                        <li><a href="../branches/coop_main.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Main Office</a></li>
+                        <li><a href="../branches/coop_llc.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Lapu-Lapu Branch</a></li>
+                        <li><a href="../branches/coop_basak.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Basak Branch</a></li>
+                        <li><a href="../branches/coop_olango.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Olango Branch</a></li>
+                        <li><a href="../branches/coop_mandaue.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Mandaue Office</a></li>
+                        <li><a href="../branches/coop_be.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Business Enterprise</a></li>
 
+                    </ul>
+                </li>
+                <li><a href="coop_awards&certificate.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Awards and Recognations</a></li>
+              
+                <li><a href="coop_organizational.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Organization Structure</a></li>
+                <li><a href="gallery.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Gallery</a></li>
             </ul>
         </li>
         <li>
             <a href="#">Products and Services</a>
             <ul>
-                <li><a href="savings_products.php">Savings</a></li>
-                <li><a href="loans_products.php">Loans</a></li>
-                <li><a href="youlabco.php">YOULABCO</a></li>
-                <li><a href="mortuary_services.php">Mortaury</a></li>
-                <li><a href="healthcare_products.php">Health care</a></li>
-                <li><a href="lumberAndcunsumer.php">Lumber and Cosumer</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="contacts.php">Contact Us</a>
-            <ul>
-                <li>
-                    <a href="contact_details.php">Contact Details</a>
+                <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
+                        <ul>
+                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Savings</a></li>
+                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Associate Savings</a></li>
+                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>YULABCO</a></li>
+                        </ul>
                 </li>
-                <li><a href="message_us.php">Message Us</a></li>
-
-            </ul>
-        </li>
-        <!-- <li><a href="right-sidebar.html">About us</a></li> -->
-        <li >
-            <a>About Us</a>
-            <ul>
-                <li>
-                    <a href="#">Branches And Offices</a>
-                    <ul>
-                        <li><a href="../branches/coop_ho.php">Head Office</a></li>
-                        <li><a href="../branches/coop_main.php">Main Office</a></li>
-                        <li><a href="../branches/coop_llc.php">Lapu-Lapu Branch</a></li>
-                        <li><a href="../branches/coop_basak.php">Basak Branch</a></li>
-                        <li><a href="../branches/coop_olango.php">Olango Branch</a></li>
-                        <li><a href="../branches/coop_mandaue.php">Mandaue Office</a></li>
-                        <li><a href="../branches/coop_be.php">Business Enterprise</a></li>
-
-                    </ul>
+                <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Time Deposits</a></li>
+                <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a>
+                     <ul>
+                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Providential</a></li>
+                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Productive</a></li>
+                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Real Estate</a></li>
+                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Back to Back</a></li>
+                     </ul>
                 </li>
-                <li><a href="coop_history.php">Coop History</a></li>
-                <li><a href="officers/coop_VMG.php">Mission,Vision,Goals</a></li>
-                <li><a href="#">Awards and Recognations</a></li>
-                <li><a href="#">Officers</a>
-                                <ul>
-                                    <li><a href="officers/coop_officers.php">BOD</a></li>
-                                    <li><a href="officers/coop_officers2.php">COMMITTEES</a></li>
-                                </ul>
-            
-                            </li>
-                <li><a href="coop_organizational.php">Organization Structure</a></li>
-                <li><a href="gallery.php">Gallery</a></li>
+               
+                <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Members Benefits</a>
+                   <ul>
+                       <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Death Assurance (FONUS)</a></li>
+                       <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Health Care Program</a></li>
+                   </ul>
+                </li>
+                <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Business Enterprise</a>
+                   <ul>
+                       <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Consumer Store</a></li>
+                       <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Lumber and Hardware Store</a></li>
+                       <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Bayad Center</a></li>
+                   </ul>
+               </li>
             </ul>
         </li>
         <li>
             <a href="">Membership</a>
             <ul>
                 <li>
-                    <a href="regular_membership.php">Regular Membership</a>
+                    <a href="regular_membership.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Membership</a>
                 </li>
-                <li><a href="Online_Membership.php">Online Membership</a></li>
+                <li><a href="Online_Membership.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Online Membership</a></li>
+                <li><a href="downloads.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Downloads</a></li>
             </ul>
         </li>
-        <li><a href="downloads.php">Downloads</a></li>
-        <!-- <li><a href="two-sidebar.html">Two Sidebar</a></li>
-        <li><a href="no-sidebar.html">No Sidebar</a></li> -->
+        <li>
+            <a href="#">What's new</a>
+            <ul>
+                <li><a href="coop_news.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop News</a></li>
+                <li><a href="coop_career.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop Career</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="contacts.php">Contact Us</a>
+            <ul>
+                <li>
+                    <a href="contact_details.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Contact Details</a>
+                </li>
+                <li><a href="message_us.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Message Us</a></li>
+            </ul>
+        </li>
     </ul>
 </nav>
       </div>
@@ -238,7 +257,9 @@
                         <div class="box highlight" data-aos="fade-up" data-aos-duration="1000">
                             <i class="icon solid major"><img src="images/healthcare.png" alt=""></i>
                             <h3>Health Care Program</h3>
-                            <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+                            <p>
+                                Avail our CMC Health Care with a reasonable price of <b>P500</b>
+                            </p>
                         </div>
                     </section>
 

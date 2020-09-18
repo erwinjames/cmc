@@ -82,7 +82,6 @@
             </ul>
         </li>
         <li><a href="downloads.php">Downloads</a></li>
-     
     </ul>
 </nav>
       </div>
@@ -105,7 +104,7 @@
                             <p class="card-text"><b> Against Savings Deposits</b> <br> • Member must surrender his/her Savings Deposit passbook <br>
 
                             </p>
-                            <center><button class="modal-toggle btnn1">See More</button></center>
+                            <center><button data-popup-open="popup-1" class="button">See More</button></center>
                         </div>
                     </div>
 
@@ -117,7 +116,7 @@
                                 <b>Working Capital Loan </b> <br> • Member with at least 20% share capital of the aggregate amount applied <br>
 
                             </p>
-                            <center><button class="modal-toggle1 btnn1">See More</button></center>
+                            <center><button data-popup-open="popup-2" class="button">See More</button></center>
                         </div>
                     </div>
 
@@ -128,10 +127,8 @@
                             <p class="card-text">
                                 <b>Appliance Loan </b> <br> • Member with at least 20% share capital of the aggregate amount applied <br>
 
-
-
                             </p>
-                            <center><button class="modal-toggle1 btnn1">See More</button></center>
+                            <center><button data-popup-open="popup-3" class="button">See More</button></center>
 
                         </div>
                     </div>
@@ -144,62 +141,65 @@
                                 <b>Real Property Loan</b> <br> • Member with at least 20% share capital of the aggregate amount applied <br>
 
                             </p>
-                            <center><button class="modal-toggle1 btnn1">See More</button></center>
+                            <center><button data-popup-open="popup-4" class="modal-toggle1 btnn1">See More</button></center>
                         </div>
                     </div>
                 </div>
-                <div class="modal col-12-narrower">
-                    <div class="modal-overlay modal-toggle"></div>
-                    <div class="modal-wrapper modal-transition">
-                        <div class="modal-header">
-
-                            <h2 class="modal-heading">Back to Back Loan</h2>
-                        </div>
-
-                        <div class="modal-body">
-                            <div class="modal-content">
-                                <h6>Against Savings Deposits</h6>
-                                <p>
-                                    • Member must surrender his/her Savings Deposit passbook <br> • Deed of Assignment Form signed by the barrower <br> • Not subject to share capital ratio requirement <br> • Maximum of 100% loanable amount if interest
-                                    is collected in advance up to due date or monthly interest collection <br> • 80% loanable amount if interest is to be collected upon due date/end of term <br> • Flexible term: Max. of 12 months <br> • Mode of Payment:
-                                    Monthly <br> • Interest Rate (Diminishing Method) <br> &nbsp; * Fully Secured – sd rate 4% + 5% spread<br> • Loan Charges: <br> &nbsp; * 2% Service Fee <br> • Loan Protection Insurance - 0.53 every 1,000 of the loan
-                                    amount applied per month<br>
-                                    <span id="text">
-                               <br><b>Against Time Deposits </b>  <br><br>                       
-                               
-                            
-                                •	Member must surrender his/her Time Deposit Certificate <br>
-                                •	Deed of Assignment Form signed by the barrower  <br>
-                                •	Time Deposit Account must be hold out   <br>
-                                •	Not subject to share capital ratio requirement      <br>
-                                •	Maximum of 100% loanable amount if interest is collected in advance up to due date or monthly interest collection   <br>
-                                •	80% loanable amount if interest is to be collected upon due date/end of term  <br>
-                                •	Flexible term: Max. of 12 months  <br>
-                                •	Mode of Payment:  Monthly  <br>
-                                •	Interest Rate (Diminishing Method)  <br>
-                                &nbsp; * Fully Secured – sd rate + 5% spead  <br>
-                                •	Loan Charges:  <br>
-                                &nbsp;* 2% Service Fee  <br>
-                                •	Loan Protection Insurance - 0.53 every 1,000 of the loan amount applied per month <br>
-                                
+            </div>
+            <div class="popup" data-popup="popup-1">
+                <div class="popup-inner">
+                    <div class="modal-container bd-grid">
                        
-                            </span>
-                                    <div class="btn-container">
-                                        <button class="btnn" id="toggle">Read More</button>
-                                    </div>
-                                </p>
+                        <div class="modal__content">
 
+                            <div class="modal__buttons_container ">
                             </div>
                         </div>
                     </div>
+                    <a class="popup-close" data-popup-close='popup-1' href="# ">x</a>
                 </div>
+            </div>
+            <div class="popup" data-popup="popup-2">
+                <div class="popup-inner">
+                    <div class="modal-container bd-grid">
+                       
+                        <div class="modal__content">
 
+                            <div class="modal__buttons_container ">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="popup-close" data-popup-close='popup-2' href="# ">x</a>
+                </div>
+            </div>
+            <div class="popup" data-popup="popup-3">
+                <div class="popup-inner">
+                    <div class="modal-container bd-grid">
+                       
+                        <div class="modal__content">
+                            <div class="modal__buttons_container ">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="popup-close" data-popup-close='popup-3' href="# ">x</a>
+                </div>
+            </div>
+            <div class="popup" data-popup="popup-4">
+                <div class="popup-inner">
+                    <div class="modal-container bd-grid">
+                       
+                        <div class="modal__content">
+
+                            <div class="modal__buttons_container ">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="popup-close" data-popup-close='popup-4' href="# ">x</a>
+                </div>
             </div>
         </section>
-
         <!-- Footer -->
         <?php include "includes/footer.php"?>
-
     <!-- Scripts -->
      <!-- <script src="assets/js/jquery.min.js"></script> -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

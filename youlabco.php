@@ -98,16 +98,107 @@
             </div>
         </section>
         <section class="wrapper style1">
-            <div class="container mt-2">
+        <div class="container mt-2">
                 <div class="row gtr-200">
                     <div class="col-3 col-12-narrower items">
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset">
-                            <h5 class="item-card-title mt-3 mb-3">Savings Deposit</h5>
-                            <p class="card-text"></p>
+                            <img src="images/b2b_loan.jpg" alt="Photo of sunset">
+                            <h5 class="item-card-title mt-3 mb-3">Back to Back Loan</h5>
+
+                            <p class="card-text"><b> Against Savings Deposits</b> <br> • Member must surrender his/her Savings Deposit passbook <br>
+
+                            </p>
+                            <center><button data-popup-open="popup-1" class="button">See More</button></center>
                         </div>
                     </div>
 
+                    <div class="col-3 col-12-narrower items">
+                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="images/prodcutive.jpg" alt="Photo of sunset">
+                            <h5 class="item-card-title mt-3 mb-3">Prodcutive Loan</h5>
+                            <p class="card-text">
+                                <b>Working Capital Loan </b> <br> • Member with at least 20% share capital of the aggregate amount applied <br>
+
+                            </p>
+                            <center><button data-popup-open="popup-2" class="button">See More</button></center>
+                        </div>
+                    </div>
+
+                    <div class="col-3 col-12-narrower items">
+                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="3000">
+                            <img src="images/Providential.jpg" alt="Photo of sunset">
+                            <h5 class="item-card-title mt-3 mb-3">Providential Loan</h5>
+                            <p class="card-text">
+                                <b>Appliance Loan </b> <br> • Member with at least 20% share capital of the aggregate amount applied <br>
+
+                            </p>
+                            <center><button data-popup-open="popup-3" class="button">See More</button></center>
+
+                        </div>
+                    </div>
+
+                    <div class="col-3 col-12-narrower items">
+                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="4000">
+                            <img src="images/Real_estate.jpg" alt="Photo of sunset">
+                            <h5 class="item-card-title mt-3 mb-3">Real Estate Loan</h5>
+                            <p class="card-text">
+                                <b>Real Property Loan</b> <br> • Member with at least 20% share capital of the aggregate amount applied <br>
+
+                            </p>
+                            <center><button data-popup-open="popup-4" class="button">See More</button></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup" data-popup="popup-1">
+                <div class="popup-inner">
+                    <div class="modal-container bd-grid">
+                       
+                        <div class="modal__content">
+
+                            <div class="modal__buttons_container ">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="popup-close" data-popup-close='popup-1' href="# ">x</a>
+                </div>
+            </div>
+            <div class="popup" data-popup="popup-2">
+                <div class="popup-inner">
+                    <div class="modal-container bd-grid">
+                       
+                        <div class="modal__content">
+
+                            <div class="modal__buttons_container ">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="popup-close" data-popup-close='popup-2' href="# ">x</a>
+                </div>
+            </div>
+            <div class="popup" data-popup="popup-3">
+                <div class="popup-inner">
+                    <div class="modal-container bd-grid">
+                       
+                        <div class="modal__content">
+                            <div class="modal__buttons_container ">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="popup-close" data-popup-close='popup-3' href="# ">x</a>
+                </div>
+            </div>
+            <div class="popup" data-popup="popup-4">
+                <div class="popup-inner">
+                    <div class="modal-container bd-grid">
+                       
+                        <div class="modal__content">
+
+                            <div class="modal__buttons_container ">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="popup-close" data-popup-close='popup-4' href="# ">x</a>
                 </div>
             </div>
         </section>

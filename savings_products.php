@@ -96,58 +96,82 @@
             </div>
         </section>
         <section class="wrapper style1">
-            <div class="container mt-2">
+        <div class="container mt-2">
                 <div class="row gtr-200">
-                    <div  class="col-3 col-12-narrower items">
+                    <div class="col-3 col-12-narrower items">
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="images/fixed_deposit.jpg" alt="Photo of sunset">
-                            <h5 class="item-card-title mt-3 mb-3">Fixed Deposit</h5>
-                            <p class="card-text">
-                              <b>Share Capital</b><br>
+                            <img src="images/savings_deposit.jpg">
+                            <h5 class="item-card-title mt-3 mb-3">Savings Deposit</h5>
 
-                                •	It is considered as fix investment in the coop. <br>
-                                •	Yearly Dividend     <br>
-                                •	Initial deposit of PHP 300.00 <br>
-                                •	Non-withdrawable <br>
-                                •	One of the bases for loan evaluation.	 <br>
-                                •	A PHP 50.00 charge in case of close account <br>
+                            <p class="card-text"><b>Against Savings Deposits</b> <br> • Member must surrender his/her Savings Deposit passbook <br>
+
                             </p>
+                            <center><button data-popup-open="popup-1" class="button">See More</button></center>
                         </div>
                     </div>
+
                     <div class="col-3 col-12-narrower items">
-                        <div class="cards item-card card-block" data-aos="fade-up"  data-aos-duration="2000">
-                            <img src="images/saving_products.jpg" alt="Photo of sunset">
+                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="images/saving_products.jpg">
                             <h5 class="item-card-title mt-3 mb-3">Savings Products</h5>
                             <p class="card-text">
-                                <b>REGULAR SAVINGS</b> <br>
-
-                                        •	Open to all Regular Member <br>
-                                        •	Open account for at least PHP 200.00<br>
-                                        •	Bears a competitive interest of 4% per annum<br>
-                                        •	NO monthly charges<br>
-                                        •	Withdrawable from Monday – Friday during official banking hours (8:00-3:00)<br>
-                                        •	Interest earned is not subject to withholding tax<br>
+                                <b>Working Capital Loan </b> <br> • Member with at least 20% share capital of the aggregate amount applied <br>
 
                             </p>
+                            <center><button data-popup-open="popup-2" class="button">See More</button></center>
                         </div>
                     </div>
-                    <div class="col-3 col-12-narrower items" >
-                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="=3000">
-                            <img src="images/savngs_deposit.jpg" alt="Photo of sunset" >
+
+                    <div class="col-3 col-12-narrower items">
+                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="3000">
+                            <img src="images/time_deposit.jpg">
                             <h5 class="item-card-title mt-3 mb-3">Time Deposit</h5>
                             <p class="card-text">
-                               <b> TIME DEPOSIT </b> <br>
-                                •	Open to all regular & associate member <br>
-                                •	Minimum amount for this account is PHP 5,000.00 <br>
-                                •	Bears a competitive interest rate base on the amount placed upon the bracket amount and term. <br>
-                                •	Renewable upon maturity and interest can be withdrawn monthly. <br>
-                                •	Pre-termination is allowed but the rate to be used in computing the interest <br>
-                                •	Shall be based on the rates above. <br>
-                                •	Interest earned is not subject to withholding <br>
-                                
+                                <b>Appliance Loan </b> <br> • Member with at least 20% share capital of the aggregate amount applied <br>
+
                             </p>
+                            <center><button data-popup-open="popup-3" class="button">See More</button></center>
+
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="popup" data-popup="popup-1">
+                <div class="popup-inner">
+                    <div class="modal-container bd-grid">
+                       
+                        <div class="modal__content">
+
+                            <div class="modal__buttons_container ">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="popup-close" data-popup-close='popup-1' href="# ">x</a>
+                </div>
+            </div>
+            <div class="popup" data-popup="popup-2">
+                <div class="popup-inner">
+                    <div class="modal-container bd-grid">
+                       
+                        <div class="modal__content">
+
+                            <div class="modal__buttons_container ">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="popup-close" data-popup-close='popup-2' href="# ">x</a>
+                </div>
+            </div>
+            <div class="popup" data-popup="popup-3">
+                <div class="popup-inner">
+                    <div class="modal-container bd-grid">
+                       
+                        <div class="modal__content">
+                            <div class="modal__buttons_container ">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="popup-close" data-popup-close='popup-3' href="# ">x</a>
                 </div>
             </div>
         </section>
