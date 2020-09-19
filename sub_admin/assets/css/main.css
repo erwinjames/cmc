@@ -1,363 +1,340 @@
-:root{
-  --primary-color:#fff;
-  --secondary-color:#37c0fb;
-  --darker-color:#555555;
-  --darker-text-color:#c0c0c0;
-
+:root {
+    --primary-color: #fff;
+    --secondary-color: #37c0fb;
+    --darker-color: #555555;
+    --darker-text-color: #c0c0c0;
 }
 
-html, body, .page-content {
-  background-color: #ecf0f1;
-  overflow: hidden;
+html,
+body,
+.page-content {
+    background-color: #ecf0f1;
+    overflow: hidden;
 }
 
 .title {
-  display: block;
-  float: none;
-  margin-top: 35px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 36px;
-  color: var(--primary-color);
-  font-weight: 600;
+    display: block;
+    float: none;
+    margin-top: 35px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    color: var(--primary-color);
+    font-weight: 600;
 }
 
 .name {
-  display: block;
-  float: none;
-  margin-top: -10px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 2.5vmin;
-  color:var(--primary-color);
-  font-weight: 600;
+    display: block;
+    float: none;
+    margin-top: -10px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.5vmin;
+    color: var(--primary-color);
+    font-weight: 600;
 }
 
 .navigation {
-  width: 20%;
-  height: 100%;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  background-color:var(--secondary-color);
-  overflow: hidden;
-  -moz-box-shadow:    3px 3px 5px 3px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 3px #ccc;
-  box-shadow:         3px 3px 5px 3px #ccc;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    -moz-box-shadow: 3px 3px 5px 3px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 3px #ccc;
+    box-shadow: 3px 3px 5px 3px #ccc;
 }
 
 .profile-pic {
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-  float: none;
-  display: block;
-  margin: 25px auto;
-  pointer-events: none;
-  background-color: rgb(39, 165, 238);
-	filter: drop-shadow(3.4px 3.4px 3.4px rgb(77, 154, 206)) drop-shadow(-3.4px -3.4px 3.4px white);
-	-webkit-filter: drop-shadow(3.4px 3.4px 3.4px rgb(77, 154, 206)) drop-shadow(-3.4px -3.4px 3.4px white);
-	box-shadow: inset 4.3px 4.3px 7px rgb(191, 226, 252);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    float: none;
+    display: block;
+    margin: 25px auto;
+    pointer-events: none;
+    background-color: rgb(39, 165, 238);
+    filter: drop-shadow(3.4px 3.4px 3.4px rgb(77, 154, 206)) drop-shadow(-3.4px -3.4px 3.4px white);
+    -webkit-filter: drop-shadow(3.4px 3.4px 3.4px rgb(77, 154, 206)) drop-shadow(-3.4px -3.4px 3.4px white);
+    box-shadow: inset 4.3px 4.3px 7px rgb(191, 226, 252);
 }
 
 .function-wrapper {
-  width: 130px;
-  float: none;
-  display: block;
-  margin: auto;
+    width: 130px;
+    float: none;
+    display: block;
+    margin: auto;
 }
 
 .function {
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
-  border: none;
-  color: #333;
-  transition: all ease-in-out 0.35s;
-  outline: none;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: #333;
+    transition: all ease-in-out 0.35s;
+    outline: none;
 }
 
-#profile, #settings, #logout {
-  cursor: pointer;
+#profile,
+#settings,
+#logout {
+    cursor: pointer;
 }
 
 .function:hover {
-  background-color: transparent;
-  border: none;
-  color: #666;
+    background-color: transparent;
+    border: none;
+    color: #666;
 }
 
 .options-wrapper {
-  width: 100%;
-  height: auto;
-  max-height: auto;
-  margin-top: 20px;
-  overflow-x: hidden;
-  overflow-y: auto;
+    width: 100%;
+    height: auto;
+    max-height: auto;
+    margin-top: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .panel-option {
-  border-left: 3px solid #333;
-  height: 40px;
-  overflow: hidden;
-  color: var(--primary-color);
-  opacity: 0.75;
-  cursor: pointer;
+    border-left: 3px solid #333;
+    height: 40px;
+    overflow: hidden;
+    color: var(--primary-color);
+    opacity: 0.75;
+    cursor: pointer;
 }
 
 .panel-option:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .active {
-  border-left-color: var(--primary-color);
-  filter: unset;
-	box-shadow: unset;
-	filter: drop-shadow(3px 1px 18px rgb(57, 159, 218));
-	-webkit-filter: drop-shadow(3px 1px 18px rgb(92, 168, 219));
-    box-shadow: inset 5.3px 5.3px 7px  rgb(51, 157, 238);
+    border-left-color: var(--primary-color);
+    filter: unset;
+    box-shadow: unset;
+    filter: drop-shadow(3px 1px 18px rgb(57, 159, 218));
+    -webkit-filter: drop-shadow(3px 1px 18px rgb(92, 168, 219));
+    box-shadow: inset 5.3px 5.3px 7px rgb(51, 157, 238);
     border: 0.5px solid rgb(100, 195, 233);
-	color: #666;
-	text-shadow: 1px 1px 1px rgb(129, 196, 235);
+    color: #666;
+    text-shadow: 1px 1px 1px rgb(129, 196, 235);
 }
 
 .panel-option .material-icons {
-  margin-left: 15px;
-  margin-top: 7px;
-  float: left;
-  
- 
+    margin-left: 15px;
+    margin-top: 7px;
+    float: left;
 }
-button.function i{
-  border-radius: 50%;
-  background-color: rgb(39, 165, 238);
-	filter: drop-shadow(3.4px 3.4px 3.4px rgb(77, 154, 206)) drop-shadow(-3.4px -3.4px 3.4px white);
-	-webkit-filter: drop-shadow(3.4px 3.4px 3.4px rgb(77, 154, 206)) drop-shadow(-3.4px -3.4px 3.4px white);
-	box-shadow: inset 4.3px 4.3px 7px rgb(191, 226, 252);
+
+button.function i {
+    border-radius: 50%;
+    background-color: rgb(39, 165, 238);
+    filter: drop-shadow(3.4px 3.4px 3.4px rgb(77, 154, 206)) drop-shadow(-3.4px -3.4px 3.4px white);
+    -webkit-filter: drop-shadow(3.4px 3.4px 3.4px rgb(77, 154, 206)) drop-shadow(-3.4px -3.4px 3.4px white);
+    box-shadow: inset 4.3px 4.3px 7px rgb(191, 226, 252);
 }
 
 .panel-option p {
-  margin-left: 15px;
-  margin-top: 7px;
-  float: left;
-  font-size: 2vmin;
-
+    margin-left: 15px;
+    margin-top: 7px;
+    float: left;
+    font-size: 2vmin;
 }
 
 .page-content {
-  background-color: #fff;
-  width: 80%;
-  height: 100vh;
-  float: right;
-  overflow-x: hidden;
-  overflow-y: auto;
+    background-color: #fff;
+    width: 80%;
+    height: 100vh;
+    float: right;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .header {
-  width: 100%;
-  height: 60px;
-  background-color: rgb(233, 233, 233);
- 
+    width: 100%;
+    height: 60px;
+    background-color: rgb(233, 233, 233);
 }
 
-
 .big {
-  float: left;
-  font-size: 28px;
-  margin-top: 33px;
-  margin-left: 20px;
-  font-weight: 500;
-  color: #FFF;
+    float: left;
+    font-size: 28px;
+    margin-top: 33px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #FFF;
 }
 
 .small {
-  font-weight: 300;
-  font-size: 12px;
-  margin-left: 5px;
-  color: #999;
+    font-weight: 300;
+    font-size: 12px;
+    margin-left: 5px;
+    color: #999;
 }
 
 #wrapper {
-  float: right;
-  width: auto;
-  margin-right: 15px;
-  margin-top: 30px;
+    float: right;
+    width: auto;
+    margin-right: 15px;
+    margin-top: 30px;
 }
 
 .search {
-  width: 140px;
-  height: 34px;
-  border-radius: 4px 0px 0px 4px;
-  border: none;
-  padding: 5px;
-  font-family: "Open Sans", sans-serif;
-  outline: none;
-  float: left;
+    width: 140px;
+    height: 34px;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    padding: 5px;
+    font-family: "Open Sans", sans-serif;
+    outline: none;
+    float: left;
 }
 
 .search-btn {
-  width: 34px;
-  height: 34px;
-  background-color: white;
-  color: #666;
-  border-radius: 0px 4px 4px 0px;
-  border: none;
-  padding: 5px;
-  font-family: "Open Sans", sans-serif;
-  outline: none;
-  float: left;
-  margin-right: 5px;
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    color: #666;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    padding: 5px;
+    font-family: "Open Sans", sans-serif;
+    outline: none;
+    float: left;
+    margin-right: 5px;
 }
 
 .search-btn:hover {
-  background-color: #f4f4f4;
-  cursor: pointer;
+    background-color: #f4f4f4;
+    cursor: pointer;
 }
 
 .help {
-  width: auto;
-  height: 34px;
-  background-color: #f39c12;
-  color: #fff;
-  border-radius: 4px;
-  border: none;
-  padding: 5px;
-  font-family: "Open Sans", sans-serif;
-  outline: none;
-  float: left;
-  margin-right: 0px;
+    width: auto;
+    height: 34px;
+    background-color: #f39c12;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    font-family: "Open Sans", sans-serif;
+    outline: none;
+    float: left;
+    margin-right: 0px;
 }
 
 .help:hover {
-  background-color: #ffb140;
-  cursor: pointer;
+    background-color: #ffb140;
+    cursor: pointer;
 }
 
 .content {
-  background-color:rgb(241, 241, 241);
-  width: 100%;
-  height: 100%;
-  margin-top: 0px;
-  overflow-x: hidden;
-  overflow-y: scroll;
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 @media screen and (max-width: 780px) {
-  .page-content {
-    overflow: hidden !important;
-  }
-  .big {
-    font-size: 4vmin;
-    margin-top: 25px;
-  }
-  
-  .small {
-    display: block;
-    margin-left: 0px;
-    font-size: 2vmin;
-  }
-  
-  .content {
-    height: calc(100vh - 92px);
-  }
-  
-  .navigation {
-    width: 25%;
-  }
-  
-  .page-content {
-    width: 75%;
-  }
+    .page-content {
+        overflow: hidden !important;
+    }
+    .big {
+        font-size: 4vmin;
+        margin-top: 25px;
+    }
+    .small {
+        display: block;
+        margin-left: 0px;
+        font-size: 2vmin;
+    }
+    .content {
+        height: calc(100vh - 92px);
+    }
+    .navigation {
+        width: 25%;
+    }
+    .page-content {
+        width: 75%;
+    }
 }
 
 @media screen and (max-width: 560px) {
-  .navigation {
-    width: 60px;
-  }
-  
-  .big {
-    font-size: 4vmin;
-    margin-top: 15px;
-  }
-  
-  .title {
-    margin-top: 10px;
-    font-size: 20px;
-  }
-  
-  .profile-pic{
-    width: 70%;
-    height: auto;
-    margin-top: 10px;
-  
-  }
-
-  
-  .name {
-    display: none;
-  }
-  
-  .function-wrapper {
-    width: 100%;
-    height: auto;
-  }
-  
-  .function {
-    display: block;
-    float: none;
-    margin: 5px auto;
-  }
-  
-  .panel-option p {
-    display: none;
-  }
-  
-  .page-content {
-    width: calc(100% - 60px);
-  }
-  
-  .header {
-    height: 50px;
-  }
-  
-  #wrapper {
-    margin-top: 20px;
-  }
-  
-  .content {
-    height: calc(100% - 70px);
-  }
+    .navigation {
+        width: 60px;
+    }
+    .big {
+        font-size: 4vmin;
+        margin-top: 15px;
+    }
+    .title {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .profile-pic {
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .name {
+        display: none;
+    }
+    .function-wrapper {
+        width: 100%;
+        height: auto;
+    }
+    .function {
+        display: block;
+        float: none;
+        margin: 5px auto;
+    }
+    .panel-option p {
+        display: none;
+    }
+    .page-content {
+        width: calc(100% - 60px);
+    }
+    .header {
+        height: 50px;
+    }
+    #wrapper {
+        margin-top: 20px;
+    }
+    .content {
+        height: calc(100% - 70px);
+    }
 }
 
 @media screen and (max-width: 440px) {
-  .header {
-    height: 110px;
-  }
-  
-  .small {
-    display: none;
-  }
-  
-  .big {
-    margin-top: 70px;
-    margin-bottom: 0px;
-    font-size: 6vmin;
-  }
-  
-  .content {
-    height: calc(100% - 110px);
-  }
-  
-  #wrapper {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 100%;
-    height:36px;
-  }
-  
-  .search {
-    width: calc(100% - 160px);
-    margin-left: 15px;
-  }
+    .header {
+        height: 110px;
+    }
+    .small {
+        display: none;
+    }
+    .big {
+        margin-top: 70px;
+        margin-bottom: 0px;
+        font-size: 6vmin;
+    }
+    .content {
+        height: calc(100% - 110px);
+    }
+    #wrapper {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        height: 36px;
+    }
+    .search {
+        width: calc(100% - 160px);
+        margin-left: 15px;
+    }
 }
