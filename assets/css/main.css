@@ -2310,7 +2310,9 @@ button.small,
     margin-left: 50px;
     position: relative;
     width: 80%;
+
 }
+
 
 #nav {
     cursor: default;
@@ -2395,7 +2397,6 @@ button.small,
 #nav>ul>li>ul {
     display: none;
 }
-
 
 /* Dropotron */
 

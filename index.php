@@ -21,7 +21,7 @@
             <li>
             <a>About Us</a>
             <ul>
-            <li><a href="officers/coop_VMG.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Mission,Vision,Goals</a></li>
+            <li><a href="../cmc/AboutUs/coop_VMG.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Mission,Vision,Goals</a></li>
         <li><a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Board And Officers</a>
                                 <ul>
                                     <li><a href="officers/coop_officers.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>BOD</a></li>
@@ -53,7 +53,7 @@
             <ul>
                 <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
                         <ul>
-                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Savings</a></li>
+                            <li><a href="savings_products.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Savings</a></li>
                             <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Associate Savings</a></li>
                             <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>YULABCO</a></li>
                         </ul>

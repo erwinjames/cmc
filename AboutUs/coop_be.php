@@ -14,77 +14,7 @@
         <!-- Header -->
         <?php include "../includes/header2.php";?>
             <!-- Nav -->
-            <nav id="nav">
-                <ul>
-                    <li><a href="../index.php">Home</a></li>
-                    <li>
-                        <a href="#">Blog</a>
-                        <ul>
-                            <li><a href="../coop_news.php">Coop News</a></li>
-                            <li><a href="../coop_career.php">Coop Career</a></li>
-
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Products and Services</a>
-                        <ul>
-                            <li><a href="../savings_products.php">Savings</a></li>
-                            <li><a href="../loans_products.php">Loans</a></li>
-                            <li><a href="../youlabco.php">YOULABCO</a></li>
-                            <li><a href="../mortuary_services.php">Mortaury</a></li>
-                            <li><a href="../healthcare_products.php">Health care</a></li>
-                            <li><a href="../lumberAndcunsumer.php">Lumber and Cosumer</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a>Contact Us</a>
-                        <ul>
-                            <li>
-                                <a href="../contact_details.php">Contact Details</a>
-                            </li>
-                            <li><a href="../message_us.php">Message Us</a></li>
-
-                        </ul>
-                    </li>
-                    <!-- <li><a href="right-sidebar.html">About us</a></li> -->
-                    <li class="current">
-                        <a href="../about_us.php">About Us</a>
-                        <ul>
-                            <li>
-                                <a href="#">Branches And Offices</a>
-                                <ul>
-                                <li><a href="../branches/coop_ho.php">Head Office</a></li>
-                                    <li><a href="../branches/coop_main.php">Main Office</a></li>
-                                    <li><a href="../branches/coop_llc.php">Lapu-Lapu Branch</a></li>
-                                    <li><a href="../branches/coop_basak.php">Basak Branch</a></li>
-                                    <li><a href="../branches/coop_olango.php">Olango Branch</a></li>
-                                    <li><a href="../branches/coop_mandaue.php">Mandaue Office</a></li>
-                                    <li><a href="../branches/coop_be.php">Business Enterprise</a></li>
-
-                                </ul>
-                            </li>
-                            <li><a href="../coop_history.php">Coop History</a></li>
-                            <li><a href="#">Mission,Vision,Goals</a></li>
-                            <li><a href="#">Awards and Recognations</a></li>
-                            <li><a href="#">Officers</a></li>
-                            <li><a href="#">Organizational Structure</a></li>
-                            <li><a href="../gallery.php">Gallery</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">Membership</a>
-                        <ul>
-                            <li>
-                                <a href="../regular_membership.php">Regular Membership</a>
-                            </li>
-                            <li><a href="../Online_Membership.php">Online Membership</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="../downloads.php">Downloads</a></li>
-                    <!-- <li><a href="two-sidebar.html">Two Sidebar</a></li>
-                    <li><a href="no-sidebar.html">No Sidebar</a></li> -->
-                </ul>
-            </nav>
+            <?php include "AboutUs-menu.php"?>
         </div>
 
         <!-- Main -->
@@ -99,7 +29,7 @@
 
 
                         <header>
-                            <h2>Basak Branch</h2>
+                            <h2>Bussines Enterprise</h2>
 
                         </header>
 
@@ -109,110 +39,134 @@
                             <div class="row gtr-200">
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/atan.png" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Jonathan C. Amorin</h4>
-                                        <p>Branch Manager</p>
+                                        <h4>Ma. Divina M. Baguio</h4>
+                                        <p>BE Department Head</p>
+                                </div>
+                                </section>
+                                <section class="col-9 col-12-narrower">
+                                    <h4>Lumber Department</h4>
+                                </section>
+                                <section class="col-4 col-12-narrower">
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/branches/BE/angiekay.png" alt=""></i>
+                                    </div>  
+                                <div class="info">
+                                        <h4>Angelin Y. Pepito</h4>
+                                        <p>Bookkeeper</p>
                                 </div>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/angie.png" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Queenie C. Ompad</h4>
-                                        <p>Bookkeepper</p>
+                                        <h4>Angel N. Baguio</h4>
+                                        <p>Supervisor</p>
                                 </div>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Marichu R. Vequizo</h4>
-                                        <p>Loan Officer</p>
+                                        <h4>Daniel J. Poliquit</h4>
+                                        <p>Cashier</p>
                                 </div>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/margie.png" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Vergel A. Abaquita</h4>
-                                        <p>Loan Assistant</p>
+                                        <h4>Margarita M. Suan</h4>
+                                        <p>Merchandiser</p>
                                 </div>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Michael D. Nunez</h4>
-                                        <p>Credit Investigator</p>
+                                        <h4>Romulo P. Bautista</h4>
+                                        <p>Driver</p>
                                 </div>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Jorey John E. Javate</h4>
-                                        <p>Accounts Officer</p>
+                                        <h4>Rochie D. Amasula</h4>
+                                        <p>Delivery</p>
                                 </div>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Laryane D. Salimbagat</h4>
-                                        <p>New Accounts</p>
+                                        <h4>Johnny C. Henonie</h4>
+                                        <p>Delivery</p>
                                 </div>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Irish May M. Eyas</h4>
-                                        <p>Teller</p>
+                                        <h4>Henry M. De los Santos</h4>
+                                        <p>Lumber Staff</p>
                                 </div>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Paul B. Lomotos</h4>
-                                        <p>Collector</p>
+                                        <h4>Eugenio N. Jarden</h4>
+                                        <p>Lumber Staff</p>
+                                </div>
+                                </section>
+                                <section class="col-9 col-12-narrower">
+                                    <h4>Consumer Department</h4>
+                                </section>
+                                <section class="col-4 col-12-narrower">
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/branches/BE/cha.png" alt=""></i>
+                                    </div>  
+                                <div class="info">
+                                        <h4>Charito J. Casquejo</h4>
+                                        <p>Supervisor</p>
                                 </div>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/patrick.png" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Christian P. Sumagang</h4>
-                                        <p>Collector</p>
+                                        <h4>Patrick Obregon</h4>
+                                        <p>Cashier</p>
                                 </div>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/nampher.png" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Mark Kevin C. Sumagang</h4>
-                                        <p>Collector</p>
+                                        <h4>Jonefer T. Amasula</h4>
+                                        <p>Delivery</p>
                                 </div>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
-                                        <i class=""><img src="../images/branches/basak/" alt=""></i>
+                                        <i class=""><img src="../images/branches/BE/jayson.png" alt=""></i>
                                     </div>  
                                 <div class="info">
-                                        <h4>Ruel Ybanez</h4>
-                                        <p>Collector</p>
+                                        <h4>Jayson Glutz D. Ligan</h4>
+                                        <p>Consumer Staff Staff</p>
                                 </div>
                                 </section>
                             </div>
