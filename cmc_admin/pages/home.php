@@ -1,6 +1,6 @@
 <?php
  session_start();
- if(!isset($_SESSION["cmc_id"]) || !isset($_SESSION["admin_type"])){
+ if(!isset($_SESSION["cmc_name"]) || !isset($_SESSION["cmc_id"])){
   header('Location: ../index.php');
   exit;
 }
@@ -25,7 +25,7 @@
     <p class="name">
      <?php
 
-    echo  $_SESSION['user_type'];
+    echo  $_SESSION['cmc_name'];
      
      ?>
    </p>
@@ -41,9 +41,9 @@
         </div>
         
         
-      <button id="logout" class="function"><i class="material-icons">logout</i></button>
+      <a id="logout" href="../script/logout_script.php" class="function"><i class="material-icons">logout</i></a>
         <div class="mdl-tooltip" for="logout">
-        <a href="../script/logout_script.php">Log out</a>
+        Log out
         </div>
     </div>  
     <div class="options-wrapper">
