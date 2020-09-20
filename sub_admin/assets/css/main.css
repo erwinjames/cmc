@@ -27,6 +27,7 @@ body,
     display: block;
     float: none;
     margin-top: -10px;
+    padding-bottom: 15px;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 2.5vmin;
@@ -62,6 +63,7 @@ body,
 }
 
 .function-wrapper {
+    margin-top: 0.5rem;
     width: 130px;
     float: none;
     display: block;
@@ -69,8 +71,6 @@ body,
 }
 
 .function {
-    width: 40px;
-    height: 40px;
     background-color: transparent;
     border: none;
     color: #333;
@@ -151,7 +151,6 @@ button.function i {
     height: 100vh;
     float: right;
     overflow-x: hidden;
-    overflow-y: auto;
 }
 
 .header {
@@ -183,55 +182,6 @@ button.function i {
     margin-top: 30px;
 }
 
-.search {
-    width: 140px;
-    height: 34px;
-    border-radius: 4px 0px 0px 4px;
-    border: none;
-    padding: 5px;
-    font-family: "Open Sans", sans-serif;
-    outline: none;
-    float: left;
-}
-
-.search-btn {
-    width: 34px;
-    height: 34px;
-    background-color: white;
-    color: #666;
-    border-radius: 0px 4px 4px 0px;
-    border: none;
-    padding: 5px;
-    font-family: "Open Sans", sans-serif;
-    outline: none;
-    float: left;
-    margin-right: 5px;
-}
-
-.search-btn:hover {
-    background-color: #f4f4f4;
-    cursor: pointer;
-}
-
-.help {
-    width: auto;
-    height: 34px;
-    background-color: #f39c12;
-    color: #fff;
-    border-radius: 4px;
-    border: none;
-    padding: 5px;
-    font-family: "Open Sans", sans-serif;
-    outline: none;
-    float: left;
-    margin-right: 0px;
-}
-
-.help:hover {
-    background-color: #ffb140;
-    cursor: pointer;
-}
-
 .content {
     background-color: rgb(241, 241, 241);
     width: 100%;
@@ -239,6 +189,12 @@ button.function i {
     margin-top: 0px;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+.lower__container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
 }
 
 @media screen and (max-width: 780px) {
@@ -288,6 +244,7 @@ button.function i {
     .function-wrapper {
         width: 100%;
         height: auto;
+        padding-top: 1rem;
     }
     .function {
         display: block;
