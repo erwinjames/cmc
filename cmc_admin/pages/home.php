@@ -1,6 +1,6 @@
 <?php
  session_start();
- if(!isset($_SESSION["cmc_name"]) || !isset($_SESSION["cmc_id"])){
+ if(!isset($_SESSION["userid"])){
   header('Location: ../index.php');
   exit;
 }
@@ -25,7 +25,7 @@
     <p class="name">
      <?php
 
-    echo  $_SESSION['cmc_name'];
+    echo  $_SESSION['userid'];
      
      ?>
    </p>
