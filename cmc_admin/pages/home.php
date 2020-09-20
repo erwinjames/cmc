@@ -1,15 +1,19 @@
+<?php
+ session_start();
+ if(!isset($_SESSION["cmc_id"]) || !isset($_SESSION["admin_type"])){
+  header('Location: ../index.php');
+  exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
   <meta charset="UTF-8">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-red.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.6.0/tailwind.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="../assets/css/main.css">
 </head>
 
 <body>
@@ -17,9 +21,13 @@
     <p class="title">
       CMC PANEL
     </p>
-    <div class="pic_container"><img class="profile-pic" src="assets/img/cmc.png" alt=""></div>
+    <div class="pic_container"><img class="profile-pic" src="../assets/img/cmc.png" alt=""></div>
     <p class="name">
-            ADMIN
+     <?php
+
+    echo  $_SESSION['user_type'];
+     
+     ?>
    </p>
       <div class="function-wrapper">
       <button id="profile" class="function"><i class="material-icons">account_circle</i></button>
@@ -35,7 +43,7 @@
         
       <button id="logout" class="function"><i class="material-icons">logout</i></button>
         <div class="mdl-tooltip" for="logout">
-        Log out
+        <a href="../script/logout_script.php">Log out</a>
         </div>
     </div>  
     <div class="options-wrapper">
@@ -52,8 +60,22 @@
     <div>
   </section>
 <section class="page-content">  
-    <div class="header">
-       
+    <div class="header flex items-center">
+      <div class="header__container">
+      <div class="p-9 justify-end w-1/5">
+  <div class="bg-white flex items-left rounded-full shadow-xl">
+    <input class="rounded-l-full w-full py-4 px-6 text-gray-700 leading-tight focus:outline-none" id="search" type="text" placeholder="Search">
+    
+    <div class="p-4 ">
+      <button class="bg-blue-500 text-white rounded-full hover:bg-blue-400 focus:outline-none w-10 h-10 flex items-center justify-center">
+        <i class="material-icons">search</i>
+      </button>
+      </div>
+    </div>
+  </div>
+      </div>
+  
+</div>
     </div> 
         <div class="content">
           <div class="statistic">
@@ -106,7 +128,7 @@
       <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Career Title">
     </div>
     <div class="mb-6">
-    <textarea class="resize-y shadow appearance-none border rounded  w-full rounded leading-tight focus:outline-none focus:shadow-outline" placeholder="Career Description" type="text" placeholder="Career Title"></textarea>
+    <textarea class="resize-y shadow appearance-none border rounded w-full py-6 px-3 rounded leading-tight focus:outline-none focus:shadow-outline" placeholder="Career Description" type="text" placeholder="Career Title"></textarea>
     </div>
     <button class="bg-blue-500 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
       Post This Career  
