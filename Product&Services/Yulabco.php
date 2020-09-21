@@ -23,6 +23,7 @@
                 <div class="row gtr-200">
                     <div class="col-4 col-12-narrower">
                         <div id="sidebar">
+                        <h2>Savings Deposit - YuLabCo</h2>
                         <nav id="nav" >
                                    <ul >
                                         <li style="margin-left:14px;" >
@@ -44,10 +45,7 @@
                             <!-- Content -->
 
                             <article>
-                                <header style="float: center;">
-                                    <h2> Savings Deposit - YULABCO</h2>
-
-                                </header>
+                            <span class="image featured"><img src="../images/YuLabCo.png" alt="" /></span>
                                 <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
                                 <p>•    Members of Cordova Multipurpose Cooperative Youth United Laboratory Cooperative ( YU LABCO )</p>
                                 <h3> PRODUCT FEATURES</h3>

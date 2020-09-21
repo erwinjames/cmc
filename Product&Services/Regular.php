@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <html>
-
 <head>
     <title>Cordova Multipupose Cooperative</title>
     <meta charset="utf-8" />
@@ -24,7 +23,7 @@
                     <div class="col-4 col-12-narrower">
                         <div id="sidebar">
                         <section> 
-                                <h2>Savings</h2>
+                                <h2>Savings Deposit - Regular</h2>
                             <nav id="nav" >
                                    <ul >
                                         <li style="margin-left:14px;" class="Active">
@@ -49,12 +48,8 @@
                     </div>
                     <div class="col-8  col-12-narrower imp-narrower">
                         <div id="content">
-
-                            <!-- Content -->
-
                             <article>
-                                <header style="float: center;">
-                                    <h2> Savings Deposit - Regular</h2>
+                                <span class="image featured"><img src="../images/reg.png" alt="" /></span>
 
                                 </header>
                                 <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>

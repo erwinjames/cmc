@@ -24,7 +24,7 @@
                     <div class="col-4 col-12-narrower">
                         <div id="sidebar">
                         <section> 
-                                <h2>Savings</h2>
+                                <h2>Time Deposit</h2>
                             <nav id="nav" >
                                    <ul >
                                         <li style="margin-left:14px;" class="Active">
@@ -53,22 +53,61 @@
                             <!-- Content -->
 
                             <article>
-                                <header style="float: center;">
-                                    <h2> Savings Deposit - Regular</h2>
+                            <span class="image featured"><img src="../images/times.png" alt="" /></span>
 
-                                </header>
-                                <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
-                                <p>•	Regular members who are willing to abide by the rules and regulations set by the cooperative.</p>
-                                <h3> PRODUCT FEATURES</h3>
-                                <p>•	Initial  amount of deposit - 		Php 500.00</p>
-                                <p>•	Minimum deposit to earn interest - 	Php 500.00</p>
-                                <p>•	Maintaining Balance - 			Php 1,000.00</p>
-                                <p>•	Interest rate (computed quarterly) - 	2.5% p.a</p>
-                                <p>•	No monthly charges</p>
-                                <p>•	Interest earned is not subject to withholding tax</p>
-                                <p>•	Can be withdrawn from Monday to Friday , 8:00 A.M to 3:00 P.M. Strictly No passbook No withdrawals</p>
-                                <p>•	Passbook cost is Php 20.00. A fee of Php50.00 is required for the re-issuance of lost passbook with supporting notarized affidavit of loss</p>
-                                <p>•	Closing of deposit account service charge is Php 50.00</p>
+                                <h3>    REQUIREMENTS</h3>
+                                <p>•	The depositor must be a regular member of CORDOVA MULTIPURPOSE COOPERATIVE (CMC) with a paid-up share capital of at least Five Thousand Pesos (Php 5,000).</p>
+                                <h3> 	AMOUNT</h3>
+                                <p>     Minimum amount of Time Deposit is Twenty Thousand Pesos (P20,000.00)</p>
+                                <h3>    RATES</h3>
+                                <p>•	One of the products and services offered by CMC to its members is the Time Deposits (TD). These are interest bearing deposits that have a specified date of maturity. Interest is not subject to withholding tax.</p>
+                                <p>•	The interest rates per annum for these Time Deposits are:</p>
+                                <p>
+                                <table style="width:100%" class="default">
+                                        <tr>
+                                            <th>Amount</th>
+                                            <th>3-6 Months</th>
+                                            <th>6-11 Months</th>
+                                            <th>12 Months</th>
+                                        </tr>
+                                        <tr>
+                                            <td>20,000 – 50,000</td>
+                                            <td>3%</td>
+                                            <td>4%</td>
+                                            <td>5%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>50,001 – 200,000</td>
+                                            <td>3.5%</td>
+                                            <td>4.5%</td>
+                                            <td>5.5%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>>200,001 – 500,000</td>
+                                            <td>4.5%</td>
+                                            <td>5.5%</td>
+                                            <td>6.5%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>500,001 up</td>
+                                            <td>5%</td>
+                                            <td>6%</td>
+                                            <td>7%</td>
+                                        </tr>
+                                </table>
+                                 </p>
+                                <p>•    The above rates are subject to revisions by the board of directors based on the prevailing market rates in banks, treasury bills and in other co-ops.</p>
+                                <p>•	Old time deposits enjoying the interest rates offered before the effectivity of the above rates can still enjoy the same rate provided that they will not withdraw their time deposit and will just renew their time deposit in our cooperative with the same principal amount.</p>
+                                <p>•	Any fresh funds added as time deposit will be subjected to the prevailing interest rates.</p>
+                                <h4>Interest accrued monthly and paid upon maturity</h4>
+                                <p>•	If the time deposit is withdrawn before maturity</p>
+                                <p>&nbsp &nbsp &nbsp -	the rate for savings deposits will apply if the holding period of the time deposit upon termination is less than Three(3) months.</p>
+                                <p>&nbsp &nbsp &nbsp-	the rates as indicated in the table above will apply if the holding period of the time deposit upon pre-termination is more than or equal to Three(3) months.</p>
+                                <h4>After maturity, the interest of the excess days or months after the maturity date  of the time deposit will be computed based on the rate for savings deposits, if not renewed on due date.</h4>
+                                <h3> RENEWAL</h3>
+                                <p>The depositor may instruct the coop to automatically renew the time deposit upon maturity at prevailing interest rates. If the time depositor wishes to continue or to roll over his deposit to the next period, he or she must do so in writing by filling up the time deposit slip details. Afterwards, a corresponding new time deposit certificate will be issued in favor to the depositor. When the account is not covered by automatic roll-over, the depositor will be reminded about the maturity of his or her time deposit Seven (7) days before the maturity of the time deposit.</p>
+                                <h3>CLOSING</h3>
+                                <p>A time deposit may be terminated or closed upon presentation of the Certificate of Time Deposit and proper endorsement by the depositor. Coop may require the owner to present a valid I.D. Withdrawal through a representative must be authorized by the depositor in writing with attached photocopy of his or her valid I.D</p>
                             </article>
                         </div>
                     </div>

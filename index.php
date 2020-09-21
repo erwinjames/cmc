@@ -53,7 +53,7 @@
             <ul>
                 <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
                         <ul>
-                            <li><a href="savings_products.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Savings</a></li>
+                            <li><a href="../cmc/Product&Services/Regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Savings</a></li>
                             <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Associate Savings</a></li>
                             <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>YULABCO</a></li>
                         </ul>

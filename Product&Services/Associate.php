@@ -24,7 +24,7 @@
                     <div class="col-4 col-12-narrower">
                         <div id="sidebar">
                         <section> 
-                                <h2>Savings</h2>
+                                <h2>Savings Deposit - Associate</h2>
                             <nav id="nav" >
                                    <ul >
                                         <li style="margin-left:14px;" >
@@ -53,10 +53,8 @@
                             <!-- Content -->
 
                             <article>
-                                <header style="float: center;">
-                                    <h2> Savings Deposit - Associate</h2>
+                            <span class="image featured"><img src="../images/Associate.png" alt="" /></span>
 
-                                </header>
                                 <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
                                 <p>•	Associate members who have not meet all the criteria to become a regular member.</p>
                                 <h3> PRODUCT FEATURES</h3>
