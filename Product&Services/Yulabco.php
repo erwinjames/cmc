@@ -23,28 +23,19 @@
                 <div class="row gtr-200">
                     <div class="col-4 col-12-narrower">
                         <div id="sidebar">
-                        <section> 
-                                <h2>Savings</h2>
-                            <nav id="nav" >
+                        <nav id="nav" >
                                    <ul >
-                                        <li style="margin-left:14px;" class="Active">
+                                        <li style="margin-left:14px;" >
                                             <a href="Regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Regular Savings</a>
                                          </li>
-                                         <li>
+                                         <li class="active">
                                             <a href="Associate.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Associate Savings</a>
                                         </li>
-                                        <li>
+                                        <li class="active">
                                             <a href="Yulabco.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> YULABCO</a>
                                         </li>
                                      </ul>
                             </nav>
-                            <br>
-                                <footer>
-                                    <p>SERVES WITH A HEART</p>
-                                    <!--   <a href="#" class="button">Continue Reading</a> -->
-                                </footer>
-                    </section>
-
                         </div>
                     </div>
                     <div class="col-8  col-12-narrower imp-narrower">
@@ -54,15 +45,15 @@
 
                             <article>
                                 <header style="float: center;">
-                                    <h2> Savings Deposit - Regular</h2>
+                                    <h2> Savings Deposit - YULABCO</h2>
 
                                 </header>
                                 <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
-                                <p>•	Regular members who are willing to abide by the rules and regulations set by the cooperative.</p>
+                                <p>•    Members of Cordova Multipurpose Cooperative Youth United Laboratory Cooperative ( YU LABCO )</p>
                                 <h3> PRODUCT FEATURES</h3>
-                                <p>•	Initial  amount of deposit - 		Php 500.00</p>
+                                <p>•	Initial  amount of deposit - 		Php 20.00</p>
                                 <p>•	Minimum deposit to earn interest - 	Php 500.00</p>
-                                <p>•	Maintaining Balance - 			Php 1,000.00</p>
+                                <p>•	Maintaining Balance - 			    Php 50.00</p>
                                 <p>•	Interest rate (computed quarterly) - 	2.5% p.a</p>
                                 <p>•	No monthly charges</p>
                                 <p>•	Interest earned is not subject to withholding tax</p>

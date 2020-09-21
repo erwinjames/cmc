@@ -28,7 +28,7 @@
                                     <li><a href="officers/coop_officers2.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>COMMITTEES</a></li>
                                 </ul>
            </li>
-            <li><a href="coop_history.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop Profile</a></li>
+            <li><a href="AboutUs/coop_history.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop Profile</a></li>
                 <li>
                 <a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Branches And Offices</a>
                     <ul>

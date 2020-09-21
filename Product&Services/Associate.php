@@ -27,10 +27,10 @@
                                 <h2>Savings</h2>
                             <nav id="nav" >
                                    <ul >
-                                        <li style="margin-left:14px;" class="Active">
+                                        <li style="margin-left:14px;" >
                                             <a href="Regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Regular Savings</a>
                                          </li>
-                                         <li>
+                                         <li class="active">
                                             <a href="Associate.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Associate Savings</a>
                                         </li>
                                         <li>
@@ -54,11 +54,11 @@
 
                             <article>
                                 <header style="float: center;">
-                                    <h2> Savings Deposit - Regular</h2>
+                                    <h2> Savings Deposit - Associate</h2>
 
                                 </header>
                                 <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
-                                <p>•	Regular members who are willing to abide by the rules and regulations set by the cooperative.</p>
+                                <p>•	Associate members who have not meet all the criteria to become a regular member.</p>
                                 <h3> PRODUCT FEATURES</h3>
                                 <p>•	Initial  amount of deposit - 		Php 500.00</p>
                                 <p>•	Minimum deposit to earn interest - 	Php 500.00</p>

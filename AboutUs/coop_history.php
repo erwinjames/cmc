@@ -40,15 +40,6 @@
                             <section>
                                 <h3>Cooperative Principles</h3>
                                 <span class="image featured"><img src="images/principles.png" alt="" /></span>
-
-                                <!--     <ul class="links">
-                                    <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-                                    <li><a href="#">Ornare in hendrerit in lectus</a></li>
-                                    <li><a href="#">Semper mod quis eget mi dolore</a></li>
-                                    <li><a href="#">Consequat etiam lorem phasellus</a></li>
-                                    <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-                                    <li><a href="#">Semper mod quisturpis nisi</a></li>
-                                </ul> -->
                                 <footer>
                                     <h3>Cooperative Development Authority (CDA</h3>
                                     <p>

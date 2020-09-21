@@ -1,6 +1,6 @@
 <nav id="nav">
     <ul>
-        <li class="current"><a href="../index.php">Home</a></li>
+        <li><a href="../index.php">Home</a></li>
             <li>
             <a>About Us</a>
             <ul>
@@ -31,14 +31,14 @@
                 <li><a href="../gallery.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Gallery</a></li>
             </ul>
         </li>
-        <li>
+        <li class="current">
             <a href="#">Products and Services</a>
             <ul>
                 <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
                         <ul>
-                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Savings</a></li>
-                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Associate Savings</a></li>
-                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>YULABCO</a></li>
+                            <li><a href="Regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Savings</a></li>
+                            <li><a href="Associate.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Associate Savings</a></li>
+                            <li><a href="Yulabco.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>YULABCO</a></li>
                         </ul>
                 </li>
                 <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Time Deposits</a></li>
