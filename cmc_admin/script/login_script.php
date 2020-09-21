@@ -8,21 +8,19 @@ if(isset($_POST['login'])){
         $user_name = mysqli_real_escape_string($conn,$_POST["username"]);
         $user_password = mysqli_real_escape_string($conn,$_POST["password"]);
     
-        $stmt = "SELECT count(*) as cntUser,cmc_id FROM cmc_admin WHERE cmc_username=? and cmc_password= ?";
+        $stmt = "SELECT * FROM cmc_admin WHERE cmc_username=? and cmc_password=?";
         $stmt = $conn->prepare($stmt);
         $stmt->bind_param("ss",$user_name,$user_password);
         $stmt->execute();
         $stmt->store_result();
         $stmt->bind_result($user_name, $user_password);
         $user = $stmt->fetch();
-        $count = $user['cntUser'] ?? null;
-
-        if ($count!==false) {
-                $user_id = $record['cmc_id'];
-                $_SESSION['userid'] = $userid; 
+        if ($user!==false) {
+               
+                $_SESSION['username'] = $user_name; 
                 header('location:../pages/home.php');
                 exit;
-                # code...
+        
         }
         else{
                 echo "invalid something";

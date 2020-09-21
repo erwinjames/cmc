@@ -1,6 +1,6 @@
 <?php
  session_start();
- if(!isset($_SESSION["userid"])){
+ if(!isset($_SESSION["username"])){
   header('Location: ../index.php');
   exit;
 }
@@ -25,7 +25,7 @@
     <p class="name">
      <?php
 
-    echo  $_SESSION['userid'];
+    echo  $_SESSION['username'];
      
      ?>
    </p>
@@ -130,9 +130,11 @@
     <div class="mb-6">
     <textarea class="resize-y shadow appearance-none border rounded w-full py-6 px-3 rounded leading-tight focus:outline-none focus:shadow-outline" placeholder="Career Description" type="text" placeholder="Career Title"></textarea>
     </div>
+    <div class="mb-6 items-center justify-center">
     <button class="bg-blue-500 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
       Post This Career  
     </button>
+    </div>
     </form>
   </div>
 </div>  
