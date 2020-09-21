@@ -131,7 +131,7 @@ body,
     float: left;
 }
 
-button.function i {
+a.function i {
     border-radius: 50%;
     background-color: rgb(39, 165, 238);
     filter: drop-shadow(3.4px 3.4px 3.4px rgb(77, 154, 206)) drop-shadow(-3.4px -3.4px 3.4px white);
