@@ -120,9 +120,23 @@
                                         <p>•	Flexible Term: Max. of 36 months</p>
                                         <p>•	Mode of Payment: Daily, Weekly, Bi-Monthly & Monthly</p>
                                     </div>
+                                     <button class="colapse">Regular Loan Interest Rates and Charges</button>
+                                     <div class="contenting">
+                                        <h3>Interest Rate (Diminishing Method: based on diminishing principal balance)</h3>
+                                        <p>&nbsp &nbsp &nbsp - Fully Secured – 2.83% per month </p>
+                                        <p>&nbsp &nbsp &nbsp - Partially Secured – 3.00% per month</p>
+                                        <p>&nbsp &nbsp &nbsp - Unsecured – 3.16% per month</p>
+                                        <h3>Loan Charges</h3>
+                                        <p>&nbsp &nbsp &nbsp - 1% Share Capital Retention Fee</p>
+                                        <p>&nbsp &nbsp &nbsp - 1% Savings Deposit</p>
+                                        <p>&nbsp &nbsp &nbsp - 1% Consumer Goods</p>
+                                        <p>&nbsp &nbsp &nbsp - 3% Service Fee</p>
+                                        <p>&nbsp &nbsp &nbsp - 3.5% for mortgage fee of the collateral if there is</p>
+                                        <p>&nbsp &nbsp &nbsp - Loan Protection Insurance</p>
+                                    </div>
                                     <h3>Productive Loans</h3>
                                     <button class="colapse">Working Capital</button>
-                                     <div class="contenting">
+                                <div class="contenting">
                                     <h4>General Eligibility Requirements:</h4>
                                     <pre style="margin-left:-6em;">
                                     - Must be a regular member of Cordova Multipurpose Cooperative
@@ -142,20 +156,161 @@
                                     - Valid Business Permit
                                     - Statement of Income and Expenses if there’s any;
                                     </pre>
-                                    </div>
-                                    <button class="colapse">Regular Loan Interest Rates and Charges</button>
-                                     <div class="contenting">
-                                        <h3>Interest Rate (Diminishing Method: based on diminishing principal balance)</h3>
-                                        <p>&nbsp &nbsp &nbsp - Fully Secured – 2.83% per month </p>
-                                        <p>&nbsp &nbsp &nbsp - Partially Secured – 3.00% per month</p>
-                                        <p>&nbsp &nbsp &nbsp - Unsecured – 3.16% per month</p>
-                                        <h3>Loan Charges</h3>
-                                        <p>&nbsp &nbsp &nbsp - 1% Share Capital Retention Fee</p>
-                                        <p>&nbsp &nbsp &nbsp - 1% Savings Deposit</p>
-                                        <p>&nbsp &nbsp &nbsp - 1% Consumer Goods</p>
-                                        <p>&nbsp &nbsp &nbsp - 3% Service Fee</p>
-                                        <p>&nbsp &nbsp &nbsp - 3.5% for mortgage fee of the collateral if there is</p>
-                                        <p>&nbsp &nbsp &nbsp - Loan Protection Insurance</p>
+                                    <h4>Loan Conditions</h4>
+                                    <pre style="margin-left:-6em; ">
+                                    - The loan must be solely for the use of business working capital;
+                                    - Member should submit the detailed working capital requirement of the business;
+                                    </pre>
+                                            <button class="colapse">Term s of Loan and Repayment Schedule</button>
+                                        <div class="contenting">
+                                            <p>
+                                                <table style="width:100%" class="default">
+                                                    <tr>
+                                                        <th>Business Type</th>
+                                                        <th>Term</th>
+                                                        <th>Mode of Payment</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Sari – Sari Store</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Agrivet Supply</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fruit vending/Trading</td>
+                                                        <td>2 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Vegetable vending/Trading</td>
+                                                        <td>2 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Vegetable vending/Trading</td>
+                                                        <td>2 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Meat products vending/Trading</td>
+                                                        <td>2 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Lechon vending/Trading</td>
+                                                        <td>2 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Snacks vending</td>
+                                                        <td>2 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Scrap business</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>RTW business</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Carenderia/Eatery</td>
+                                                        <td>2 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Cellphone and accessories</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Bakery</td>
+                                                        <td>2 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Dried Fish</td>
+                                                        <td>2 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Internet Café</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Vulcanizing business</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fashion accessories</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Shells craft</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Stone craft</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Egg dealer</td>
+                                                        <td>2 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Tailoring/Dress shop</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Beauty and wellness business</td>
+                                                        <td>4 months</td>
+                                                        <td>Daily</td>
+                                                    </tr>
+                                                </table>
+                                            </p>
+                                            </div>
+                                    <h4>Collateral Requirements</h4>
+                                    <pre style="margin-left:-6em; ">
+                                    - List of inventories with affidavit of ownership;
+                                    - Personal or real properties.
+                                    </pre>
+                                    <h4>Maximum Loan Amount</h4>
+                                    <pre style="margin-left:-6em; ">
+                                    - First Loan – Php 5,000.00 maximum
+                                    - Loan Renewal – Php 30,000 maximum 
+                                    - Above Php 30,000 will be on a case to case basis.
+                                    </pre>
+                                    <h4>Interest Rates</h4>
+                                    <pre style="margin-left:-6em; ">
+                                    - Unsecured/Clean Loan – 2 % per month straight and to be deducted in advance from the loan proceeds;
+                                    - Fully Secured Loan – 1.5% per month straight and to be deducted in advance from the loan proceeds.
+                                    </pre>
+                                    <h4>Loan Charges</h4>
+                                    <pre style="margin-left:-6em; ">
+                                    -	Service Fee – 1.5 %
+                                    -	Share Capital Retention – 1%
+                                    -	Loan protection insurance premium
+                                    -	Penalty – 1% per month based on amount of arrears
+                                    </pre>
+                                    <h4>Loan Renewal Condition</h4>
+                                    <pre style="margin-left:-6em; ">
+                                    - Loan renewal can only be made when the existing working capital loan is in good standing and has already paid at least fifty percent (50%) of the loan principal and is updated with the payment of interest and penalties, if applicable.
+                                    - No additional loan can be granted if the existing loan is still delinquent.
+                                    </pre>
                                     </div>
                                     
                             </article>
