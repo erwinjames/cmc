@@ -58,84 +58,8 @@
                     <div class="col-8  col-12-narrower imp-narrower">
                         <div id="content">
                             <article>
-                                    <h3>Providential Loans</h3>
-                                    <button class="colapse">Appliance Loan</button>
-                                     <div class="contenting">
-                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>
-                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
-                                        <p>•	Original ownership & warranty Certificate will be surrendered to the cooperative</p>
-                                        <p>•	Flexible term: Max. of 36 months</p>
-                                        <p>•	Mode of Payment:  Bi-Monthly & Monthly</p>
-                                    </div>
-                                    <button class="colapse">Salary Loan</button>
-                                     <div class="contenting">
-                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>
-                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
-                                        <p>•	Member must be a regular employee of any government/private company</p>
-                                        <p>•	For Those with ATM: Member must surrender his/her Salary ATM Card</p>
-                                        <p>•	For Payroll Deduction: There must be an existing MOA between the coop and The employee’s employer & authority to Deduct Salary signed by borrower </p>
-                                        <p>•	Flexible Term: Max. of 36 months</p>
-                                        <p>•	Mode of Payment:  Bi-Monthly & Monthly</p>
-                                    </div>
-                                    <button class="colapse">Educational Loan</button>
-                                     <div class="contenting">
-                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>
-                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
-                                        <p>•	Member must have an identifiable education needs</p>
-                                        <p>•	Assessment from school, Statement of Account from School, Quotation from sastre/suppliers for uniforms, canvass from bookstores/department stores</p>
-                                        <p>•	Flexible Term: Max. of 36 months</p>      
-                                        <p>•	Mode of Payment:  Bi-Monthly & Monthly</p>  
-                                    </div>
-                                    <button class="colapse">Pensioners Loan</button>
-                                     <div class="contenting">
-                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>           
-                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
-                                        <p>•	Member must be a bonafide pensioner either by SSS/GSIS</p>
-                                        <p>•	Must present his/her Pension Voucher & Letter from SSS/GSIS granting pension benefit</p>
-                                        <p>•	Member must surrender his/her Pension ATM Card/Passbook in the Coop</p>
-                                        <p>•	Health of the pensioner must be taken into consideration upon loan approval</p>
-                                        <p>•	Loan must be fully/partial secured either by Real, Chattel / Personal properties</p>
-                                        <p>•	Flexible Term: Max. of 36 months</p>
-                                        <p>•	Mode of Payment: Monthly</p>
-                                    </div>
-                                    <button class="colapse">Vehicle Loan</button>
-                                     <div class="contenting">
-                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>
-                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
-                                        <p>•	Member must have a vehicle need</p>
-                                        <p>•	Original Registration (OR’s), Certificate or Registration (CR’s) & Franchise will be surrender to the Coop</p>
-                                        <p>•	Certificate of Registration must be Encumbered in favor to the Cooperative</p>
-                                        <p>•	Flexible Term: Max. of 36 months</p>
-                                        <p>•	Mode of Payment:  Daily, Weekly, Bi-Monthly & Monthly</p>
-                                    </div>
-                                    <button class="colapse">Multipurpose Loan</button>
-                                     <div class="contenting">
-                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>
-                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
-                                        <p>•	Member must have a need not in conformity with the existing loan products. Needs could be any one, two or more of the following:</p>
-                                        <p>&nbsp &nbsp &nbsp -Travel Expenses</p>
-                                        <p>&nbsp &nbsp &nbsp - Hospitalization</p>
-                                        <p>&nbsp &nbsp &nbsp - Maternity Expenses </p> 
-                                        <p>&nbsp &nbsp &nbsp - Payment of the financial obligation & Other Valid Purpose</p>                      
-                                        <p>•	Flexible Term: Max. of 36 months</p>
-                                        <p>•	Mode of Payment: Daily, Weekly, Bi-Monthly & Monthly</p>
-                                    </div>
-                                     <button class="colapse">Regular Loan Interest Rates and Charges</button>
-                                     <div class="contenting">
-                                        <h3>Interest Rate (Diminishing Method: based on diminishing principal balance)</h3>
-                                        <p>&nbsp &nbsp &nbsp - Fully Secured – 2.83% per month </p>
-                                        <p>&nbsp &nbsp &nbsp - Partially Secured – 3.00% per month</p>
-                                        <p>&nbsp &nbsp &nbsp - Unsecured – 3.16% per month</p>
-                                        <h3>Loan Charges</h3>
-                                        <p>&nbsp &nbsp &nbsp - 1% Share Capital Retention Fee</p>
-                                        <p>&nbsp &nbsp &nbsp - 1% Savings Deposit</p>
-                                        <p>&nbsp &nbsp &nbsp - 1% Consumer Goods</p>
-                                        <p>&nbsp &nbsp &nbsp - 3% Service Fee</p>
-                                        <p>&nbsp &nbsp &nbsp - 3.5% for mortgage fee of the collateral if there is</p>
-                                        <p>&nbsp &nbsp &nbsp - Loan Protection Insurance</p>
-                                    </div>
-                                    <h3>Productive Loans</h3>
-                                    <button class="colapse">Working Capital</button>
+                                <h3>Productive Loans</h3> 
+                                <button class="colapse">Working Capital</button>
                                 <div class="contenting">
                                     <h4>General Eligibility Requirements:</h4>
                                     <pre style="margin-left:-6em;">
@@ -311,8 +235,87 @@
                                     - Loan renewal can only be made when the existing working capital loan is in good standing and has already paid at least fifty percent (50%) of the loan principal and is updated with the payment of interest and penalties, if applicable.
                                     - No additional loan can be granted if the existing loan is still delinquent.
                                     </pre>
+                                    
+                                </div>
+                                    
+                                    <h3>Providential Loans</h3>
+                                    <button class="colapse">Appliance Loan</button>
+                                     <div class="contenting">
+                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>
+                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
+                                        <p>•	Original ownership & warranty Certificate will be surrendered to the cooperative</p>
+                                        <p>•	Flexible term: Max. of 36 months</p>
+                                        <p>•	Mode of Payment:  Bi-Monthly & Monthly</p>
+                                    </div>
+                                    <button class="colapse">Salary Loan</button>
+                                     <div class="contenting">
+                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>
+                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
+                                        <p>•	Member must be a regular employee of any government/private company</p>
+                                        <p>•	For Those with ATM: Member must surrender his/her Salary ATM Card</p>
+                                        <p>•	For Payroll Deduction: There must be an existing MOA between the coop and The employee’s employer & authority to Deduct Salary signed by borrower </p>
+                                        <p>•	Flexible Term: Max. of 36 months</p>
+                                        <p>•	Mode of Payment:  Bi-Monthly & Monthly</p>
+                                    </div>
+                                    <button class="colapse">Educational Loan</button>
+                                     <div class="contenting">
+                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>
+                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
+                                        <p>•	Member must have an identifiable education needs</p>
+                                        <p>•	Assessment from school, Statement of Account from School, Quotation from sastre/suppliers for uniforms, canvass from bookstores/department stores</p>
+                                        <p>•	Flexible Term: Max. of 36 months</p>      
+                                        <p>•	Mode of Payment:  Bi-Monthly & Monthly</p>  
+                                    </div>
+                                    <button class="colapse">Pensioners Loan</button>
+                                     <div class="contenting">
+                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>           
+                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
+                                        <p>•	Member must be a bonafide pensioner either by SSS/GSIS</p>
+                                        <p>•	Must present his/her Pension Voucher & Letter from SSS/GSIS granting pension benefit</p>
+                                        <p>•	Member must surrender his/her Pension ATM Card/Passbook in the Coop</p>
+                                        <p>•	Health of the pensioner must be taken into consideration upon loan approval</p>
+                                        <p>•	Loan must be fully/partial secured either by Real, Chattel / Personal properties</p>
+                                        <p>•	Flexible Term: Max. of 36 months</p>
+                                        <p>•	Mode of Payment: Monthly</p>
+                                    </div>
+                                    <button class="colapse">Vehicle Loan</button>
+                                     <div class="contenting">
+                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>
+                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
+                                        <p>•	Member must have a vehicle need</p>
+                                        <p>•	Original Registration (OR’s), Certificate or Registration (CR’s) & Franchise will be surrender to the Coop</p>
+                                        <p>•	Certificate of Registration must be Encumbered in favor to the Cooperative</p>
+                                        <p>•	Flexible Term: Max. of 36 months</p>
+                                        <p>•	Mode of Payment:  Daily, Weekly, Bi-Monthly & Monthly</p>
+                                    </div>
+                                    <button class="colapse">Multipurpose Loan</button>
+                                     <div class="contenting">
+                                        <p>•	Member with at least 20% share capital of the aggregate amount applied</p>
+                                        <p>•	Member must not have a past due loan amortization on other loans in the Coop</p>
+                                        <p>•	Member must have a need not in conformity with the existing loan products. Needs could be any one, two or more of the following:</p>
+                                        <p>&nbsp &nbsp &nbsp -Travel Expenses</p>
+                                        <p>&nbsp &nbsp &nbsp - Hospitalization</p>
+                                        <p>&nbsp &nbsp &nbsp - Maternity Expenses </p> 
+                                        <p>&nbsp &nbsp &nbsp - Payment of the financial obligation & Other Valid Purpose</p>                      
+                                        <p>•	Flexible Term: Max. of 36 months</p>
+                                        <p>•	Mode of Payment: Daily, Weekly, Bi-Monthly & Monthly</p>
+                                    </div>
+                                     <button class="colapse">Regular Loan Interest Rates and Charges</button>
+                                     <div class="contenting">
+                                        <h3>Interest Rate (Diminishing Method: based on diminishing principal balance)</h3>
+                                        <p>&nbsp &nbsp &nbsp - Fully Secured – 2.83% per month </p>
+                                        <p>&nbsp &nbsp &nbsp - Partially Secured – 3.00% per month</p>
+                                        <p>&nbsp &nbsp &nbsp - Unsecured – 3.16% per month</p>
+                                        <h3>Loan Charges</h3>
+                                        <p>&nbsp &nbsp &nbsp - 1% Share Capital Retention Fee</p>
+                                        <p>&nbsp &nbsp &nbsp - 1% Savings Deposit</p>
+                                        <p>&nbsp &nbsp &nbsp - 1% Consumer Goods</p>
+                                        <p>&nbsp &nbsp &nbsp - 3% Service Fee</p>
+                                        <p>&nbsp &nbsp &nbsp - 3.5% for mortgage fee of the collateral if there is</p>
+                                        <p>&nbsp &nbsp &nbsp - Loan Protection Insurance</p>
                                     </div>
                                     
+                               
                             </article>
                         </div>
                     </div>
