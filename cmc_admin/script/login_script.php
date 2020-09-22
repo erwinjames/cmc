@@ -10,10 +10,10 @@ if(isset($_POST['login'])){
     
         $stmt = "SELECT cmc_id,cmc_username,cmc_password FROM cmc_admin WHERE cmc_username=? and cmc_password=?";
         $stmt = $conn->prepare($stmt);
-        $stmt->bind_param("ss",$cmc_id,$user_name,$user_password);
+        $stmt->bind_param("ss",$user_name,$user_password);
         $stmt->execute();
         $stmt->store_result();
-        $stmt->bind_result($cmc_id,$user_name, $user_password);
+        $stmt->bind_result($user_name, $user_password);
         $user = $stmt->fetch();
         if ($user!==false) {
                
