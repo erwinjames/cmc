@@ -4632,3 +4632,41 @@ div .picture {
     border: 0.2rem solid var(--first-color);
     color: var(--first-color);
 }
+.colapse {
+    background-color:rgb(55, 144, 204);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .actives, .colapse:hover {
+    background-color: #37c0fb;
+  }
+  
+  .colapse:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .actives:after {
+    content: "\2212";
+  }
+  
+  .contenting {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 15px;
+    transition: max-height 0.2s ease-out;
+    background-color:rgb(221, 235, 243);
+  }
+ 
+  
