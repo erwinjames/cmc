@@ -16,7 +16,7 @@ if(isset($_POST['postCareer'])){
     }
     else{
         echo "<script>
-                    alert('not inserted');
+                    alert('Failed to Post');
              </script>";
     }
   
