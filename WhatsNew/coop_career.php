@@ -12,7 +12,7 @@
 </head>
 
 <body class="is-preload">
-    <div class="se-pre-con"></div>
+    <!-- <div class="se-pre-con"></div> -->
     <div id="page-wrapper">
 
     <?php include "../includes/header2.php";?>  
@@ -115,92 +115,35 @@
                         </div>
                     </div>
                 </div>
+               
+              
                 <div class="accordion">
                     <span class="target-fix" id="accordion"></span>
-                    <div>
-                        <span class="target-fix" id="accordion1"></span>
-                        <a href="#accordion1" id="open-accordion1" title="open">First Career</a>
-                        <a href="#accordion" id="close-accordion1" title="close">First Career</a>
-                        <div class="accordion-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ex eget ante dapibus finibus ut sed dui. Vivamus velit lectus, porttitor nec massa vel, tincidunt tempus lorem. Proin vel fermentum augue. In ornare,
-                                tortor vel sollicitudin scelerisque, lorem dui facilisis metus, eu ornare ligula nibh id lorem. In a condimentum turpis, porttitor consectetur magna. Donec posuere libero suscipit orci tincidunt tempus. Nullam placerat
-                                turpis non commodo fermentum. Donec ut tincidunt quam. In massa erat, rutrum et pretium in, posuere eget est. Aliquam mattis mauris gravida elementum molestie. Sed sit amet leo non eros convallis porta in ut est.</p>
-                        </div>
-                    </div>
-                    <div>
-                        <span class="target-fix" id="accordion2"></span>
-                        <a href="#accordion2" id="open-accordion2" title="open">Second Career</a>
-                        <a href="#accordion" id="close-accordion2" title="close">Second Career</a>
-                        <div class="accordion-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ex eget ante dapibus finibus ut sed dui. Vivamus velit lectus, porttitor nec massa vel, tincidunt tempus lorem. Proin vel fermentum augue. In ornare,
-                                tortor vel sollicitudin scelerisque, lorem dui facilisis metus, eu ornare ligula nibh id lorem. In a condimentum turpis, porttitor consectetur magna. Donec posuere libero suscipit orci tincidunt tempus. Nullam placerat
-                                turpis non commodo fermentum. Donec ut tincidunt quam. In massa erat, rutrum et pretium in, posuere eget est. Aliquam mattis mauris gravida elementum molestie. Sed sit amet leo non eros convallis porta in ut est.</p>
-
-                        </div>
-                    </div>
-
+                    <?php
+                include "../includes/connection.php";
+                $sql= "SELECT * FROM career";
+                $stmt = $conn->prepare($sql);
+                $stmt->execute();
+                $resultSet = $stmt->get_result();
+                $result = $resultSet->fetch_all();
+                foreach($result as $row){    ?>
 
                     <div>
-                        <span class="target-fix" id="accordion3"></span>
-                        <a href="#accordion3" id="open-accordion3" title="open">Third Career</a>
-                        <a href="#accordion" id="close-accordion3" title="close">Third Career</a>
+                        <span class="target-fix" id="accordion<?php echo $row[0]; ?>"></span>
+                        <a href="#accordion<?php echo $row[0]; ?>" id="open-accordion<?php echo $row[0]; ?>" title="open"><?php echo $row[1]; ?></a>
+                        <a href="#accordion" id="close-accordion<?php echo $row[0]; ?>" title="close"><?php echo $row[1]; ?></a>
                         <div class="accordion-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ex eget ante dapibus finibus ut sed dui. Vivamus velit lectus, porttitor nec massa vel, tincidunt tempus lorem. Proin vel fermentum augue. In ornare,
-                                tortor vel sollicitudin scelerisque, lorem dui facilisis metus, eu ornare ligula nibh id lorem. In a condimentum turpis, porttitor consectetur magna. Donec posuere libero suscipit orci tincidunt tempus. Nullam placerat
-                                turpis non commodo fermentum. Donec ut tincidunt quam. In massa erat, rutrum et pretium in, posuere eget est. Aliquam mattis mauris gravida elementum molestie. Sed sit amet leo non eros convallis porta in ut est.</p>
-
-                        </div>
-
-                    </div>
-                    <div>
-                        <span class="target-fix" id="accordion4"></span>
-                        <a href="#accordion4" id="open-accordion4" title="open">Fourth Career</a>
-                        <a href="#accordion" id="close-accordion4" title="close">Fourth Career</a>
-                        <div class="accordion-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ex eget ante dapibus finibus ut sed dui. Vivamus velit lectus, porttitor nec massa vel, tincidunt tempus lorem. Proin vel fermentum augue. In ornare,
-                                tortor vel sollicitudin scelerisque, lorem dui facilisis metus, eu ornare ligula nibh id lorem. In a condimentum turpis, porttitor consectetur magna. Donec posuere libero suscipit orci tincidunt tempus. Nullam placerat
-                                turpis non commodo fermentum. Donec ut tincidunt quam. In massa erat, rutrum et pretium in, posuere eget est. Aliquam mattis mauris gravida elementum molestie. Sed sit amet leo non eros convallis porta in ut est.</p>
-
+                           <h4>Description</h4>
+                            <p><?php echo $row[2]; ?></p><br>
+                            <h4>Qualifications</h4>
+                            <p><?php echo $row[3]; ?></p>
                         </div>
                     </div>
-
-
-                    <div>
-                        <span class="target-fix" id="accordion5"></span>
-                        <a href="#accordion5" id="open-accordion5" title="open">Fifth Career</a>
-                        <a href="#accordion" id="close-accordion4" title="close">Fifth Career</a>
-                        <div class="accordion-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ex eget ante dapibus finibus ut sed dui. Vivamus velit lectus, porttitor nec massa vel, tincidunt tempus lorem. Proin vel fermentum augue. In ornare,
-                                tortor vel sollicitudin scelerisque, lorem dui facilisis metus, eu ornare ligula nibh id lorem. In a condimentum turpis, porttitor consectetur magna. Donec posuere libero suscipit orci tincidunt tempus. Nullam placerat
-                                turpis non commodo fermentum. Donec ut tincidunt quam. In massa erat, rutrum et pretium in, posuere eget est. Aliquam mattis mauris gravida elementum molestie. Sed sit amet leo non eros convallis porta in ut est.</p>
-
-                        </div>
-                    </div>
-
-                    <div>
-                        <span class="target-fix" id="accordion6"></span>
-                        <a href="#accordion6" id="open-accordion6" title="open">sixth Career</a>
-                        <a href="#accordion" id="close-accordion6" title="close">sixth Career</a>
-                        <div class="accordion-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ex eget ante dapibus finibus ut sed dui. Vivamus velit lectus, porttitor nec massa vel, tincidunt tempus lorem. Proin vel fermentum augue. In ornare,
-                                tortor vel sollicitudin scelerisque, lorem dui facilisis metus, eu ornare ligula nibh id lorem. In a condimentum turpis, porttitor consectetur magna. Donec posuere libero suscipit orci tincidunt tempus. Nullam placerat
-                                turpis non commodo fermentum. Donec ut tincidunt quam. In massa erat, rutrum et pretium in, posuere eget est. Aliquam mattis mauris gravida elementum molestie. Sed sit amet leo non eros convallis porta in ut est.</p>
-
-                        </div>
-                    </div>
-
-                    <div>
-                        <span class="target-fix" id="accordion7"></span>
-                        <a href="#accordion7" id="open-accordion7" title="open">seventh Career</a>
-                        <a href="#accordion" id="close-accordion7" title="close">seventh Career</a>
-                        <div class="accordion-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ex eget ante dapibus finibus ut sed dui. Vivamus velit lectus, porttitor nec massa vel, tincidunt tempus lorem. Proin vel fermentum augue. In ornare,
-                                tortor vel sollicitudin scelerisque, lorem dui facilisis metus, eu ornare ligula nibh id lorem. In a condimentum turpis, porttitor consectetur magna. Donec posuere libero suscipit orci tincidunt tempus. Nullam placerat
-                                turpis non commodo fermentum. Donec ut tincidunt quam. In massa erat, rutrum et pretium in, posuere eget est. Aliquam mattis mauris gravida elementum molestie. Sed sit amet leo non eros convallis porta in ut est.</p>
-
-                        </div>
-                    </div>
+                 
+                    <?php }?>
+                    
                 </div>
+               
             </div>
         </section>
 
