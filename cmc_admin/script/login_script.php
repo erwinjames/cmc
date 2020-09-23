@@ -8,7 +8,7 @@ if(isset($_POST['login'])){
         $user_name = mysqli_real_escape_string($conn,$_POST["username"]);
         $user_password = mysqli_real_escape_string($conn,$_POST["password"]);
     
-        $stmt = "SELECT cmc_id,cmc_username,cmc_password FROM cmc_admin WHERE cmc_username=? and cmc_password=?";
+        $stmt = "SELECT * FROM cmc_admin WHERE cmc_username=? and cmc_password=?";
         $stmt = $conn->prepare($stmt);
         $stmt->bind_param("ss",$user_name,$user_password);
         $stmt->execute();
@@ -16,8 +16,8 @@ if(isset($_POST['login'])){
         $stmt->bind_result($user_name, $user_password);
         $user = $stmt->fetch();
         if ($user!==false) {
-               
-                $_SESSION['username'] = $user_name; 
+                $_SESSION['id']=$user[0];
+                $_SESSION['username'] = $user[1]; 
                 header('location:../pages/home.php');
                 exit;
         

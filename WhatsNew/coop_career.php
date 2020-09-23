@@ -121,17 +121,16 @@
                     <span class="target-fix" id="accordion"></span>
                     <?php
                 include "../includes/connection.php";
-                $sql= "SELECT * FROM career";
+                $sql= "SELECT * FROM career where stats=1";
                 $stmt = $conn->prepare($sql);
                 $stmt->execute();
                 $resultSet = $stmt->get_result();
                 $result = $resultSet->fetch_all();
                 foreach($result as $row){    ?>
-
-                    <div>
+                  <div>
                         <span class="target-fix" id="accordion<?php echo $row[0]; ?>"></span>
-                        <a href="#accordion<?php echo $row[0]; ?>" id="open-accordion<?php echo $row[0]; ?>" title="open"><?php echo $row[1]; ?></a>
-                        <a href="#accordion" id="close-accordion<?php echo $row[0]; ?>" title="close"><?php echo $row[1]; ?></a>
+                        <a href="#accordion<?php echo $row[0]; ?>" id="open-accordion<?php echo $row[0]; ?>" title="open"><?php echo $row[1]; ?>:&nbsp;&nbsp;<small><?php echo $row[4];?></small></a>
+                        <a href="#accordion" id="close-accordion<?php echo $row[0]; ?>" title="close"><?php echo $row[1]; ?>:&nbsp;&nbsp;<small style="color:gray"><?php echo $row[4];?></small></a>
                         <div class="accordion-content">
                            <h4>Description</h4>
                             <p><?php echo $row[2]; ?></p><br>
@@ -139,7 +138,7 @@
                             <p><?php echo $row[3]; ?></p>
                         </div>
                     </div>
-                 
+                    
                     <?php }?>
                     
                 </div>
