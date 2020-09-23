@@ -45,9 +45,9 @@ $(document).ready(function(){
 	var i=1;
 	strings.forEach(function(element){ 
   	if(strings.length==i)
-  		textAreaContent += ">"+ element;
+  		textAreaContent += "•"+ element;
     else
-    	textAreaContent += ">"+ element+"\n";
+    	textAreaContent += "•"+ element+"\n";
     i++;
   });
   $("#banner-message").val(textAreaContent);  
@@ -57,14 +57,13 @@ $("#display").click(function(){
 	$(this).css("display","none");
   $("#banner-message").css("display","");
   var currentText= $("#banner-message").val();
-  //currentText+="\n>";
   $("#banner-message").val(currentText);
 	$("#banner-message").focus();
 });
 
 $("#banner-message").blur(function(){
  var currentText=$("#banner-message").val();
- var plainText=currentText.replace(/>/g, "")
+ var plainText=currentText.replace(/•/g, "")
  var splitText=plainText.split("\n");
  console.log(splitText);
  	htmlContent='';
@@ -79,7 +78,7 @@ $("#banner-message").keyup(function(e) {
    var code = e.keyCode ? e.keyCode : e.which;
    if (code == 13) {  
    			var text=$(this).val();
-        text+=">";
+        text+="•";
         $(this).val(text);
      }
    });
