@@ -5,8 +5,8 @@
     <title>Cordova Multipupose Cooperative</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link href="assets/css/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link href="../assets/css/aos.css" rel="stylesheet">
 
 
 </head>
@@ -15,7 +15,7 @@
     <div class="se-pre-con"></div>
     <div id="page-wrapper">
 
-    <?php include "includes/header.php";?>  
+    <?php include "../includes/header2.php";?>  
     <nav id="nav">
     <ul>
         <li ><a href="index.php">Home</a></li>
@@ -152,8 +152,6 @@
                         </div>
 
                     </div>
-
-
                     <div>
                         <span class="target-fix" id="accordion4"></span>
                         <a href="#accordion4" id="open-accordion4" title="open">Fourth Career</a>
@@ -207,19 +205,19 @@
         </section>
 
         <!-- Footer -->
-        <?php include "includes/footer.php"?>
+        <?php include "../includes/footer.php"?>
  
 
     <!-- Scripts -->
   <!-- <script src="assets/js/jquery.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="assets/js/jquery.dropotron.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/jquery.dropotron.min.js"></script>
+  <script src="../assets/js/browser.min.js"></script>
+  <script src="../assets/js/breakpoints.min.js"></script>
+  <script src="../assets/js/util.js"></script>
+  <script src="../assets/js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-  <script src="assets/js/loading.js"></script>
+  <script src="../assets/js/loading.js"></script>
 
 </body>
 

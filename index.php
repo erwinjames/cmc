@@ -97,7 +97,7 @@
             <a href="#">What's new</a>
             <ul>
                 <li><a href="coop_news.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop News</a></li>
-                <li><a href="coop_career.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop Career</a></li>
+                <li><a href="WhatsNew/coop_career.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop Career</a></li>
             </ul>
         </li>
         <li>
