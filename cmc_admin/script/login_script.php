@@ -25,14 +25,6 @@ if(isset($_POST['login'])){
         else{
                 echo "invalid something";
         }
-        // if ($user==true) {
-         
-        //      $_SESSION["cmc_id"]= $user["cmc_id"];
-        //      $_SESSION["cmc_name"] = $user_name;
-        //     header('location:../pages/home.php');
-        //     exit;
-        // }else{
-        //         echo "wrong";
-        // }  
+      
 }
 ?>

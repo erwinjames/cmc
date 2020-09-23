@@ -206,6 +206,15 @@ a.function i {
 .justify-end {
     float: right;
 }
+.message {
+    background: #fff;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 14px;
+    transition: all 0.2s;
+    width:350px;
+    height:100px;
+  }
 
 @media screen and (max-width: 780px) {
     .page-content {
