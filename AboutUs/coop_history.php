@@ -66,43 +66,97 @@
 
                                 <span class="image featured"><img src="../images/history.png" alt="" /></span>
 
-                                <h3>October 30-31 & November 1, 1971</h3>
-                                <p> Rev. Fr. Rudy Abao, MSC initiated Self-discovery Seminar to 25 Parishioners</p>
-                                <p> November 15 to December 11, 1971- 1st PMES to 25 participants was conducted </p>
+                                <p>Cordova Multipurpose Cooperative is a large cooperative and one of the pioneering 
+                                    cooperatives in Cebu that offers competitive financial products such as Savings,
+                                     Time Deposits and Loans and other allied services to its members with a strong 
+                                     mission of uplifting the lives and the socio-economic condition of the member-owners
+                                      of the cooperative.</p>
 
-                                <h3>December 12, 1971</h3>
-                                <p>1st Organizational Meeting elected officers of the cooperative or the ad-hoc officers, initial capital was P250.00
+                                <h3>HISTORICAL BACKGROUND </h3>
+                                <p> It was in the midst of chaos and national unrest that Cordova Credit Union Incorporated was 
+                                    organized and was among those pioneering organizations that responded to the call of the 
+                                    National Secretariat of Social Action (NASSA). It was founded by Fr. Rudy Abao, MSC and its 
+                                    pioneer members were 25 parishioners who had attended the one month long Pre-Membership Education Seminar.</p>
+                                <p>The First Pre-Membership Education Seminar (PMES)was held on November 15, 2020 to December 11, 1971 
+                                    and was facilitated by Fr. Rudy Abao, MSC.</p>
+                                <p>The First organizational meeting was held on December 12, 1971 wherein the 25 pioneer - members put up 
+                                     Php 10.00 each as their share capital contribution that totalled to Php 250.00 which eventually became the 
+                                     initial capital of the Cooperative. </p>   
+                                <p>On March 14, 1972 the cooperative was registered at Cooperative Administration Office (CAO) with the name 
+                                      CORDOVA COOPERATIVE CREDIT UNION.</p>   
+                                <p>The declaration of Martial Law on September 21, 1972 led to the enactment of Republic Act 2023 and PD 175 
+                                    which mandated all Cooperatives to register in the Bureau of Cooperative Development hence, 
+                                    CORDOVA COOPERATIVE CREDIT UNION with a new name, CORDOVA CREDIT COOPERATIVE INC., was registered as 
+                                    full-fledged cooperative on October 5, 1973 with Certificate of Registration No. FF-01-RR. </p>   
+                                <table class="default">
+                                    <tr>
+                                        <td><h4>First BOD Chairman:</h4></td>
+                                        <td>Silvina Jumao-as</td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4>Vice Chairman: </h4></td>
+                                        <td>Gerardo Fajardo Jr.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4>Members:</h4> </td>
+                                        <td>
+                                            Carmencita Tomaquin
+                                            <br>
+                                            Adelina Pogoy
+                                            <br>
+                                            Panfilo Celocia
+                                            <br>
+                                            Felicidad Arcales
+                                            <br>
+                                            Lucita Dente 
+                                        </td>
+                                      
+                                    </tr>
+                                    <tr>
+                                        <td><h4>First treasurer:</h4> </td>
+                                        <td>Josefina Berdin</td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4>First Secretary: </h4></td>
+                                        <td>Carmencita Tomaquin</td>
+                                    </tr>
+                                </table>
+                                <p>After 5 years of existence as a Credit Cooperative, the General Membership during its General Assembly 
+                                    approved for the establishment of a Consumer store to respond to their demands and needs for consumer goods. 
                                 </p>
-                                <h3>March 14, 1972</h3>
+                                <p>
+                                In July 5, 1978, a Consumer store was opened and its initial capital was taken out from the accumulated and 
+                                undistributed dividends and patronage refunds of its members. It was registered as a separate Cooperative 
+                                on July 9, 1981 with the name CORDOVA CONSUMER COOPERATIVE INC.
+                                </p>
+                                <p>
+                                The separate registrations of the Cordova Credit Cooperative, Inc. and Cordova Consumer cooperative, Inc.
+                                 were confirmed by the newly established Cooperative Development Authority (CDA) on January 16, 1991 & April 8, 1991, respectively. 
+                                </p>
 
-                                <p>Registered as Pre-coop at the Cooperative Administration Office with the name CORDOVA COOPERATIVE CREDIT UNION
+                                <p>
+                                After several years of operating separately, a special General Assembly was conducted that approved the merger and consolidation
+                                 of Cordova Credit Cooperative, Inc. and Cordova Consumer Cooperative , by which it was registered on June 1993 as CORDOVA MULTIPURPOSE COOPERATIVE and was identified as the first Consolidated Cooperative in Region V11, and was given with Certificate of Consolidation No. CBU-CSN-93-001. 
                                 </p>
-                                <h3>March 14, 1972</h3>
-                                <p>Registered as full-fledged Coop with the name CORDOVA CREDIT COOPERATIVE INC(CCCI)
+                                <p>
+                                June 19, 1993 – Cordova Multipurpose Cooperative opened its first branch at Lapu-Lapu City.
                                 </p>
-
-                                <h3>July 5, 1978</h3>
-                                <p>Consumer Store was opened, due to members demand the capital was from member’s dividend & patronage refund
+                                <p>
+                                Year 2002 – Cordova Multipurpose Cooperative started its operations of Lumber business.
                                 </p>
-                                <h3>July 9, 1981</h3>
-                                <p>Consumer store was registered as a separate coop and was named as CORDOVA CONSUMERS COOPERATIVE INC. (CCONCI)
+                                <p>
+                                May 2006 – Cordova Multipurpose Cooperative transferred its new office at Crossroad of Poblacion, Cordova, Cebu.
                                 </p>
-
-                                <h3>June 19,1993</h3>
-                                <p>Consolidation of CCCI & CCONCI with the new name CORDOVA MULTIPURPOSE COOPERATIVE
+                                <p>
+                                March 28, 2007 – Cordova Multipurpose Cooperative opened its branch at Basak, Lapu Lapu City.
                                 </p>
-                                <h3>
-                                    <p>December 13, 1993- Opening of Lapu-lapu Branch</p>
-                                </h3>
-                                <h3>
-                                    <p>March 28, 2007 - Opening of Basak Branch</p>
-                                </h3>
-                                <h3>
-                                    <p>October 30, 2008 - Opening of Olango Branch</p>
-                                </h3>
-                                <h3>
-                                    <p>September 8, 2016 - Opening of Mandaue Satellite Office</p>
-                                </h3>
+                                <p>
+                                October 30, 2008 – Cordova Multipurpose Cooperative opened its branch at Olango Island, Lapu Lapu City.
+                                </p>
+                                <p>
+                                September 8, 2016 – Cordova Multipurpose Cooperative opened its first satellite office at Mandaue City.
+                                </p>
+                               
                             </article>
 
                         </div>

@@ -2120,7 +2120,12 @@ ul.actions.fit.stacked {
 table {
     width: 100%;
 }
-
+table.tbinfo{
+    width: 100%;
+}
+table.tbInfo tbody tr td th  {
+    border: solid 1px #e0e0e0;
+}
 table.default {
     width: 100%;
 }
@@ -4669,4 +4674,3 @@ div .picture {
     background-color:rgb(221, 235, 243);
   }
  
-  

@@ -1,7 +1,7 @@
 <nav id="nav">
     <ul>
         <li><a href="../index.php">Home</a></li>
-            <li>
+        <li>
             <a>About Us</a>
             <ul>
             <li><a href="../AboutUs/coop_VMG.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Mission,Vision,Goals</a></li>
@@ -31,13 +31,13 @@
                 <li><a href="../AboutUs/gallery.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Gallery</a></li>
             </ul>
         </li>
-        <li class="current">
+        <li>
             <a href="#">Products and Services</a>
             <ul>
-                <li><a href="regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
+                <li><a href="../Product&Services/regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
                 </li>
-                <li><a href="TimeDeposit.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Time Deposits</a></li>
-                <li><a href="loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a>
+                <li><a href="../Product&Services/TimeDeposit.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Time Deposits</a></li>
+                <li><a href="../Product&Services/loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a>
                 </li>
                
                 <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Members Benefits</a>
@@ -56,15 +56,15 @@
                 <li><a href="../Membership/downloads.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Downloads</a></li>
             </ul>
         </li>
-        <li>
+        <li class="current">
             <a href="#">What's new</a>
             <ul>
-                <li><a href="../Whatsnew/coop_news.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop News</a></li>
-                <li><a href="../whatsnew/coop_career.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop Career</a></li>
+                <li><a href="coop_news.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop News</a></li>
+                <li><a href="coop_career.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop Career</a></li>
             </ul>
         </li>
         <li>
-            <a href="">Contact Us</a>
+            <a >Contact Us</a>
             <ul>
                 <li>
                     <a href="../ContactUs/contact_details.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Contact Details</a>

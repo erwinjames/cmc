@@ -34,21 +34,12 @@
         <li>
             <a href="#">Products and Services</a>
             <ul>
-                <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
-                        <ul>
-                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Savings</a></li>
-                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Associate Savings</a></li>
-                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>YULABCO</a></li>
-                        </ul>
+                <li><a href="../Product&Services/regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
+                      
                 </li>
-                <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Time Deposits</a></li>
-                <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a>
-                     <ul>
-                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Providential</a></li>
-                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Productive</a></li>
-                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Real Estate</a></li>
-                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Back to Back</a></li>
-                     </ul>
+                <li><a href="../Product&Services/TimeDeposit.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Time Deposits</a></li>
+                <li><a href="../Product&Services/loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a>
+                   
                 </li>
                
                 <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Members Benefits</a>

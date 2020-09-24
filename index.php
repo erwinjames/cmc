@@ -51,23 +51,11 @@
         <li>
             <a href="#">Products and Services</a>
             <ul>
-                <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
-                        <ul>
-                            <li><a href="../cmc/Product&Services/Regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Savings</a></li>
-                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Associate Savings</a></li>
-                            <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>YULABCO</a></li>
-                        </ul>
+                <li><a href="Product&Services/regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
                 </li>
-                <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Time Deposits</a></li>
-                <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a>
-                     <ul>
-                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Providential</a></li>
-                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Productive</a></li>
-                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Real Estate</a></li>
-                         <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Back to Back</a></li>
-                     </ul>
+                <li><a href="Product&Services/TimeDeposit.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Time Deposits</a></li>
+                <li><a href="Product&Services/loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a>
                 </li>
-               
                 <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Members Benefits</a>
                    <ul>
                        <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Death Assurance (FONUS)</a></li>
@@ -87,10 +75,10 @@
             <a href="">Membership</a>
             <ul>
                 <li>
-                    <a href="regular_membership.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Membership</a>
+                    <a href="membership/regular_membership.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Membership</a>
                 </li>
-                <li><a href="Online_Membership.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Online Membership</a></li>
-                <li><a href="downloads.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Downloads</a></li>
+                <li><a href="membership/Online_Membership.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Online Membership</a></li>
+                <li><a href="membership/downloads.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Downloads</a></li>
             </ul>
         </li>
         <li>
