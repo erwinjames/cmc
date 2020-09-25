@@ -85,8 +85,7 @@
                                     - The loan must be solely for the use of business working capital;
                                     - Member should submit the detailed working capital requirement of the business;
                                     </pre>
-                                            <button class="colapse">Term s of Loan and Repayment Schedule</button>
-                                        <div class="contenting">
+                                    <h4> Term s of Loan and Repayment Schedule</h4>
                                             <p>
                                                 <table style="width:100%" class="default">
                                                     <tr>
@@ -206,7 +205,7 @@
                                                     </tr>
                                                 </table>
                                             </p>
-                                            </div>
+                                            
                                     <h4>Collateral Requirements</h4>
                                     <pre style="margin-left:-6em; ">
                                     - List of inventories with affidavit of ownership;
@@ -236,6 +235,79 @@
                                     - No additional loan can be granted if the existing loan is still delinquent.
                                     </pre>
                                     
+                                </div>
+                                <button class="colapse">Credit Line Loan</button>
+                                <div class="contenting">
+                                    <h4>General Eligibility Requirements:</h4>
+                                    <pre style="margin-left:-6em;">
+                                    -	Must be a regular member of Cordova Multipurpose Cooperative;
+                                    -	Member has complied the minimum amount required for Share Capital and Savings Deposit;
+                                    -	Member should have an establish business enterprise that he or she manages;
+                                    -	Member must not have an outstanding delinquent and past due loan.
+                                    </pre>
+                                    <h4>Working Capital Need could be the following</h4>
+                                    <pre  style="margin-left:-6em;" >
+                                    -	Additional capital for business;
+                                    -	Merchandise Inventories such as groceries, lumber materials, RTW’s, pork or chicken meats, fruits and 
+                                        vegetables, fish, flour, rice, and other goods for use or for sale depending on the type of business.
+                                    -	Worker’s payroll
+                                    -	Power, Light & Water used in the operation
+                                    -	Other operational cost in the business.
+                                    </pre>
+                                    <h4>Basic Processing Requirements Needed</h4>
+                                    <pre  style="margin-left:-6em;">
+                                    -	Valid Business Permit
+                                    -	Business registration (DTI/SEC)
+                                    -	TIN
+                                    -	Statement of Income and Expenses 
+                                    -	Working capital requirements/purchases
+                                    -	Bank Statements
+                                    -	Feasibility Study ( for new business and expansion programs )
+                                    -	Audited Financial Statements as required.
+                                    -	Others as required.
+                                    </pre>
+                                    <h4>Terms and Conditions</h4>
+                                    <pre style="margin-left:-6em;">
+                                    -	Membership should be a regular member of at least One year and has shown good credit dealings with the coop;
+                                    -	Term of the line is for one year, renewable;
+                                    -	Availments may be made by way of a 30-365 days promissory note with a minimum amount that must be set by the 
+                                        Board of Directors;
+                                    -	Interest payable every month;
+                                    -	Principal is payable not later than or upon the maturity of the promissory note;
+                                    -	Partial payments on principal are allowed against availments before maturity of the PN;
+                                    -	Covered by a credit line agreement or comprehensive surety agreement;
+                                    -	Maybe secured or unsecured;
+                                    -	A line availment shall be prepared upon every availment;
+                                    -	Renewal of the line shall be done one month before its expiry date;
+                                    -	The loan must be solely for the use of business working capital;
+                                    -	Member should submit the detailed working capital requirement of the business;
+                                    -	All loans amortization should be supported with check;
+                                    -	If one or more credit line availment is delinquent, additional credit line will not be allowed
+                                    </pre>
+                                    <h4>Collateral Requirements</h4>
+                                    <pre style="margin-left:-6em;">
+                                    -	List of inventories with affidavit of ownership;
+                                    -	Personal or real properties.
+                                    -	Collateral value is more or less equal to the amount of loan applied.
+                                    </pre>
+                                    <h4>Loan Amount</h4>
+                                    <pre style="margin-left:-6em;">
+                                    -	Minimum = Php100,000.00
+                                    -	Maximum =Php 1,000,000.00
+                                    </pre >
+                                    <h4>Interest Rates</h4>
+                                    <pre style="margin-left:-6em;">
+                                    -	1.5 % per month straight based on loan amount applied every draw down.
+                                    </pre>
+                                    <h4>Loan Charges</h4>
+                                    <pre style="margin-left:-6em;">
+                                    -	Service Fee – 1.5 %
+                                    -	Share Capital Retention – 1%
+                                    -	Loan protection insurance premium
+                                    -	Penalty – 1% per month based on total amount due
+
+                                    Loan Charges will be applied every draw down based on loan amount applied.
+                                    </pre>
                                 </div>
                                     
                                     <h3>Providential Loans</h3>
@@ -314,8 +386,108 @@
                                         <p>&nbsp &nbsp &nbsp - 3.5% for mortgage fee of the collateral if there is</p>
                                         <p>&nbsp &nbsp &nbsp - Loan Protection Insurance</p>
                                     </div>
-                                    
-                               
+                                    <button class="colapse">Petty Cash/Express Loan</button>
+                                <div class="contenting">
+                                    <pre style="margin-left:-6em;">
+                                    •	Member with at least 20% share capital of the aggregate amount applied
+                                    •	Member must not have a past due loan amortization on other loans in the Coop
+                                    •	Member should have an emergency financial need
+                                    •	Loanable Amount: Max of P 30,000
+                                    •	Terms of Payment: Max of 6 months
+                                    •	Mode of Payment: Daily, Weekly, Bi-Monthly & Monthly
+                                    •	Interest Rate: 6% per month (Diminishing Method: based on diminishing principal balance)
+                                    •	Service Fee – 3%
+                                    •	Loan Protection Insurance
+                                     </pre>
+                                </div>
+                                    <h3>Back to Back Loan</h3>
+                                    <button class="colapse">Against Savings Deposits</button>
+                                 <div class="contenting">
+                                    <pre style="margin-left:-6em;">
+                                    •	Member must surrender his/her Savings Deposit passbook
+                                    •	Deed of Assignment Form signed by the barrower
+                                    •	Not subject to share capital ratio requirement
+                                    •	Maximum of 100% loanable amount if interest is collected in advance up to due date or monthly interest collection
+                                    •	80% loanable amount if interest is to be collected upon due date/end of term
+                                    •	Flexible term: Max. of 12 months
+                                    •	Mode of Payment:  Monthly
+                                     </pre>
+                                     <h4>Interest Rate (Diminishing Method)</h4>
+                                     <pre style="margin-left:-6em;">
+                                     * Fully Secured – effective interest rate is equivalent to savings deposit interest rate 4% + 5% spread
+                                     </pre>
+                                     <h4>Loan Charges</h4>
+                                     <pre style="margin-left:-6em;">
+                                     * 1% Service Fee
+                                     * Loan Protection Insurance 
+                                     </pre>
+                                </div>
+                                    <button class="colapse">Against Time Deposits</button>
+                                <div class="contenting">
+                                    <pre style="margin-left:-6em;">
+                                    •	Member must surrender his/her Time Deposit Certificate
+                                    •	Deed of Assignment Form signed by the barrower
+                                    •	Time Deposit Account must be hold out
+                                    •	Not subject to share capital ratio requirement
+                                    •	Maximum of 100% loanable amount if interest is collected in advance up to due date or monthly interest collection
+                                    •	80% loanable amount if interest is to be collected upon due date/end of term
+                                    •	Flexible term: Minimum of 3 months and Maximum of 12 months
+                                    •	Mode of Payment:  Monthly or upon maturity
+                                    </pre>
+                                    <h4>Interest Rate (Diminishing Method)</h4>
+                                    <pre style="margin-left:-6em">
+                                    * Fully Secured – effective interest rate is equivalent to time deposit interest rate + 5% spead
+                                    </pre>
+                                    <h4>Loan Charges </h4>
+                                    <pre style="margin-left:-6em;">
+                                    * 1% Service Fee
+                                    * Loan Protection Insurance
+                                    </pre>
+                                </div>
+                                  <h3>Real Estate Loan</h3>
+                                  <button class="colapse">Real Property Loan</button>
+                                <div class="contenting">
+                                  <pre style="margin-left:-6em;">
+                                    •	Member with at least 20% share capital of the aggregate amount applied
+                                    •	Member must not have a past due loan amortization on other loans in the Coop
+                                    •	Member should have a real property need. It could be housing materials & labor for 
+                                        housing construction, purchase of a lot, purchase of house & lot, bills, cost canvass of materials, 
+                                        sketch plan & blueprint
+                                    •	There should be a contract o sell between the member & the vendor
+                                    •	Flexible term: Max. of 36 months
+                                    •	Mode of Payment:  Bi-Monthly & Monthly
+                                  </pre>
+                                </div>
+                                <button class="colapse">House repair/Improvement Loan</button>
+                                <div class="contenting">
+                                <pre style="margin-left:-6em;">
+                                •	Member with at least 20% share capital of the aggregate amount applied
+                                •	Member must not have a past due loan amortization on other loans in the Coop
+                                •	Member must have a housing materials/labor needs for its own house
+                                •	Bills of housing materials, Cost estimate, Material canvass, Labor for construction
+                                •	Flexible term: Max. of 36 months
+                                •	Mode of Payment:  Bi-Monthly & Monthly
+                                </pre>
+                                </div>
+                                <button class="colapse">Real Estae Loan Interest Rates and Charges</button>
+                                <div class="contenting">
+                                <h4>Interest Rate (Diminishing Method: based on diminishing principal balance)</h4>
+                                <pre style="margin-left:-6em;">
+                                * Fully Secured – 2.83% per month
+                                * Partially Secured – 3.00% per month
+                                * Unsecured – 3.16% per month
+                                </pre>
+                                <h4>Loan Charges</h4> 
+                                <pre style="margin-left:-6em;">
+                                * 1% Share Capital Retention Fee
+                                * 1% Savings Deposit
+                                * 1% Consumer Goods
+                                * 3% Service Fee
+                                * 3.5% for mortgage fee of the collateral if there is
+                                * Loan Protection Insurance 
+                                </pre>
+                                </div>
+                                
                             </article>
                         </div>
                     </div>

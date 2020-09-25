@@ -34,7 +34,7 @@
                                         </li>
                                         <br>
                                         <li>
-                                            <a href="Providential.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Loans</a>
+                                            <a href="loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Loans</a>
                                         </li>
                                         <br>
                                         <li>
