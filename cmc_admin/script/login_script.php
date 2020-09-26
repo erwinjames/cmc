@@ -17,10 +17,17 @@ if (isset($_POST['login'])) {
         $stmt->bind_result($user_name, $user_password);
         $user = $stmt->fetch();
         if ($user!==false) {
-            $_SESSION['id']=$user[0];
-            $_SESSION['username'] = $user[1];
-            header('location:../pages/home.php');
-            exit;
+            // $_SESSION['id']=$user[0];
+            $_SESSION['username'] = $user_name;
+            if ($_SESSION['username']=='erwin') {
+                # code...
+                header('location:../pages/hr/home.php');
+                exit;
+            }elseif($_SESSION['username']=='mrdo'){
+                header('location:../pages/mrdo/home.php');
+                exit;
+            }
+            
         } else {
             echo "invalid something";
         }
