@@ -26,7 +26,7 @@
                                 <h2>Product & Services</h2>
                             <nav id="nav" >
                                    <ul >
-                                        <li style="margin-left:14px;" class="current active">
+                                        <li style="margin-left:14px;" >
                                             <a href="Regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Savings Deposit</a>
                                          </li>
                                          <li>
@@ -37,8 +37,8 @@
                                             <a href="loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Loans</a>
                                         </li>
                                         <br>
-                                        <li>
-                                            <a href="membersBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Members Benifits</a>
+                                        <li class="current active">
+                                            <a href="memberBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Members Benifits</a>
                                         </li>
                                         <br>
                                         <li>
@@ -58,21 +58,30 @@
                     <div class="col-8  col-12-narrower imp-narrower">
                         <div id="content">
                             <article>
-                            <span class="image featured"><img src="../images/reg.png" alt="" /></span>
-                                 <button class="colapse">Regular Savings</button>
+                                 <button class="colapse">FONUS / DAMAYAN PROGRAM</button>
                                      <div class="contenting">
-                                        <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
-                                        <p>•	Regular members who are willing to abide by the rules and regulations set by the cooperative.</p>
-                                        <h3> PRODUCT FEATURES</h3>
-                                        <p>•	Initial  amount of deposit - 		Php 500.00</p>
-                                        <p>•	Minimum deposit to earn interest - 	Php 500.00</p>
-                                        <p>•	Maintaining Balance - 			Php 1,000.00</p>
-                                        <p>•	Interest rate (computed quarterly) - 	2.5% p.a</p>
-                                        <p>•	No monthly charges</p>
-                                        <p>•	Interest earned is not subject to withholding tax</p>
-                                        <p>•	Can be withdrawn from Monday to Friday , 8:00 A.M to 3:00 P.M. Strictly No passbook No withdrawals</p>
-                                        <p>•	Passbook cost is Php 20.00. A fee of Php50.00 is required for the re-issuance of lost passbook with supporting notarized affidavit of loss</p>
-                                        <p>•	Closing of deposit account service charge is Php 50.00</p>
+                                     <span class="image featured"><img src="../images/fonus.png" alt="" /></span>
+                                    
+                                        <h3>FUNERAL OWNED BY COOPERATIVE</h3>
+                                        <h4>FONUS CEBU GROUP YEARLY RENEWAL PROGRAM</h4>
+                                        <p>*    18-65 yrs. old - 100% coverage</p>
+                                        <p>*    66-79 yrs. old - 50% coverage</p>                                     
+                                        <h3>Individual Program &nbsp;&nbsp;&nbsp; - Annual Premium: Php 600.00</h3>
+                                        <pre style="margin-left:-6em;">
+                                            *     Funeral Services Worth 20,000
+                                            *     Natural Death Plus 10,000 Cash Assistance
+                                            *    Accidental Deatch Plus 70,000 Cash Assistance
+                                        </pre>
+                                        <h3>Family Program &nbsp;&nbsp;&nbsp; - Annual Premium: Php 720.00</h3>  
+                                        
+                                        <pre style="margin-left:-6em;">
+                                       
+                                            Benefits
+                                            MEMBERS          :20,000 Funeral Services
+                                                :40,000 Cash Assistance
+                                            SPOUSE             :20,000 Funeral Service
+                                            CHILD (max of 3) :10,000 Cash Assitance
+                                        </pre>              
                                     </div>
                                     <button class="colapse">Associate Savings </button>
                                     <div class="contenting">
