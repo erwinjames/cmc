@@ -128,17 +128,17 @@
       <input name="newsTitle" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Career Title">
     </div>
     <div class="mb-6">
-    <textarea name="shortDescription" class="resize-y shadow appearance-none border rounded w-full py-6 px-3 rounded leading-tight focus:outline-none focus:shadow-outline" placeholder="Career Description" type="text" placeholder="Short Description"></textarea>
+    <textarea name="shortDescription" class="resize-y shadow appearance-none border rounded w-full py-6 px-3 rounded leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Short Description"></textarea>
     </div>
     <div class="mb-6">
-    <textarea name="fullDescription" class="resize-y shadow appearance-none border rounded w-full py-6 px-3 rounded leading-tight focus:outline-none focus:shadow-outline" placeholder="Career Description" type="text" placeholder="Full Description"></textarea>
+    <textarea name="fullDescription" class="resize-y shadow appearance-none border rounded w-full py-6 px-3 rounded leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Full Description"></textarea>
     </div>
     <div class="mb-6">
-    <input class="input-group" type="file" name="user_image" accept="image/*" />
+    <input type="file" name="user_image" accept="image/*" />
     </div>
     <div class="mb-6">
     <button name="postNews" class="bg-blue-500 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-      Post This Career  
+      Post News 
     </button>
      </div>
     </div>

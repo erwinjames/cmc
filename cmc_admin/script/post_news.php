@@ -2,6 +2,8 @@
  error_reporting( ~E_NOTICE ); 
  include "../../includes/connection.php";
  session_start();
+
+ 
  if(isset($_POST['postNews']))
  {
   $newsTitle = $_POST['newsTitle'];
