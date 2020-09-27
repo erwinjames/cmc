@@ -54,7 +54,7 @@
       
       <div class="panel-option ">
         <i class="material-icons">work</i>
-        <a href="career_table.php"><p>Your Career</p></a>
+        <a href="news_table.php"><p>Your Post</p></a>
       </div>
       
     <div>

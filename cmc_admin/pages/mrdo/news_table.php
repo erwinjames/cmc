@@ -25,7 +25,7 @@
     <p class="name">
      <?php
 
-    echo  $_SESSION['username'];
+    echo  $_SESSION['type'];
      
      ?>
    </p>
