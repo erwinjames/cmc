@@ -54,7 +54,7 @@
       
       <div class="panel-option active">
         <i class="material-icons">work</i>
-        <a href="career_table.php"><p>Your Career</p></a>
+        <a href="career_table.php"><p>Your Post</p></a>
       </div>
       
     <div>
@@ -128,16 +128,19 @@
                 <table class="min-w-full">
                         <thead>
                             <tr>
-                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Career Title</th>
-                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Description</th>
-                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Date/time</th>
+                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">News Title</th>
+                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Short Description</th>
+                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Full Description</th>
+                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Author</th>
+                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Date/Time</th>
+                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Image</th>
                                 <th class="px-6 py-3 border-b-2 border-gray-300"></th>
                             </tr>
                         </thead>
                         <tbody class="bg-white">
                         <?php
                 include "../../../includes/connection.php";
-                $sql= "SELECT * FROM career";
+                $sql= "SELECT * FROM blog";
                 $stmt = $conn->prepare($sql);
                 $stmt->execute();
                 $resultSet = $stmt->get_result();
@@ -149,7 +152,10 @@
                                         <div class="text-sm leading-5 text-blue-900"><?php echo $row[1]; ?></div>
                                     </td>
                                     <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5"><?php echo $row[2];?></td>
+                                    <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5"><?php echo $row[3];?></td>
                                     <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5"><?php echo $row[4];?></td>
+                                    <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5"><?php echo $row[5];?></td>
+                                    <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5"><img src="../../../images/post_news/<?php echo $row[6];?>" alt=""></td>
                                     <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">
                                         <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
                                         <span aria-hidden class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
@@ -175,7 +181,7 @@
                                     </td>
                                    
                                     <td class="px-6 py-4 whitespace-no-wrap text-right border-b border-gray-500 text-sm leading-5">
-                                        <a href="../script/changing_status.php?id=<?php echo $row[0]; ?>&&status=<?php echo $row[5]; ?>" class="px-5 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none">Change Status</a>
+                                        <a href="../../script/deleting_post.php?id=<?php echo $row[0]; ?>" class="px-5 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none">Deleting</a>
                                   </td>
                              </tr>
                 <?php } ?>
