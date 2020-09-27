@@ -1,6 +1,6 @@
 <?php
  session_start();
- if(!isset($_SESSION["username"]) && $_SESSION["id"]){
+ if(!isset($_SESSION["loggedin"])){
   header('Location: ../../index.php');
   exit;
 }
@@ -25,7 +25,7 @@
     <p class="name">
      <?php
 
-    echo  $_SESSION['username'];
+    echo  $_SESSION['type'];
      
      ?>
    </p>

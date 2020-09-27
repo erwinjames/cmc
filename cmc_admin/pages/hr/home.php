@@ -1,6 +1,6 @@
 <?php
  session_start();
- if(!isset($_SESSION["username"]) && $_SESSION["id"]){
+ if(!isset($_SESSION["loggedin"])){
   header('Location: ../../index.php');
   exit;
 }
@@ -21,11 +21,11 @@
     <p class="title">
       CMC PANEL
     </p>
-    <div class="pic_container"><img class="profile-pic" src="../assets/img/cmc.png" alt=""></div>
+    <div class="pic_container"><img class="profile-pic" src="../../assets/img/cmc.png" alt=""></div>
     <p class="name">
      <?php
 
-    echo  $_SESSION['username'];
+    echo  $_SESSION['type'];
      
      ?>
    </p>

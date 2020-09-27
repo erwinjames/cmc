@@ -1,7 +1,7 @@
 <?php
  session_start();
- if(!isset($_SESSION["username"]) && $_SESSION["id"]){
-  header('Location: ../index.php');
+ if(!isset($_SESSION["loggedin"])){
+  header('Location: ../../index.php');
   exit;
 }
 ?>
@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-red.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.6.0/tailwind.min.css">
-<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../../assets/css/main.css">
 </head>
 
 <body>
@@ -21,11 +21,11 @@
     <p class="title">
       CMC PANEL
     </p>
-    <div class="pic_container"><img class="profile-pic" src="../assets/img/cmc.png" alt=""></div>
+    <div class="pic_container"><img class="profile-pic" src="../../assets/img/cmc.png" alt=""></div>
     <p class="name">
      <?php
 
-    echo  $_SESSION['username'];
+    echo  $_SESSION['type'];
      
      ?>
    </p>
@@ -41,7 +41,7 @@
         </div>
         
         
-      <a id="logout" href="../script/logout_script.php" class="function"><i class="material-icons">logout</i></a>
+      <a id="logout" href="../../script/logout_script.php" class="function"><i class="material-icons">logout</i></a>
         <div class="mdl-tooltip" for="logout">
         Log out
         </div>
@@ -123,7 +123,7 @@
 <div class="lower__contents">
   <div class="lower__container flex items-center justify-center px-5 py-5">
     <form action="../script/post_career.php" method="post" class="bg-white shadow-md rounded w-1/2 px-8 pt-6 pb-8 mb-4">
-    <h3 class="text-3xl text-gray-600 font-semibold leading-tight my-3">Post Career</h3>
+    <h3 class="text-3xl text-gray-600 font-semibold leading-tight my-3">Post News</h3>
     <div class="mb-8">
       <input name="careerTitle" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Career Title">
     </div>
@@ -150,5 +150,5 @@
 <!-- script =============================================-->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <!-- main js -->
- <script src="../assets/js/main.js"></script>
+ <script src="../../assets/js/main.js"></script>
 </html>
