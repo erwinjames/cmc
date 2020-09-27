@@ -13,7 +13,6 @@
   $tmp_dir = $_FILES['user_image']['tmp_name'];
   $imgSize = $_FILES['user_image']['size'];
   
-  
   if(empty($newsTitle)){
    $errMSG = "Please Enter Title.";
   }
