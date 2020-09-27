@@ -122,23 +122,25 @@
 </div>
 <div class="lower__contents">
   <div class="lower__container flex items-center justify-center px-5 py-5">
-    <form action="../script/post_career.php" method="post" class="bg-white shadow-md rounded w-1/2 px-8 pt-6 pb-8 mb-4">
+    <form action="../../script/post_news.php" enctype="multipart/form-data" method="post" class="bg-white shadow-md rounded w-1/2 px-8 pt-6 pb-8 mb-4">
     <h3 class="text-3xl text-gray-600 font-semibold leading-tight my-3">Post News</h3>
     <div class="mb-8">
-      <input name="careerTitle" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Career Title">
+      <input name="newsTitle" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Career Title">
     </div>
     <div class="mb-6">
-    <textarea name="careerDescription" class="resize-y shadow appearance-none border rounded w-full py-6 px-3 rounded leading-tight focus:outline-none focus:shadow-outline" placeholder="Career Description" type="text" placeholder="Career Title"></textarea>
+    <textarea name="shortDescription" class="resize-y shadow appearance-none border rounded w-full py-6 px-3 rounded leading-tight focus:outline-none focus:shadow-outline" placeholder="Career Description" type="text" placeholder="Short Description"></textarea>
     </div>
     <div class="mb-6">
-    <textarea name="careerQualification" id="banner-message" style="display:none;" class="resize-y shadow appearance-none border rounded w-full py-6 px-3 rounded leading-tight focus:outline-none focus:shadow-outline" placeholder="Qualifications" type="text" placeholder="Career Title"></textarea>
+    <textarea name="fullDescription" class="resize-y shadow appearance-none border rounded w-full py-6 px-3 rounded leading-tight focus:outline-none focus:shadow-outline" placeholder="Career Description" type="text" placeholder="Full Description"></textarea>
     </div>
-    <h6 class="text-1xl text-gray-600 font-semibold leading-tight my-2">Qualifications</h6>
-    <div id="display" class="message" style="overflow-y:auto"></div>
-    <div class="mb-6 items-center justify-center">
-    <button name="postCareer" class="bg-blue-500 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+    <div class="mb-6">
+    <input class="input-group" type="file" name="user_image" accept="image/*" />
+    </div>
+    <div class="mb-6">
+    <button name="postNews" class="bg-blue-500 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
       Post This Career  
     </button>
+     </div>
     </div>
     </form>
   </div>
