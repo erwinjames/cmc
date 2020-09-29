@@ -33,58 +33,18 @@
                     <a href="#" class="prev">&lt;</a>
                     <a href="#" class="next">&gt;</a>
                     <main class="containerss">
-                        <div class="picture"><img src="https://picsum.photos/id/21/800" alt=""></div>
-                        <div class="vertical picture">
-                            <img src="https://picsum.photos/id/22/800/1000" alt="">
-                        </div>
+                    <?php
+                include "../includes/connection.php";
+                $sql= "SELECT * FROM blog";
+                $stmt = $conn->prepare($sql);
+                $stmt->execute();
+                $resultSet = $stmt->get_result();
+                $result = $resultSet->fetch_all();
+                foreach($result as $row){    ?>
                         <div class="horizontal picture">
-                            <img src="https://picsum.photos/id/23/1400/800" alt="">
+                            <img src="../images/post_news/<?php echo $row[6]; ?>" alt="">
                         </div>
-                        <div class="picture">
-                            <img src="https://picsum.photos/id/24/800" alt="">
-                        </div>
-                        <div class="picture">
-                            <img src="https://picsum.photos/id/25/800" alt="">
-                        </div>
-                        <div class="big picture">
-                            <img src="https://picsum.photos/id/26/800" alt="">
-                        </div>
-                        <div class="picture">
-                            <img src="https://picsum.photos/id/27/800" alt="">
-                        </div>
-                        <div class="vertical picture">
-                            <img src="https://picsum.photos/id/28/800" alt="">
-                        </div>
-                        <div class="picture">
-                            <img src="https://picsum.photos/id/29/800" alt="">
-                        </div>
-                        <div class="horizontal picture">
-                            <img src="https://picsum.photos/id/10/800" alt="">
-                        </div>
-                        <div class="picture">
-                            <img src="https://picsum.photos/id/11/800" alt="">
-                        </div>
-                        <div class="big picture">
-                            <img src="https://picsum.photos/id/12/800" alt="">
-                        </div>
-                        <div class="picture">
-                            <img src="https://picsum.photos/id/13/800" alt="">
-                        </div>
-                        <div class="horizontal picture">
-                            <img src="https://picsum.photos/id/14/800" alt="">
-                        </div>
-                        <div class="picture">
-                            <img src="https://picsum.photos/id/15/800" alt="">
-                        </div>
-                        <div class="big picture">
-                            <img src="https://picsum.photos/id/16/800" alt="">
-                        </div>
-                        <div class="picture">
-                            <img src="https://picsum.photos/id/17/800" alt="">
-                        </div>
-                        <div class="vertical picture">
-                            <img src="https://picsum.photos/id/18/800" alt="">
-                        </div>
+                <?php } ?>
                     </main>
                 </div>
             </div>

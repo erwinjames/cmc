@@ -38,7 +38,7 @@
                                         </li>
                                         <br>
                                         <li>
-                                            <a href="Yulabco.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Members Benifits</a>
+                                            <a href="membersBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Members Benifits</a>
                                         </li>
                                         <br>
                                         <li>

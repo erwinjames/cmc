@@ -27,12 +27,20 @@
         </section>
         <section class="wrapper style1">
         <div class="container">
+        <?php
+                include "../includes/connection.php";
+                $sql= "SELECT * FROM blog";
+                $stmt = $conn->prepare($sql);
+                $stmt->execute();
+                $resultSet = $stmt->get_result();
+                $result = $resultSet->fetch_all();
+                foreach($result as $row){    ?>
             <div class="row gtr-50">
                 <div class="col-6 col-12-narrower">
                     <div class='hover'>
                         <div class='module'>
                             <div class='thumbnail'>
-                                <img src="../images/building_nav.png">
+                                <img src="../images/post_news/<?php echo $row[6]; ?>">
                                 <div class='date'>
                                     <div>27</div>
                                     <div>Mar</div>
@@ -40,52 +48,16 @@
                             </div>
                             <div class='content'>
                                 <div class="category">Photos</div>
-                                <h1 class='title'>coop news title</h1>
-                                <h2 class='sub-title'>coop news subtitle</h2>
-                                <p class="description">description area</p>
-                                <div class="metas">
-                                    <span class="timestamp">
-                                    <i class='fa fa-clock-o'></i> 6 mins ago
-                                  </span>
-                                    <span class="comments">
-                                    <i class='fa fa-comments'></i>
-                                    <a href="#"> 39 comments</a>
-                                  </span>
-                                </div>
+                                <h1 class='title'><?php echo $row[1]; ?></h1>
+                                <h2 class='sub-title'><?php echo $row[2]; ?></h2>
+                                <p class="description"><?php echo $row[3]; ?></p>
+                               
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-12-narrower">
-                    <div class='hover'>
-                        <div class='module'>
-                            <div class='thumbnail'>
-                                <img src="../images/building_nav.png">
-                                <div class='date'>
-                                    <div>27</div>
-                                    <div>Mar</div>
-                                </div>
-                            </div>
-                            <div class='content'>
-                                <div class="category">Photos</div>
-                                <h1 class='title'>coop news title</h1>
-                                <h2 class='sub-title'>coop news subtitle</h2>
-                                <p class="description">description area</p>
-                                <div class="metas">
-                                    <span class="timestamp">
-                                    <i class='fa fa-clock-o'></i> 6 mins ago
-                                  </span>
-                                    <span class="comments">
-                                    <i class='fa fa-comments'></i>
-                                    <a href="#"> 39 comments</a>
-                                  </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
+                <?php }?>
             </div>
             
         </section>

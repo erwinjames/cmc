@@ -1,7 +1,7 @@
 <?php
  session_start();
- if(!isset($_SESSION["username"]) && $_SESSION["id"]){
-  header('Location: ../index.php');
+ if(!isset($_SESSION["loggedin"])){
+  header('Location: ../../index.php');
   exit;
 }
 ?>
@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-red.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.6.0/tailwind.min.css">
-<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../../assets/css/main.css">
 </head>
 
 <body>
@@ -21,11 +21,11 @@
     <p class="title">
       CMC PANEL
     </p>
-    <div class="pic_container"><img class="profile-pic" src="../assets/img/cmc.png" alt=""></div>
+    <div class="pic_container"><img class="profile-pic" src="../../assets/img/cmc.png" alt=""></div>
     <p class="name">
      <?php
 
-    echo  $_SESSION['username'];
+    echo  $_SESSION['type'];
      
      ?>
    </p>
@@ -136,7 +136,7 @@
                         </thead>
                         <tbody class="bg-white">
                         <?php
-                include "../../includes/connection.php";
+                include "../../../includes/connection.php";
                 $sql= "SELECT * FROM career";
                 $stmt = $conn->prepare($sql);
                 $stmt->execute();
@@ -235,5 +235,5 @@
 <!-- script =============================================-->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <!-- main js -->
- <script src="../assets/js/main.js"></script>
+ <script src="../../assets/js/main.js"></script>
 </html>
