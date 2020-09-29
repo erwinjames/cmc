@@ -54,20 +54,10 @@
                 <li><a href="Product&Services/regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
                 </li>
                 <li><a href="Product&Services/TimeDeposit.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Time Deposits</a></li>
-                <li><a href="Product&Services/loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a>
-                </li>
-                <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Members Benefits</a>
-                   <ul>
-                       <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Death Assurance (FONUS)</a></li>
-                       <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Health Care Program</a></li>
-                   </ul>
-                </li>
-                <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Business Enterprise</a>
-                   <ul>
-                       <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Consumer Store</a></li>
-                       <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Lumber and Hardware Store</a></li>
-                       <li><a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Bayad Center</a></li>
-                   </ul>
+                <li><a href="Product&Services/loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a> </li>
+                <li ><a href ="Product&Services/membersBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Members Benefits</a>
+                 <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Business Enterprise</a>
+                  
                </li>
             </ul>
         </li>

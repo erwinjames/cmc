@@ -38,7 +38,7 @@
                                         </li>
                                         <br>
                                         <li class="current active">
-                                            <a href="memberBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Members Benifits</a>
+                                            <a href="memberBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Members Benefits</a>
                                         </li>
                                         <br>
                                         <li>
@@ -67,53 +67,70 @@
                                         <p>*    18-65 yrs. old - 100% coverage</p>
                                         <p>*    66-79 yrs. old - 50% coverage</p>                                     
                                         <h3>Individual Program &nbsp;&nbsp;&nbsp; - Annual Premium: Php 600.00</h3>
+                                        Benefits:
                                         <pre style="margin-left:-6em;">
                                             *     Funeral Services Worth 20,000
                                             *     Natural Death Plus 10,000 Cash Assistance
                                             *    Accidental Deatch Plus 70,000 Cash Assistance
                                         </pre>
-                                        <h3>Family Program &nbsp;&nbsp;&nbsp; - Annual Premium: Php 720.00</h3>  
-                                        
-                                        <pre style="margin-left:-6em;">
-                                       
-                                            Benefits
-                                            MEMBERS          :20,000 Funeral Services
-                                                :40,000 Cash Assistance
-                                            SPOUSE             :20,000 Funeral Service
-                                            CHILD (max of 3) :10,000 Cash Assitance
-                                        </pre>              
+                                        <h3>Family Program &nbsp;&nbsp;&nbsp; - Annual Premium: Php 720.00</h3> 
+                                        Benefits:
+                                        <table style="margin-left:-6em;">
+                                            <tr>
+                                                <th></th>
+                                                <th></th>
+                                                <th></th>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;">Member:</td>
+                                                <td style="text-align: left;">20,000 Funeral Services</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>40,000 Cash Assistance</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;">Spouse:</td>
+                                                <td>20,000 Funeral Service</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;">Child (max of 3):</td>
+                                                <td>10,000 Cash Assistance</td>
+                                            </tr>
+                                        </table> 
+                                           <h3>SCOPE OF MEMORIAL SERVICES:</h3>
+                                           <pre style="margin-left: -6em;">
+                                            *   Pickup of Cadaver
+                                            *   Preservation of  Cadaver
+                                            *   Set-up for viewing 9 days (Home or Chapel)
+                                            *   Preparation of Internment
+                                            *   Assures funeral cortege leaves on time as scheduled
+                                            *   Provides funeral coach to transport from viewing to internment site (25km free)
+                                           </pre>
                                     </div>
-                                    <button class="colapse">Associate Savings </button>
+                                    <button class="colapse">HEALTH CARE PROGRAM </button>
                                     <div class="contenting">
-                                        <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
-                                        <p>•	Associate members who have not meet all the criteria to become a regular member.</p>
-                                        <h3> PRODUCT FEATURES</h3>
-                                        <p>•	Initial  amount of deposit - 		Php 500.00</p>
-                                        <p>•	Minimum deposit to earn interest - 	Php 500.00</p>
-                                        <p>•	Maintaining Balance - 			Php 1,000.00</p>
-                                        <p>•	Interest rate (computed quarterly) - 	2.5% p.a</p>
-                                        <p>•	No monthly charges</p>
-                                        <p>•	Interest earned is not subject to withholding tax</p>
-                                        <p>•	Can be withdrawn from Monday to Friday , 8:00 A.M to 3:00 P.M. Strictly No passbook No withdrawals</p>
-                                        <p>•	Passbook cost is Php 20.00. A fee of Php50.00 is required for the re-issuance of lost passbook with supporting notarized affidavit of loss</p>
-                                        <p>•	Closing of deposit account service charge is Php 50.00</p>
+                                        <h3>Cooperative Health Care Program</h3>
+                                        <pre style="margin-left: -6em;">
+                                            *   Coop Health Care Program is open to all CMC regular members whoa have paid the minimum
+                                                share capital requirement.
+                                            *   Annual Contribution of FIVE HUNDRED PESOS (P500.)
+                                            *   For existing members, payment shall be made at the start of the year with consideration to
+                                                the cut-off date as set by CMC Management.
+                                            *   RENEWAL shall be every year and expires on the last day of the year.
+                                            *   Maternity expenses shall be reimbursed provided the member undergoes Caesarean delivery.
+                                            *   Maximum amount of reimbursement is FIVE THOUSAND Pesos upon submission of requirements per hospitalization.
+                                            *   Cash Refund is allowed fo three claims only in a year.
+                                            *   Member must be admitted in hospital.
+                                         </pre>
+                                         <h4>Benefit Coverage</h4>
+                                         <pre style="margin-left:-6em;">
+                                            -   Hospitalization due to any kind of sickness.
+                                            -   Hospitalization due to accident.
+                                            -   Caesarean delivery for maternity cases.
+                                         </pre>
                                     </div>
-                                    <button class="colapse">Yulabco Savings</button>
-                                    <div class="contenting">
-                                    <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
-                                        <p>•    Members of Cordova Multipurpose Cooperative Youth United Laboratory Cooperative ( YU LABCO )</p>
-                                        <h3> PRODUCT FEATURES</h3>
-                                        <p>•	Initial  amount of deposit - 		Php 20.00</p>
-                                        <p>•	Minimum deposit to earn interest - 	Php 500.00</p>
-                                        <p>•	Maintaining Balance - 			    Php 50.00</p>
-                                        <p>•	Interest rate (computed quarterly) - 	2.5% p.a</p>
-                                        <p>•	No monthly charges</p>
-                                        <p>•	Interest earned is not subject to withholding tax</p>
-                                        <p>•	Can be withdrawn from Monday to Friday , 8:00 A.M to 3:00 P.M. Strictly No passbook No withdrawals</p>
-                                        <p>•	Passbook cost is Php 20.00. A fee of Php50.00 is required for the re-issuance of lost passbook with supporting notarized affidavit of loss</p>
-                                        <p>•	Closing of deposit account service charge is Php 50.00</p>
-                                    </div>
-                      
+                                                      
                             </article>
                         </div>
                     </div>
