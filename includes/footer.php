@@ -40,7 +40,5 @@
                     <li data-aos="fade-up" data-aos-duration="400">&copy; CORDOVAMPC. All rights reserved</li>
                 </ul>
             </div>
-
         </div>
-
     </div>
