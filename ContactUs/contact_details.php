@@ -84,7 +84,7 @@
             <a>Contact Us</a>
             <ul>
                 <li>
-                    <a href="../contact_details.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Contact Details</a>
+                    <a href="contact_details.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Contact Details</a>
                 </li>
                 <li><a href="message_us.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Message Us</a></li>
             </ul>
