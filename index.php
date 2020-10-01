@@ -260,7 +260,6 @@
                     <h1><b>Cordova Multipurpose Cooperative History</b></h1><br>
                     <p><b>October 30-31 & November 1, 1971</b><br> Rev. Fr. Rudy Abao, MSC initiated Self-discovery Seminar to 25 Parishioners November 15 to December 11, 1971- 1st PMES to 25 participants was conducted
                         <br>
-
                         <b> December 12, 1971</b><br> 1st Organizational Meeting elected officers of the cooperative or the ad-hoc officers, initial capital was P250.00
                         <br>
                         <b>March 14, 1972</b> <br> Registered as Pre-coop at the Cooperative Administration Office with the name CORDOVA COOPERATIVE CREDIT UNION <br>
