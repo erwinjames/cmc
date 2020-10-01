@@ -4,11 +4,22 @@
                     <section class="col-3 col-6-narrower col-12-mobilep">
                         <h3>BRANCHES</h3>
                         <ul class="links">
-                            <li><a href="#">MAIN BRANCH</a></li>
+                            <li><a href="#">MAIN BRANCH </a></li>
                             <li><a href="#">LAPU-LAPU BRANCH</a></li>
                             <li><a href="#">BASAK BRANCH</a></li>
                             <li><a href="#">OLANGO BRANCH</a></li>
                             <li><a href="#">MANDAUE OFFICE</a></li>
+
+                        </ul>
+                    </section>
+                    <section class="col-3 col-6-narrower col-12-mobilep">
+                        <h3>CONTACT:</h3>
+                        <ul class="links">
+                            <li><a href="#">496-8213</a></li>
+                            <li><a href="#">341-3135 / 410-3132</a></li>
+                            <li><a href="#">493-6197 / 410-4277</a></li>
+                            <li><a href="#">09303876328</a></li>
+                            <li><a href="#"></a></li>
 
                         </ul>
                     </section>

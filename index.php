@@ -39,7 +39,6 @@
                         <li><a href="../branches/coop_olango.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Olango Branch</a></li>
                         <li><a href="../branches/coop_mandaue.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Mandaue Office</a></li>
                         <li><a href="../branches/coop_be.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Business Enterprise</a></li>
-
                     </ul>
                 </li>
                 <li><a href="coop_awards&certificate.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Awards and Recognations</a></li>

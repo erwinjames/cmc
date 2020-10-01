@@ -10,7 +10,7 @@
 </head>
 
 <body class="is-preload">
-    <div class="se-pre-con"></div>
+    <!-- <div class="se-pre-con"></div> -->
     <div id="page-wrapper">
 
         <!-- Header -->
