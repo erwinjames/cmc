@@ -3471,6 +3471,19 @@ textarea.input1+.shadow-input1 {
     .contact1-form {
         width: 44%;
     }
+    .header_tag h1 {
+        font-size: 4rem;
+        margin-top: 17px;
+        padding-bottom: 0.1rem;
+    }
+    .header_image img {
+        width: 10%;
+    }
+    .header_tag small {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(129, 198, 245);
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -3483,6 +3496,19 @@ textarea.input1+.shadow-input1 {
     .contact1-form {
         width: 55%;
     }
+    .header_tag h1 {
+        font-size: 4rem;
+        margin-top: 17px;
+        padding-bottom: 0.1rem;
+    }
+    .header_image img {
+        width: 10%;
+    }
+    .header_tag small {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(129, 198, 245);
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -3494,6 +3520,19 @@ textarea.input1+.shadow-input1 {
     }
     .contact1-form {
         width: 100%;
+    }
+    .header_tag h1 {
+        font-size: 4rem;
+        margin-top: 17px;
+        padding-bottom: 0.1rem;
+    }
+    .header_image img {
+        width: 10%;
+    }
+    .header_tag small {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(129, 198, 245);
+        font-size: 15px;
     }
 }
 
