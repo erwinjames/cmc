@@ -1977,6 +1977,30 @@ ul.icons li span {
     border: 0;
 }
 
+ul.social__icons {
+    cursor: default;
+    list-style: none;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    float: right;
+}
+
+ul.social__icons li {
+    display: inline-block;
+    line-height: 1em;
+    padding-left: 1.1em;
+}
+
+ul.social__icons li:first-child {
+    padding-left: 0;
+}
+
+ul.social__icons li a,
+ul.social__icons li span {
+    font-size: 1em;
+    border: 0;
+}
+
 
 /* Menu */
 
@@ -2120,12 +2144,15 @@ ul.actions.fit.stacked {
 table {
     width: 100%;
 }
-table.tbinfo{
+
+table.tbinfo {
     width: 100%;
 }
-table.tbInfo tbody tr td th  {
+
+table.tbInfo tbody tr td th {
     border: solid 1px #e0e0e0;
 }
+
 table.default {
     width: 100%;
 }
@@ -2315,9 +2342,7 @@ button.small,
     margin-left: 50px;
     position: relative;
     width: 80%;
-
 }
-
 
 #nav {
     cursor: default;
@@ -2340,14 +2365,12 @@ button.small,
 
 #nav>ul {
     margin: 0;
-    
 }
 
 #nav>ul>li {
     position: relative;
     display: inline-block;
     margin-left: 1em;
-    
 }
 
 #nav>ul>li a {
@@ -2403,6 +2426,7 @@ button.small,
     display: none;
 }
 
+
 /* Dropotron */
 
 .dropotron {
@@ -2430,11 +2454,13 @@ button.small,
     text-decoration: none;
     border: 0;
 }
-.dropotron>li>a>.fa-chevron-circle-right{
+
+.dropotron>li>a>.fa-chevron-circle-right {
     font-size: 0.6em;
     padding-right: 0.5em;
-    color:#37c0fb;
+    color: #37c0fb;
 }
+
 .dropotron>li.active>a,
 .dropotron>li:hover>a {
     color: #fff;
@@ -3079,15 +3105,20 @@ button.small,
     }
 }
 
-.header_tag h1,
-small {
-    margin-top: 50px;
+.header_image img {
+    width: 10%;
+}
+
+.header_tag h1 {
+    margin-top: 17px;
+    padding-bottom: 0.1rem;
 }
 
 .header_tag small {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(129, 198, 245);
-    font-size: 20px;
+    font-size: 15px;
+    padding: 0.4rem;
 }
 
 
@@ -3543,46 +3574,49 @@ textarea.input1+.shadow-input1 {
     width: 100%;
     /* The width is the width of the web page */
 }
-.awardCard{
-width: 100%;
-min-height: 200px;
-box-sizing: border-box;
-background-color: rgb(129, 198, 245);
-margin: 0;
-}
-.awardCard .infos{
-position: absolute;
-top:0;
-left: 20%;
-min-height: 200px;
-align-items: center;
-text-align: center;
-padding-top: 5%;
-background-color:white;
-color: black;
 
+.awardCard {
+    width: 100%;
+    min-height: 200px;
+    box-sizing: border-box;
+    background-color: rgb(129, 198, 245);
+    margin: 0;
 }
-.awardCard .infos h2{
+
+.awardCard .infos {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    min-height: 200px;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    background-color: white;
+    color: black;
+}
+
+.awardCard .infos h2 {
     margin: 0%;
     padding: 0;
     font-size: 24px;
     line-height: 0.85em;
     font-weight: 600;
-;
+    ;
 }
-.awardimg{
+
+.awardimg {
     position: absolute;
     width: 50%;
     height: 100%;
 }
-.awardCard .awardimg img{
+
+.awardCard .awardimg img {
     position: absolute;
     top: 0;
     left: 0;
     width: 40%;
     height: 100%;
     padding: 5px 5px 5px 5px;
-
 }
 
 .card {
@@ -3596,12 +3630,13 @@ color: black;
     border-width: 0.5px;
     border-color: #5ea8ca;
 }
-  
+
 .card .imgBx {
     position: absolute;
     width: 50%;
     height: 100%;
 }
+
 .card .imgBx img {
     position: absolute;
     top: 0;
@@ -3610,6 +3645,7 @@ color: black;
     height: 100%;
     object-fit: cover;
 }
+
 .card .details {
     position: absolute;
     right: 0;
@@ -3621,10 +3657,12 @@ color: black;
     align-items: center;
     color: #5ea8ca;
 }
+
 .card .details .contents {
     padding: 10px;
     box-sizing: border-box;
 }
+
 .card .details .contents h2 {
     margin: 0;
     padding: 0;
@@ -3697,8 +3735,7 @@ color: black;
         width: calc(70% - 20px);
         margin: 10px auto;
     }
-    .awardCard
-    {
+    .awardCard {
         width: calc(70% - 20px);
         margin: 10px auto;
     }
@@ -3709,11 +3746,11 @@ color: black;
         width: calc(70% - 20px);
         margin: 10px auto;
     }
-    .awardCard{
+    .awardCard {
         width: calc(70% - 20px);
         margin: 10px auto;
     }
-    .awardCard .awardimg{
+    .awardCard .awardimg {
         width: calc(70% - 20px);
         margin: 10px auto;
     }
@@ -3722,7 +3759,7 @@ color: black;
         width: 100%;
         height: 200px;
     }
-    .awardCard .infos{
+    .awardCard .infos {
         position: relative;
         width: 100%;
         height: 200px;
@@ -3739,7 +3776,7 @@ color: black;
         width: calc(100% - 40px);
         margin: 10px auto;
     }
-    .awardCard{
+    .awardCard {
         width: calc(100% - 40px);
         margin: 10px auto;
     }
@@ -3750,7 +3787,8 @@ color: black;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     transition: transform .3s ease-out 0s;
 }
-.awardCard:hover{
+
+.awardCard:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     transition: transform .3s ease-out 0s;
@@ -3984,7 +4022,6 @@ color: black;
 }
 
 .info {
-
     width: 3in;
     text-align: center;
     font-style: italic;
@@ -4637,8 +4674,9 @@ div .picture {
     border: 0.2rem solid var(--first-color);
     color: var(--first-color);
 }
+
 .colapse {
-    background-color:rgb(55, 144, 204);
+    background-color: rgb(55, 144, 204);
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -4647,29 +4685,30 @@ div .picture {
     text-align: left;
     outline: none;
     font-size: 15px;
-  }
-  
-  .actives, .colapse:hover {
+}
+
+.actives,
+.colapse:hover {
     background-color: #37c0fb;
-  }
-  
-  .colapse:after {
+}
+
+.colapse:after {
     content: '\002B';
     color: white;
     font-weight: bold;
     float: right;
     margin-left: 5px;
-  }
-  
-  .actives:after {
+}
+
+.actives:after {
     content: "\2212";
-  }
-  
-  .contenting {
+}
+
+.contenting {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     font-size: 15px;
     transition: max-height 0.2s ease-out;
-    background-color:rgb(221, 235, 243);
-  }
+    background-color: rgb(221, 235, 243);
+}
