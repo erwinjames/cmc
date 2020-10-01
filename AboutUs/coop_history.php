@@ -14,7 +14,7 @@
     <div id="page-wrapper">
 
         <!-- Header -->
-        <?php include "../includes/header.php";?>  
+        <?php include "../includes/header2.php";?>   
         <?php include "AboutUs-menu.php"?>
       </div>
         <!-- Main -->
