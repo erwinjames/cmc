@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link href="assets/css/aos.css" rel="stylesheet">
-   
+
 </head>
 
 <body class="is-preload">
+<div id="fb-root"></div>
+
     <div class="se-pre-con"></div>
     <div id="page-wrapper">
         <!-- Header -->
@@ -265,11 +267,12 @@
                         <b>July 5, 1978</b><br> Consumer Store was opened, due to members demand the capital was from member’s dividend & patronage refund
                         <a href="coop_history.php">Read More</a>
                     </p>
-
+                   
+</div>
 
                 </div>
               
-            </div>
+          
 
         </section>
 
