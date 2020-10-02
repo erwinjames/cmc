@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.2
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 23, 2020 at 09:58 AM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.2.26
+-- Generation Time: Oct 02, 2020 at 01:04 PM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -21,6 +20,29 @@ SET time_zone = "+00:00";
 --
 -- Database: `cordovampc`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `blog`
+--
+
+CREATE TABLE `blog` (
+  `news_id` int(11) NOT NULL,
+  `news_title` varchar(31) NOT NULL,
+  `news_short_description` text NOT NULL,
+  `news_full_content` text NOT NULL,
+  `news_author` varchar(120) NOT NULL,
+  `news_published_on` datetime NOT NULL,
+  `news_image` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `blog`
+--
+
+INSERT INTO `blog` (`news_id`, `news_title`, `news_short_description`, `news_full_content`, `news_author`, `news_published_on`, `news_image`) VALUES
+(2, 'sample', 'a sample', 'a sample 2', 'erwin1', '2020-09-27 13:24:06', '785044.jpg');
 
 -- --------------------------------------------------------
 
@@ -54,27 +76,29 @@ INSERT INTO `career` (`career_id`, `career_title`, `career_description`, `career
 
 CREATE TABLE `cmc_admin` (
   `cmc_id` int(11) NOT NULL,
-  `cmc_username` varchar(31) NOT NULL,
+  `cmc_username` varchar(30) NOT NULL,
   `cmc_password` text NOT NULL,
-  `admin_type` varchar(31) NOT NULL
+  `admin_type` varchar(30) NOT NULL,
+  `logged_date` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `cmc_admin`
 --
 
-INSERT INTO `cmc_admin` (`cmc_id`, `cmc_username`, `cmc_password`, `admin_type`) VALUES
-(1, 'erwin', '123456', 'Hr');
+INSERT INTO `cmc_admin` (`cmc_id`, `cmc_username`, `cmc_password`, `admin_type`, `logged_date`) VALUES
+(1, 'erwin', '123456', 'Hr', '0000-00-00 00:00:00'),
+(3, 'erwin1', '123456', 'Mrdo', '0000-00-00 00:00:00');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `career`
+-- Indexes for table `blog`
 --
-ALTER TABLE `career`
-  ADD PRIMARY KEY (`career_id`);
+ALTER TABLE `blog`
+  ADD PRIMARY KEY (`news_id`);
 
 --
 -- Indexes for table `cmc_admin`
@@ -87,16 +111,16 @@ ALTER TABLE `cmc_admin`
 --
 
 --
--- AUTO_INCREMENT for table `career`
+-- AUTO_INCREMENT for table `blog`
 --
-ALTER TABLE `career`
-  MODIFY `career_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+ALTER TABLE `blog`
+  MODIFY `news_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `cmc_admin`
 --
 ALTER TABLE `cmc_admin`
-  MODIFY `cmc_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `cmc_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
