@@ -267,15 +267,9 @@
                         <b>July 5, 1978</b><br> Consumer Store was opened, due to members demand the capital was from member’s dividend & patronage refund
                         <a href="coop_history.php">Read More</a>
                     </p>
-                   
-</div>
-
+                   </div>
                 </div>
-              
-          
-
         </section>
-
         <section id="cta" class="wrapper style3">
             <div class="container"> 
                 <header data-aos="fade-left" data-aos-duration="1500">
@@ -284,7 +278,6 @@
                 </header>
             </div>
         </section>
-
         <!-- Footer -->
     <?php include "includes/footer.php"?>
 

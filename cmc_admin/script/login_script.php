@@ -17,7 +17,9 @@ if ($stmt = $conn->prepare('SELECT cmc_id, cmc_password, admin_type FROM cmc_adm
     if ($stmt->num_rows > 0) {
         $stmt->bind_result($id, $password,$admin_type);
         $stmt->fetch();
-        if ($_POST['password'] === $password) { 
+        // if ($_POST['password'] === $password) 
+        if (password_verify($_POST['password'],$password))  
+        { 
             session_regenerate_id();
             $_SESSION['loggedin'] = TRUE;
             $_SESSION['name'] = $_POST['username'];
