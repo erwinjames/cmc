@@ -1,1 +1,5 @@
 # cmc
+
+
+username
+cordovampcadmin
