@@ -1,0 +1,38 @@
+<?php 
+include "../../includes/connection.php";
+if(isset($_POST['submit'])){
+		$firstName = $_POST['username'];
+		$password = $_POST['password'];
+		$email = $_POST['type'];
+		
+		$options = array("cost"=>4);
+		$hashPassword = password_hash($password,PASSWORD_BCRYPT,$options);
+		
+		$sql = "insert into cmc_admin (cmc_username, cmc_password,admin_type) value('".$firstName."', '".$hashPassword."', '".$email."')";
+		$result = mysqli_query($conn, $sql);
+		if($result)
+		{
+			echo "Registration successfully";
+		}
+	}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+	<form action="adding_admin.php" method="post">
+	<input type="text" name="username">
+<input type="text" name="password">
+<select name="type">
+  <option value="Hr">Hr</option>
+  <option value="Mrdo">Mrdo</option>
+
+</select>
+<input type="submit" name="submit">
+	</form>
+
+</body>
+</html>
