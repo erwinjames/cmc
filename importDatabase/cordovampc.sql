@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 02, 2020 at 01:04 PM
+-- Generation Time: Oct 05, 2020 at 01:37 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -36,13 +36,6 @@ CREATE TABLE `blog` (
   `news_published_on` datetime NOT NULL,
   `news_image` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `blog`
---
-
-INSERT INTO `blog` (`news_id`, `news_title`, `news_short_description`, `news_full_content`, `news_author`, `news_published_on`, `news_image`) VALUES
-(2, 'sample', 'a sample', 'a sample 2', 'erwin1', '2020-09-27 13:24:06', '785044.jpg');
 
 -- --------------------------------------------------------
 
@@ -78,17 +71,16 @@ CREATE TABLE `cmc_admin` (
   `cmc_id` int(11) NOT NULL,
   `cmc_username` varchar(30) NOT NULL,
   `cmc_password` text NOT NULL,
-  `admin_type` varchar(30) NOT NULL,
-  `logged_date` datetime NOT NULL
+  `admin_type` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `cmc_admin`
 --
 
-INSERT INTO `cmc_admin` (`cmc_id`, `cmc_username`, `cmc_password`, `admin_type`, `logged_date`) VALUES
-(1, 'erwin', '123456', 'Hr', '0000-00-00 00:00:00'),
-(3, 'erwin1', '123456', 'Mrdo', '0000-00-00 00:00:00');
+INSERT INTO `cmc_admin` (`cmc_id`, `cmc_username`, `cmc_password`, `admin_type`) VALUES
+(5, 'Jbaguio', '$2y$04$pSkdyPS4LQHhDkzv7gQPYen3IxocZxQq96Tw.X9WFGrTB8hzNxpDK', 'Hr'),
+(6, 'Rcartilla', '$2y$04$vuS7A4cM0LWBOztqA5qL8ur81zI08RFL/Gzc74H1ZLG6murOAoZVS', 'Mrdo');
 
 --
 -- Indexes for dumped tables
@@ -120,7 +112,7 @@ ALTER TABLE `blog`
 -- AUTO_INCREMENT for table `cmc_admin`
 --
 ALTER TABLE `cmc_admin`
-  MODIFY `cmc_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `cmc_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
