@@ -92,7 +92,6 @@
     </ul>
 </nav>
       </div>
-
         <!-- Banner -->
         <section id="banner">
             <header>
