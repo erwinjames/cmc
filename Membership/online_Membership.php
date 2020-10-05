@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
-    <link href="../assets/css/aos.css" rel="stylesheet">
+   
 
 </head>
 
@@ -71,10 +71,10 @@
                             <div class="col-12 col-12-narrower download__file">
                             <h2>STEP 5</h2>
                             <h6>Scan the deposit slips and send through email as proof of deposit.</h6>
-                            <i class="fas fa-file-download"></i>&nbsp;&nbsp;<a href="#">Download Membership Form</a> <br>
+                            <i class="fas fa-file-download"></i>&nbsp;&nbsp;<a href="../downloadable/signature_card.pdf">Download Membership Form</a> <br>
                             <i class="fas fa-file-download"></i>&nbsp;&nbsp;<a href="#">Signature Card</a>
                             </div>
-                            </div>
+                            
                     </div>
 
                 </div>
