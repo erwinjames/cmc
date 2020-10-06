@@ -4,7 +4,7 @@
             <li class="current">
             <a>About Us</a>
             <ul>
-            <li><a href="../aboutUs/coop_VMG.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Mission,Vision,Goals</a></li>
+            <li><a href="../aboutUs/coop_VMG.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Vision,Mission,Goals</a></li>
         <li><a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Board And Officers</a>
                                 <ul>
                                     <li><a href="../AboutUs/coop_officers.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>BOD</a></li>
@@ -25,7 +25,7 @@
 
                     </ul>
                 </li>
-                <li><a href="../AboutUs/coop_awards&certificate.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Awards and Recognations</a></li>
+                <li><a href="../AboutUs/coop_awards&certificate.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Awards and Recognitions</a></li>
               
                 <li><a href="../AboutUs/coop_organizational.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Organization Structure</a></li>
                 <li><a href="../AboutUs/gallery.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Gallery</a></li>

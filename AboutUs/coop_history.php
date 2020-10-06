@@ -18,54 +18,26 @@
         <?php include "AboutUs-menu.php"?>
       </div>
         <!-- Main -->
+        <section id="cta" class="wrapper style2">
+            <div class="container">
+                <header>
+                    <h2>Cordova Multipurpose Cooperative History</h2>
+                </header>
+            </div>
+        </section>
         <section class="wrapper style1">
             <div class="container">
                 <div class="row gtr-200">
-                    <div class="col-4 col-12-narrower">
-                        <div id="sidebar">
-
-                            <!-- Sidebar -->
-
-                            <section>
-                                <h3>What is Cooperative?</h3>
-                                <p>A cooperative is a duly registered association of PERSONS, with a common bond of interest who have voluntarily joined together to achieve a lawful common social or economic end, and making equitable contributions to the
-                                    capital required and accepting a fair share of the risks and benefits of the undertaking in accordance with universally accepted cooperative principles.
-
-                                </p>
-                                <footer>
-                                    <!--   <a href="#" class="button">Continue Reading</a> -->
-                                </footer>
-                            </section>
-
-                            <section>
-                                <h3>Cooperative Principles</h3>
-                                <span class="image featured"><img src="images/principles.png" alt="" /></span>
-                                <footer>
-                                    <h3>Cooperative Development Authority (CDA</h3>
-                                    <p>
-                                        RA 6938 in acted in March 10, 1990 Authorized the Organization of Cooperatives of the Philippines
-
-                                    </p>
-                                    <span class="image featured"><img src="images/cda.jpg" alt="" /></span>
-                                    <!--   <a href="#" class="button">More Random Links</a> -->
-                                </footer>
-                            </section>
-
-                        </div>
-                    </div>
-                    <div class="col-8  col-12-narrower imp-narrower">
+                   
+                    <div class="">
                         <div id="content">
 
                             <!-- Content -->
 
                             <article>
-                                <header>
-                                    <h2>Cordova Multipurpose Cooperative History</h2>
-                                    <p>How CMC Started?</p>
-                                </header>
-
+                                
                                 <span class="image featured"><img src="../images/history.png" alt="" /></span>
-
+                                <h3>HOW CMC STARTED ?</h3>
                                 <p>Cordova Multipurpose Cooperative is a large cooperative and one of the pioneering 
                                     cooperatives in Cebu that offers competitive financial products such as Savings,
                                      Time Deposits and Loans and other allied services to its members with a strong 
