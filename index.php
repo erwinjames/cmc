@@ -194,11 +194,9 @@
             </div>
         </section>
         <section class="style2">
-
             <header class="major" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Products and Services</h2>
             </header>
-
         </section>
         <section class="wrapper style1">
             <div class="container">
@@ -256,16 +254,8 @@
 
         <section class="wrapper style7">
             <div class="row">
-                <div class="col-6 col-12-narrower history_div" data-aos="fade-right" data-aos-duration="1500">
-                    <h1><b>Cordova Multipurpose Cooperative History</b></h1><br>
-                    <p><b>October 30-31 & November 1, 1971</b><br> Rev. Fr. Rudy Abao, MSC initiated Self-discovery Seminar to 25 Parishioners November 15 to December 11, 1971- 1st PMES to 25 participants was conducted
-                        <br>
-                        <b> December 12, 1971</b><br> 1st Organizational Meeting elected officers of the cooperative or the ad-hoc officers, initial capital was P250.00
-                        <br>
-                        <b>March 14, 1972</b> <br> Registered as Pre-coop at the Cooperative Administration Office with the name CORDOVA COOPERATIVE CREDIT UNION <br>
-                        <b>July 5, 1978</b><br> Consumer Store was opened, due to members demand the capital was from member’s dividend & patronage refund
-                        <a href="coop_history.php">Read More</a>
-                    </p>
+                   <div class="col-6 col-12-narrower" data-aos="fade-right" data-aos-duration="1500"> 
+                   
                    </div>
                 </div>
         </section>
