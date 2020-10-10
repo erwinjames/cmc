@@ -271,19 +271,26 @@
                    <div class="col-8 col-12-narrower " data-aos="fade-right" data-aos-duration="1500"> 
           <div class="coop_news">
 	<ul class="list-reset">
+    <?php
+                include "includes/connection.php";
+                $sql= "SELECT * FROM blog";
+                $stmt = $conn->prepare($sql);
+                $stmt->execute();
+                $resultSet = $stmt->get_result();
+                $result = $resultSet->fetch_all();
+                foreach($result as $row){    ?>
                         <li class="active">
-                            <span>26 JAN</span>
-                            <a>Coop News</a>
-                            <img src="" alt="">
+                            <span><?php echo $row[5];?></span>
+                            <a><?php echo $row[1];?></a>
+                            <img src="images/post_news/<?php echo $row[6]; ?>" alt="">
                             <div class="new_description">
                                 <div class="description_content">
-                                    
-                               
+                                <?php echo $row[2];?>
                                 </div>
                                 <a href="">See More</a>
                         </div>
                         </li>
-                       
+                <?php } ?>
                         
 	</ul>
 	<div class="featured-image"></div>
