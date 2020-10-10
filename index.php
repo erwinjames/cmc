@@ -24,17 +24,18 @@
             <li>
             <a>About Us</a>
             <ul>
+            <li><a href="AboutUs/coop_history.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop Profile</a></li>
             <li><a href="AboutUs/coop_VMG.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Vision,Mission,Goals</a></li>
-        <li><a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Board And Officers</a>
+            <li><a href="AboutUs/coop_organizational.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Organizational Structure</a></li>
+            <li><a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Board And Officers</a>
                                 <ul>
                                     <li><a href="AboutUs/coop_officers.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>BOD</a></li>
                                     <li><a href="AboutUs/coop_officers2.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>COMMITTEES</a></li>
                                 </ul>
            </li>
-           
-            <li><a href="AboutUs/coop_history.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Coop Profile</a></li>
+ 
                 <li>
-                <a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Branches And Offices</a>
+                <a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>The Management</a>
                     <ul>
                         <li><a href="AboutUs/coop_ho.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Head Office</a></li>
                         <li><a href="AboutUs//coop_main.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Main Office</a></li>
@@ -45,9 +46,8 @@
                         <li><a href="AboutUs/coop_be.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Business Enterprise</a></li>
                     </ul>
                 </li>
-                <li><a href="AboutUs/coop_awards&certificate.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Awards and Recognitions</a></li>
-              
-                <li><a href="AboutUs/coop_organizational.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Organization Structure</a></li>
+                <li><a href="AboutUs/coop_FAQ's.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>FAQ's</a></li>
+
                 <li><a href="AboutUs/gallery.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Gallery</a></li>
             </ul>
         </li>
@@ -209,7 +209,7 @@
                 <div class="row gtr-200">
                     <section class="col-4 col-12-narrower">
                         <div class="box highlight" data-aos="fade-up" data-aos-duration="1000">
-                            <i class="icon solid major"><img src="images/time_deposit.png" alt=""></i>
+                            <i class="icon solid major"><img src="images/time.png" alt=""></i>
                             <h3>Time Deposit</h3>
                             <p>CMC helps you plan for tomorrow. Money does not grow on trees,
                                but, it does at CMC! Let your COOP multiply your earnings for you. 
@@ -222,7 +222,7 @@
                             <h3>Loan Products</h3>
                             <p>Do you need ADDITIONAL CAPITAL for your business? Are you short of your kid’s TUITION FEES? 
                                 Are your Utility BILLS due for payment and you are Short of CASH? Get closer to your dreamed CAR and dreamed HOUSE.
-                                Go to your nearest CMC branch. Your COOP will listen.<a href="Product&Services/loans.php">ReadMore</a></p>
+                                Go to your nearest CMC branch. Your COOP will listen.<a href="Product&Services/loans.php">More</a></p>
                         </div>
                     </section>
                     <section class="col-4 col-12-narrower">
@@ -231,7 +231,7 @@
                             <h3>Savings Deposit</h3>
                             <p>We offer more returns for your hard-earned savings.
                                INVEST AND SAVE money for your future. 
-                               DEPOSIT at CMC now!<a href="Product&Services/Regular.php">ReadMore</a></p>
+                               DEPOSIT at CMC now!<a href="Product&Services/Regular.php">More</a></p>
                         </div>
                     </section>
                 </div>
@@ -241,7 +241,7 @@
                             <i class="icon solid major"><img src="images/healthcare.png" alt=""></i>
                             <h3>Health Care Program</h3>
                             <p>
-                                Avail our CMC Health Care with a reasonable price of <b>P500</b>.<a href="Product&Services/membersBenifits.php">ReadMore</a>
+                                Avail our CMC Health Care with a reasonable price of <b>P500</b>.<a href="Product&Services/membersBenifits.php">More</a>
                             </p>
                         </div>
                     </section>
@@ -251,15 +251,15 @@
                             <i class="icon solid major"><img src="images/mortaury.png" alt=""></i>
                             <h3>Fonus</h3>
                             <p>We care for our members and we Value human dignity. 
-                               Be INSURED! Avail now our COOP Death Assistance INSURANCE.<a href="Product&Services/membersBenifits.php">ReadMore</a></p>
+                               Be INSURED! Avail now our COOP Death Assistance INSURANCE.<a href="Product&Services/membersBenifits.php">More</a></p>
                         </div>
                     </section>
                     <section class="col-4 col-12-narrower">
                         <div class="box highlight" data-aos="fade-up" data-aos-duration="2000">
-                            <i class="icon solid major"><img src="images/mortaury.png" alt=""></i>
+                            <i class="icon solid major"><img src="images/be.png" alt=""></i>
                             <h3>Business Enterprise</h3>
                             <p>We care for our members and we Value human dignity. 
-                               Be INSURED! Avail now our COOP Death Assistance INSURANCE.<a href="Product&Services/TimeDeposit.php">ReadMore</a></p>
+                               Be INSURED! Avail now our COOP Death Assistance INSURANCE.<a href="Product&Services/BusinessEnterprise.php">More</a></p>
                         </div>
                     </section>
                 </div>
