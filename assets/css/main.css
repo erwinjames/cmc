@@ -1980,7 +1980,6 @@ ul.icons li span {
 ul.social__icons {
     cursor: default;
     list-style: none;
-
     padding-top: 1rem;
     float: right;
 }
@@ -2532,6 +2531,7 @@ button.small,
 
 .wrapper.style7 {
     background-image: url("../../images/history.png");
+    background-size: cover;
     width: 100%;
     height: auto;
 }
@@ -3104,13 +3104,13 @@ button.small,
         text-align: left;
     }
 }
-.top__header{
+
+.top__header {
     padding-bottom: 0.5rem;
 }
 
 .header_image img {
     width: 10%;
-
 }
 
 .header_tag h1 {
@@ -3290,6 +3290,103 @@ iframe {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.list-reset .new_description {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.list-reset .new_description .description_content {
+    width: 500px;
+    height: 80px;
+}
+
+.coop_news {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    -webkit-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.list-reset {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(30% - 4px);
+    min-height: 350px;
+    height: 70vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: 2px solid #fff;
+    background-color: #ffffff;
+}
+
+.list-reset li {
+    padding: 20px;
+    border-bottom: 2px solid #fff;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+
+.list-reset li:hover {
+    background: #c5c5c5;
+}
+
+.list-reset li img {
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+    opacity: 0;
+    -webkit-transform: translatey(10px);
+    transform: translatey(10px);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+}
+
+.list-reset li a {
+    display: block;
+    margin-top: 4px;
+}
+
+.list-reset li span {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.list-reset li img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.list-reset .active {
+    z-index: 999;
+    background: #fff;
+}
+
+.list-reset .active a {
+    color: #548AF7;
+}
+
+.list-reset .active img {
+    opacity: 1;
+    -webkit-transform: translatey(0);
+    transform: translatey(0);
 }
 
 .container-contact1 {
@@ -3476,7 +3573,6 @@ textarea.input1+.shadow-input1 {
     .contact1-form {
         width: 44%;
     }
-  
 }
 
 @media (max-width: 992px) {
@@ -3489,7 +3585,6 @@ textarea.input1+.shadow-input1 {
     .contact1-form {
         width: 55%;
     }
- 
 }
 
 @media (max-width: 768px) {
@@ -3502,7 +3597,6 @@ textarea.input1+.shadow-input1 {
     .contact1-form {
         width: 100%;
     }
-
 }
 
 @media (max-width: 576px) {
