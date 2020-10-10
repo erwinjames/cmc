@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="assets/sass/main.css"> -->
     <link href="assets/css/aos.css" rel="stylesheet">
 
 </head>
@@ -254,8 +255,26 @@
 
         <section class="wrapper style7">
             <div class="row">
-                   <div class="col-6 col-12-narrower" data-aos="fade-right" data-aos-duration="1500"> 
-                   
+                   <div class="col-8 col-12-narrower " data-aos="fade-right" data-aos-duration="1500"> 
+          <div class="wrappers">
+	<ul class="list-reset">
+                        <li class="active">
+                            <span>26 JAN</span>
+                            <a>Coop News</a>
+                            <img src="" alt="">
+                            <div class="new_description">
+                                <div class="description_content">
+                                    
+                               
+                                </div>
+                                <a href="">See More</a>
+                        </div>
+                        </li>
+                       
+                        
+	</ul>
+	<div class="featured-image"></div>
+    </div>
                    </div>
                 </div>
         </section>

@@ -1,20 +1,20 @@
 (function($) {
 
-  $('[data-popup-open]').on('click', function(e) {
-    var targeted_popup_class = jQuery(this).attr('data-popup-open');
-    $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+    $('[data-popup-open]').on('click', function(e) {
+        var targeted_popup_class = jQuery(this).attr('data-popup-open');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
 
 
-    e.preventDefault();
-});
+        e.preventDefault();
+    });
 
 
-$('[data-popup-close]').on('click', function(e) {
-    var targeted_popup_class = jQuery(this).attr('data-popup-close');
-    $('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+    $('[data-popup-close]').on('click', function(e) {
+        var targeted_popup_class = jQuery(this).attr('data-popup-close');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
 
-    e.preventDefault();
-});
+        e.preventDefault();
+    });
 
     var $window = $(window),
         $body = $('body');
@@ -80,66 +80,70 @@ $('[data-popup-close]').on('click', function(e) {
 
 $("#slideshows > img:gt(0)").hide();
 
-setInterval(function() { 
-  $('#slideshows > img:first')
-    .fadeOut(3000)
-    .next()
-    .fadeIn(3000)
-    .end()
-    .appendTo('#slideshows');
-},  5000);
+setInterval(function() {
+    $('#slideshows > img:first')
+        .fadeOut(3000)
+        .next()
+        .fadeIn(3000)
+        .end()
+        .appendTo('#slideshows');
+}, 5000);
 
-$( document ).ready(function() {
-   
-	var timerId=setInterval(function() { 
-	
-		$('h3.whr-title').each(function() {
-			
-		  var href=$(this).children().first().attr('href');
-		  		  
-		  var new_content=$(this).parent().html() + "<div class='apply-now-btn'><a href='"+ href +"' target='_blank'>Apply Now</a></div>";
-		  
-		  $(this).parent().html(new_content) ;
-		  
-		  clearInterval(timerId);
-		});
-		
-  },  1000);
-  
-  
+$(document).ready(function() {
+
+    var timerId = setInterval(function() {
+
+        $('h3.whr-title').each(function() {
+
+            var href = $(this).children().first().attr('href');
+
+            var new_content = $(this).parent().html() + "<div class='apply-now-btn'><a href='" + href + "' target='_blank'>Apply Now</a></div>";
+
+            $(this).parent().html(new_content);
+
+            clearInterval(timerId);
+        });
+
+    }, 1000);
+
+
 });
 
 $(document).ready(function() {
     $("#toggle").click(function() {
-      var elem = $("#toggle").text();
-      if (elem == "Read More") {
-        $("#toggle").text("Read Less");
-        $("#text").slideDown();
-      } else {
-      
-        $("#toggle").text("Read More");
-        $("#text").slideUp();
-      }
-    });
-  });
+        var elem = $("#toggle").text();
+        if (elem == "Read More") {
+            $("#toggle").text("Read Less");
+            $("#text").slideDown();
+        } else {
 
-  $('.modal-toggle').on('click', function(e) {
+            $("#toggle").text("Read More");
+            $("#text").slideUp();
+        }
+    });
+});
+
+$('.modal-toggle').on('click', function(e) {
     e.preventDefault();
     $('.modal').toggleClass('is-visible');
-  });
-  
+});
 
-  var coll = document.getElementsByClassName("colapse");
+
+var coll = document.getElementsByClassName("colapse");
 var i;
 
 for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
 }
+$('.list-reset li').on('click', function() {
+    $('.list-reset li').removeClass('active')
+    $(this).addClass('active')
+})
