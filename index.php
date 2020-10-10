@@ -269,7 +269,7 @@
         <section class="wrapper style7">
             <div class="row">
                    <div class="col-8 col-12-narrower " data-aos="fade-right" data-aos-duration="1500"> 
-          <div class="wrappers">
+          <div class="coop_news">
 	<ul class="list-reset">
                         <li class="active">
                             <span>26 JAN</span>
