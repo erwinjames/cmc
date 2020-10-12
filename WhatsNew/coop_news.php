@@ -29,7 +29,7 @@
         <div class="container">
         <?php
                 include "../includes/connection.php";
-                $sql= "SELECT * FROM blog";
+                $sql= "SELECT * FROM blog where p_type=0";
                 $stmt = $conn->prepare($sql);
                 $stmt->execute();
                 $resultSet = $stmt->get_result();

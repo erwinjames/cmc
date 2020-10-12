@@ -55,7 +55,7 @@
   if(!isset($errMSG))
   {
    $stmt = $conn->prepare('INSERT INTO blog(news_title,news_short_description,news_full_content,news_author,news_published_on,news_image,p_type) VALUES(?, ?, ?, ?, now(), ?, ?)');
-   $stmt->bind_Param('sssss',$newsTitle,$news_short_description,$news_full_content,$author,$userpic,$types);
+   $stmt->bind_Param('ssssss',$newsTitle,$news_short_description,$news_full_content,$author,$userpic,$types);
    
    if($stmt->execute())
    {

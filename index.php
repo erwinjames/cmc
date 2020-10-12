@@ -273,7 +273,7 @@
 	<ul class="list-reset">
     <?php
                 include "includes/connection.php";
-                $sql= "SELECT * FROM blog";
+                $sql= "SELECT * FROM blog where P_type=0 order by news_published_on desc";
                 $stmt = $conn->prepare($sql);
                 $stmt->execute();
                 $resultSet = $stmt->get_result();

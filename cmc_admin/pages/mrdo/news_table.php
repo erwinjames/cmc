@@ -134,6 +134,7 @@
                                 <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Author</th>
                                 <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Date/Time</th>
                                 <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Image</th>
+                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">type</th>
                                 <th class="px-6 py-3 border-b-2 border-gray-300"></th>
                             </tr>
                         </thead>
@@ -155,7 +156,13 @@
                                     <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5"><?php echo $row[3];?></td>
                                     <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5"><?php echo $row[4];?></td>
                                     <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5"><?php echo $row[5];?></td>
+                                   
                                     <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5"><img src="../../../images/post_news/<?php echo $row[6];?>" alt=""></td>
+                                    <?php if($row[7]==1){ ?>
+                                        <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">Awards</td>
+                                    <?php }elseif($row[7]==0){ ?>
+                                        <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">Blog</td>
+                                    <?php } ?>
                                     <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">
                                         <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
                                         <span aria-hidden class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>

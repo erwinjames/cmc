@@ -134,6 +134,13 @@
     <textarea name="fullDescription" class="resize-y shadow appearance-none border rounded w-full py-6 px-3 rounded leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Full Description"></textarea>
     </div>
     <div class="mb-6">
+    <select style="float:right;" name="post_type">
+  <option >Select type</option>
+  <option value="0">Blog</option>
+  <option value="1">Awards</option>
+   </select>
+   </div>
+    <div class="mb-6">
     <input type="file" name="user_image" accept="image/*" />
     </div>
     <div class="mb-6">
