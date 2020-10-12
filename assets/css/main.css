@@ -3328,6 +3328,7 @@ iframe {
     flex-direction: column;
     border: 2px solid #fff;
     background-color: #ffffff;
+    overflow-y: scroll;
 }
 
 .list-reset li {
