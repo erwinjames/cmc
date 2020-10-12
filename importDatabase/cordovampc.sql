@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 05, 2020 at 01:37 PM
+-- Generation Time: Oct 12, 2020 at 03:39 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -34,8 +34,16 @@ CREATE TABLE `blog` (
   `news_full_content` text NOT NULL,
   `news_author` varchar(120) NOT NULL,
   `news_published_on` datetime NOT NULL,
-  `news_image` varchar(100) NOT NULL
+  `news_image` varchar(100) NOT NULL,
+  `p_type` int(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `blog`
+--
+
+INSERT INTO `blog` (`news_id`, `news_title`, `news_short_description`, `news_full_content`, `news_author`, `news_published_on`, `news_image`, `p_type`) VALUES
+(5, 'this is another update', 'a little update', 'fucking update', 'Rcartilla', '2020-10-12 21:17:11', '813355.png', 1);
 
 -- --------------------------------------------------------
 
@@ -106,7 +114,7 @@ ALTER TABLE `cmc_admin`
 -- AUTO_INCREMENT for table `blog`
 --
 ALTER TABLE `blog`
-  MODIFY `news_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `news_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `cmc_admin`
