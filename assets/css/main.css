@@ -2534,6 +2534,7 @@ button.small,
     background-size: cover;
     width: 100%;
     height: auto;
+    background-color:rgb(221, 235, 243);
 }
 
 .history_div {
