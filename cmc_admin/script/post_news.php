@@ -10,6 +10,7 @@
   $news_short_description = $_POST['shortDescription'];
   $news_full_content = $_POST['fullDescription'];
   $author = $_SESSION['name'];
+  $types = $_POST['post_type'];
   
   $imgFile = $_FILES['user_image']['name'];
   $tmp_dir = $_FILES['user_image']['tmp_name'];
@@ -53,8 +54,8 @@
   
   if(!isset($errMSG))
   {
-   $stmt = $conn->prepare('INSERT INTO blog(news_title,news_short_description,news_full_content,news_author,news_published_on,news_image) VALUES(?, ?, ?, ?, now(), ?)');
-   $stmt->bind_Param('sssss',$newsTitle,$news_short_description,$news_full_content,$author,$userpic);
+   $stmt = $conn->prepare('INSERT INTO blog(news_title,news_short_description,news_full_content,news_author,news_published_on,news_image,p_type) VALUES(?, ?, ?, ?, now(), ?, ?)');
+   $stmt->bind_Param('sssss',$newsTitle,$news_short_description,$news_full_content,$author,$userpic,$types);
    
    if($stmt->execute())
    {

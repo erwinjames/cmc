@@ -21,7 +21,7 @@
         <section id="cta" class="wrapper style2">
             <div class="container">
                 <header>
-                    <h2>Cordova Multipurpose Cooperative History</h2>
+                    <h2>Frequently Asked  Question</h2>
                 </header>
             </div>
         </section>
@@ -36,99 +36,81 @@
 
                             <article>
                                 
-                                <span class="image featured"><img src="../images/history.png" alt="" /></span>
-                                <h3>HOW CMC STARTED ?</h3>
-                                <p>Cordova Multipurpose Cooperative is a large cooperative and one of the pioneering 
-                                    cooperatives in Cebu that offers competitive financial products such as Savings,
-                                     Time Deposits and Loans and other allied services to its members with a strong 
-                                     mission of uplifting the lives and the socio-economic condition of the member-owners
-                                      of the cooperative.</p>
+                                <!-- <span class="image featured"><img src="../images/history.png" alt="" /></span> -->
+                                <h3>What is Cooperative ?</h3>
+                                <p>A cooperative is a duly registered association of PERSONS, with a common bond of interest who have voluntarily 
+                                        joined together to achieve a lawful common social or economic end, and making equitable contributions to the 
+                                        capital required and accepting a fair share of the risks and benefits of the undertaking in accordance with 
+                                        universally accepted cooperative principles</p>
 
-                                <h3>HISTORICAL BACKGROUND </h3>
-                                <p> It was in the midst of chaos and national unrest that Cordova Credit Union Incorporated was 
-                                    organized and was among those pioneering organizations that responded to the call of the 
-                                    National Secretariat of Social Action (NASSA). It was founded by Fr. Rudy Abao, MSC and its 
-                                    pioneer members were 25 parishioners who had attended the one month long Pre-Membership Education Seminar.</p>
-                                <p>The First Pre-Membership Education Seminar (PMES)was held on November 15, 2020 to December 11, 1971 
-                                    and was facilitated by Fr. Rudy Abao, MSC.</p>
-                                <p>The First organizational meeting was held on December 12, 1971 wherein the 25 pioneer - members put up 
-                                     Php 10.00 each as their share capital contribution that totalled to Php 250.00 which eventually became the 
-                                     initial capital of the Cooperative. </p>   
-                                <p>On March 14, 1972 the cooperative was registered at Cooperative Administration Office (CAO) with the name 
-                                      CORDOVA COOPERATIVE CREDIT UNION.</p>   
-                                <p>The declaration of Martial Law on September 21, 1972 led to the enactment of Republic Act 2023 and PD 175 
-                                    which mandated all Cooperatives to register in the Bureau of Cooperative Development hence, 
-                                    CORDOVA COOPERATIVE CREDIT UNION with a new name, CORDOVA CREDIT COOPERATIVE INC., was registered as 
-                                    full-fledged cooperative on October 5, 1973 with Certificate of Registration No. FF-01-RR. </p>   
+                                <h3>Co-operative values and principles </h3>
+                                <p> Co-operatives are based on the values of self-help, mutual help, self-responsibility, democracy, equality, equity and solidarity. Co-operative members believe in the ethical values of honesty, openness, social responsibility, and caring for others.
+                                    The following principles are the guidelines under which co-operatives put their values into practice are:</p>
+                                <li>Voluntary and Open Membership</li>
+                                <li>Democratic Member Control</li>
+                                <li>Member Economic Participation</li>   
+                                <li>Autonomy and Independence</li>
+                                <li>Education, Training and Information</li> 
+                                <li> Co-operation among Co-operatives</li>
+                                <li>Concern for Community.</li> 
+                                <h3>WHO CAN BE MEMBERS OF A COOPERATIVE?</h3>
+                                <p>
+                                A cooperative has two kinds of members: regular members and associate members. 
+                                </p>
+                                <p>
+                                A regular member is one who has complied with all the membership requirements and entitled to all the rights and privileges of membership as stated in the Cooperative Code and the cooperative by laws. 
+                                </p>
+                                <p>
+                                An associate member has no right to vote and be voted upon and is entitled only to such rights and privileges provided by the cooperative's by laws.
+                                </p>
+                                <h3>HOW TO BECOME A MEMBER?</h3>
+                                <p>Must Attend PMES (Pre-Membership Education Seminar)</p>
                                 <table class="default">
-                                    <tr>
-                                        <td><h4>First BOD Chairman:</h4></td>
-                                        <td>Silvina Jumao-as</td>
-                                    </tr>
-                                    <tr>
-                                        <td><h4>Vice Chairman: </h4></td>
-                                        <td>Gerardo Fajardo Jr.</td>
-                                    </tr>
-                                    <tr>
-                                        <td><h4>Members:</h4> </td>
-                                        <td>
-                                            Carmencita Tomaquin
-                                            <br>
-                                            Adelina Pogoy
-                                            <br>
-                                            Panfilo Celocia
-                                            <br>
-                                            Felicidad Arcales
-                                            <br>
-                                            Lucita Dente 
-                                        </td>
-                                      
-                                    </tr>
-                                    <tr>
-                                        <td><h4>First treasurer:</h4> </td>
-                                        <td>Josefina Berdin</td>
-                                    </tr>
-                                    <tr>
-                                        <td><h4>First Secretary: </h4></td>
-                                        <td>Carmencita Tomaquin</td>
-                                    </tr>
-                                </table>
-                                <p>After 5 years of existence as a Credit Cooperative, the General Membership during its General Assembly 
-                                    approved for the establishment of a Consumer store to respond to their demands and needs for consumer goods. 
-                                </p>
-                                <p>
-                                In July 5, 1978, a Consumer store was opened and its initial capital was taken out from the accumulated and 
-                                undistributed dividends and patronage refunds of its members. It was registered as a separate Cooperative 
-                                on July 9, 1981 with the name CORDOVA CONSUMER COOPERATIVE INC.
-                                </p>
-                                <p>
-                                The separate registrations of the Cordova Credit Cooperative, Inc. and Cordova Consumer cooperative, Inc.
-                                 were confirmed by the newly established Cooperative Development Authority (CDA) on January 16, 1991 & April 8, 1991, respectively. 
-                                </p>
-
-                                <p>
-                                After several years of operating separately, a special General Assembly was conducted that approved the merger and consolidation
-                                 of Cordova Credit Cooperative, Inc. and Cordova Consumer Cooperative , by which it was registered on June 1993 as CORDOVA MULTIPURPOSE COOPERATIVE and was identified as the first Consolidated Cooperative in Region V11, and was given with Certificate of Consolidation No. CBU-CSN-93-001. 
-                                </p>
-                                <p>
-                                June 19, 1993 – Cordova Multipurpose Cooperative opened its first branch at Lapu-Lapu City.
-                                </p>
-                                <p>
-                                Year 2002 – Cordova Multipurpose Cooperative started its operations of Lumber business.
-                                </p>
-                                <p>
-                                May 2006 – Cordova Multipurpose Cooperative transferred its new office at Crossroad of Poblacion, Cordova, Cebu.
-                                </p>
-                                <p>
-                                March 28, 2007 – Cordova Multipurpose Cooperative opened its branch at Basak, Lapu Lapu City.
-                                </p>
-                                <p>
-                                October 30, 2008 – Cordova Multipurpose Cooperative opened its branch at Olango Island, Lapu Lapu City.
-                                </p>
-                                <p>
-                                September 8, 2016 – Cordova Multipurpose Cooperative opened its first satellite office at Mandaue City.
-                                </p>
-                               
+                                   <tr>
+                                        <th>Monetary Requirements</th>
+                                        <th>Associate</th>
+                                        <th>Regular</th>
+                                   </tr>
+                                   <tr>
+                                        <td>Initial Deposit</td>
+                                        <td>none</td>
+                                        <td>P 1,250</td>
+                                   </tr>  
+                                   <tr>
+                                        <td>Initial Savings Deposits</td>
+                                        <td>P 500</td>
+                                        <td>P 500</td>
+                                   </tr> 
+                                   <tr>
+                                        <td>Memmbership Fee</td>
+                                        <td>none</td>
+                                        <td>P 100</td>
+                                   </tr>  
+                                   <tr>
+                                       <td>Fonus</td>
+                                       <td>none</td>
+                                       <td>P 720</td>
+                                   </tr>
+                                   <tr>
+                                        <td>Total</td>
+                                        <td>P 500</td>
+                                        <td>P 2,570</td>
+                                   </tr>                           
+                                   </table>
+                                <h4>Requirements</h4> 
+                                <li>Membership Applications Form with PMES Certificate</li>
+                                <li>Sketch of Residence</li>
+                                <li>Tax Identification Number (TIN)</li>
+                                <li>2pcs. 2x2 Recent Picture</li>
+                                <li>2pcs government or valid ID cards (Photocopy)</li>
+                                <li>Birth or Marriage Certificate (Photocopy)</li> 
+                            <h4>Qualifications</h4>
+                                <li>Filipino Citizen</li>
+                                <li>Legal Age</li>
+                                <li>Has Attended & completed the Pre-Membership Education Seminar</li>
+                                <li>Residing in the area covered by Cordova Multipupose Coop</li>
+                                <li>Has complied with the coop's capitalization requirements </li>
+                                <li>Has a good moral standing in the community</li>
                             </article>
 
                         </div>
