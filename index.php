@@ -273,7 +273,7 @@
 	<ul class="list-reset">
     <?php
                 include "includes/connection.php";
-            $sql= "SELECT * FROM blog";
+                $sql= "SELECT * FROM blog";
                 $stmt = $conn->prepare($sql);
                 $stmt->execute();
                 $resultSet = $stmt->get_result();

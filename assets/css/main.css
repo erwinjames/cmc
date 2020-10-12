@@ -2534,6 +2534,7 @@ button.small,
     background-size: cover;
     width: 100%;
     height: auto;
+    background-color:rgb(221, 235, 243);
 }
 
 .history_div {
@@ -3328,6 +3329,7 @@ iframe {
     flex-direction: column;
     border: 2px solid #fff;
     background-color: #ffffff;
+    overflow-y: scroll;
 }
 
 .list-reset li {
