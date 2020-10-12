@@ -15,7 +15,7 @@
 
         <!-- Header -->
         <?php include "../includes/header2.php";?>  
-        <?php include "news-menu.php";?>
+        <?php include "news-menu.php";?>a
       </div>
         <!-- Main -->
         <section id="cta" class="wrapper style2">
