@@ -278,9 +278,9 @@
                 $stmt->execute();
                 $resultSet = $stmt->get_result();
                 $result = $resultSet->fetch_all();
-                foreach($result as $row){    ?>
+                foreach($result as $row){   $extractedDAte = $row[5]; ?>
                         <li class="active">
-                            <span><?php echo $row[5];?></span>
+                            <span><?php echo DateTime::createFromFormat("Y-m-d H:i:s",$extractedDAte)->format("d-m-Y");?></span>
                             <a><?php echo $row[1];?></a>
                             <img src="images/post_news/<?php echo $row[6]; ?>" alt="">
                             <div class="new_description">
