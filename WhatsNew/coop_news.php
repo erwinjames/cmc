@@ -34,7 +34,7 @@
                 $stmt->execute();
                 $resultSet = $stmt->get_result();
                 $result = $resultSet->fetch_all();
-                foreach($result as $row){    ?>
+                foreach($result as $row){   $extractDateTime = $row[5]; ?>
             <div class="row gtr-50">
                 <div class="col-6 col-12-narrower">
                     <div class='hover'>
@@ -42,8 +42,7 @@
                             <div class='thumbnail'>
                                 <img src="../images/post_news/<?php echo $row[6]; ?>">
                                 <div class='date'>
-                                    <div>27</div>
-                                    <div>Mar</div>
+                                    <div><?php echo DateTime::createFromFormat("Y-m-d H:i:s",$extractDateTime)->format("m/d/Y");?></div>
                                 </div>
                             </div>
                             <div class='content'>

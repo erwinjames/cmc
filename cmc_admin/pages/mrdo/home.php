@@ -135,7 +135,7 @@
     </div>
     <div class="mb-6">
     <select style="float:right;" name="post_type">
-  <option >Select type</option>
+  <option value="0">Select type</option>
   <option value="0">Blog</option>
   <option value="1">Awards</option>
    </select>
