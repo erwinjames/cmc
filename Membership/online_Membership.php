@@ -20,7 +20,6 @@
       </div>
 
         <!-- Main -->
-        <section class="wrapper style1">
         <section id="cta" class="wrapper style2">
             <div class="container">
                 <header>
