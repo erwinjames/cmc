@@ -12,8 +12,9 @@
 </head>
 
 <body class="is-preload">
-<div id="fb-root"></div>
 
+<div id="fb-root"></div>
+     <?php include "includes/social_media.php"; ?>
     <div class="se-pre-con"></div>
     <div id="page-wrapper">
         <!-- Header -->

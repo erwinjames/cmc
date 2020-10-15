@@ -1,85 +1,70 @@
-.wrappers {
-  width: 80%;
+.searchbox {
   position: relative;
-  max-width: 100%;
+  height: 40px;
+  width: 400px;
+  margin: 50px auto;
   overflow: hidden;
-  -webkit-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-}
-
-.list-reset {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: calc(30% - 4px);
-  min-height: 350px;
-  height: 70vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  border: 2px solid #fff;
-}
-
-.list-reset li {
-  padding: 20px;
   border-bottom: 2px solid #fff;
-  -webkit-transition: all 600ms ease;
-  transition: all 600ms ease;
-  cursor: pointer;
+  background: none;
+  color: #fff;
+  -webkit-perspective: 1800px;
+          perspective: 1800px;
+  -webkit-perspective-origin: 40% 40%;
+          perspective-origin: 40% 40%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.list-reset li:hover {
-  background: #f9f9f9;
+.searchbox--active {
+  color: #000;
 }
 
-.list-reset li img {
-  -webkit-transition: all 600ms ease;
-  transition: all 600ms ease;
-  opacity: 0;
-  -webkit-transform: translatey(10px);
-          transform: translatey(10px);
-  -webkit-transform-origin: bottom;
-          transform-origin: bottom;
-}
-
-.list-reset li a {
-  display: block;
-  margin-top: 4px;
-}
-
-.list-reset li span {
-  font-size: 0.7rem;
-  opacity: 0.7;
-}
-
-.list-reset li img {
+.searchbox:after {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 70%;
+  content: "";
+  width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-}
-
-.list-reset .active {
-  z-index: 999;
+  top: 20px;
+  left: 0px;
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
   background: #fff;
+  -webkit-transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.list-reset .active a {
-  color: #548AF7;
+.searchbox--active:after {
+  top: 0px;
+  left: 0px;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
 }
 
-.list-reset .active img {
-  opacity: 1;
-  -webkit-transform: translatey(0);
-          transform: translatey(0);
+.searchbox input {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 44px;
+  border: none;
+  font-size: 1em;
+  color: inherit;
+  background: none;
+}
+
+.searchbox button {
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 44px;
+  border: none;
+  background: none;
+  font-size: 1.4em;
+  color: inherit;
 }
 /*# sourceMappingURL=main.css.map */
