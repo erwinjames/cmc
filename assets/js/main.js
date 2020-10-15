@@ -147,3 +147,26 @@ $('.list-reset li').on('click', function() {
     $('.list-reset li').removeClass('active')
     $(this).addClass('active')
 })
+
+function getInputValue() {
+    var word = document.getElementById("search5").value,
+        queue = [document.body],
+        curr;
+    while (curr = queue.pop()) {
+        if (!curr.textContent.match(word)) continue;
+        for (var i = 0; i < curr.childNodes.length; ++i) {
+            switch (curr.childNodes[i].nodeType) {
+                case Node.TEXT_NODE:
+                    if (curr.childNodes[i].textContent.match(word)) {
+                        curr.scrollIntoView(true);
+                        curr.style.backgroundColor = "yellow";
+                        curr.style.color = "black";
+                    }
+                    break;
+                case Node.ELEMENT_NODE:
+                    queue.push(curr.childNodes[i]);
+                    break;
+            }
+        }
+    }
+}

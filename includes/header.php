@@ -10,8 +10,9 @@
       <span><small>Cda Registration No. 9520-07007277</small></span>
     </div>
     <div class="social__header col-4">
-    <form method="get" action="/search" id="searchbox5">
+    <div id="searchbox5">
         <input id="search5" name="q" type="text" size="40" placeholder="Search..." />
-    </form>
+        <!-- <button type="button" onclick="getInputValue();">search</button> -->
+ </div>
     </div>
 </div>
