@@ -29,10 +29,10 @@
             <li><a href="AboutUs/coop_VMG.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Vision,Mission,Goals</a></li>
             <li><a href="AboutUs/coop_organizational.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Organizational Structure</a></li>
             <li><a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Board And Officers</a>
-                                <ul>
-                                    <li><a href="AboutUs/coop_officers.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>BOD</a></li>
-                                    <li><a href="AboutUs/coop_officers2.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>COMMITTEES</a></li>
-                                </ul>
+               <ul>
+                     <li><a href="AboutUs/coop_officers.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>BOD</a></li>
+                     <li><a href="AboutUs/coop_officers2.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>COMMITTEES</a></li>
+                </ul>
            </li>
  
                 <li>
