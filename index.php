@@ -285,10 +285,11 @@
                             <img src="images/post_news/<?php echo $row[6]; ?>" alt="">
                             <div class="new_description">
                                 <div class="description_content">
-                                <?php echo $row[2];?>
+                                <h6><?php echo $row[1];?></h6>
+                                <p><?php echo $row[2];?></p>
                                 </div>
                                 <a href="">See More</a>
-                        </div>
+                            </div>
                         </li>
                 <?php } ?>
                         
