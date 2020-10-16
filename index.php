@@ -214,7 +214,7 @@
                             <h3>Time Deposit</h3>
                             <p>CMC helps you plan for tomorrow. Money does not grow on trees,
                                but, it does at CMC! Let your COOP multiply your earnings for you. 
-                               Open a TIME DEPOSIT at CMC today.<a href="Product&Services/TimeDeposit.php">ReadMore</a></p>
+                               Open a TIME DEPOSIT at CMC today.&nbsp;&nbsp;<a href="Product&Services/TimeDeposit.php">Read More</a></p>
                         </div>
                     </section>
                     <section class="col-4 col-12-narrower">
@@ -223,7 +223,7 @@
                             <h3>Loan Products</h3>
                             <p>Do you need ADDITIONAL CAPITAL for your business? Are you short of your kid’s TUITION FEES? 
                                 Are your Utility BILLS due for payment and you are Short of CASH? Get closer to your dreamed CAR and dreamed HOUSE.
-                                Go to your nearest CMC branch. Your COOP will listen.<a href="Product&Services/loans.php">More</a></p>
+                                Go to your nearest CMC branch. Your COOP will listen.&nbsp;&nbsp;<a href="Product&Services/loans.php">Read More</a></p>
                         </div>
                     </section>
                     <section class="col-4 col-12-narrower">
@@ -232,7 +232,7 @@
                             <h3>Savings Deposit</h3>
                             <p>We offer more returns for your hard-earned savings.
                                INVEST AND SAVE money for your future. 
-                               DEPOSIT at CMC now!<a href="Product&Services/Regular.php">More</a></p>
+                               DEPOSIT at CMC now!&nbsp;&nbsp;<a href="Product&Services/Regular.php">Read More</a></p>
                         </div>
                     </section>
                 </div>
@@ -242,7 +242,7 @@
                             <i class="icon solid major"><img src="images/healthcare.png" alt=""></i>
                             <h3>Health Care Program</h3>
                             <p>
-                                Avail our CMC Health Care with a reasonable price of <b>P500</b>.<a href="Product&Services/membersBenifits.php">More</a>
+                                Avail our CMC Health Care with a reasonable price of <b>P500</b>.&nbsp;&nbsp;<a href="Product&Services/membersBenifits.php">Read More</a>
                             </p>
                         </div>
                     </section>
@@ -252,7 +252,7 @@
                             <i class="icon solid major"><img src="images/mortaury.png" alt=""></i>
                             <h3>Fonus</h3>
                             <p>We care for our members and we Value human dignity. 
-                               Be INSURED! Avail now our COOP Death Assistance INSURANCE.<a href="Product&Services/membersBenifits.php">More</a></p>
+                               Be INSURED! Avail now our COOP Death Assistance INSURANCE.&nbsp;&nbsp;<a href="Product&Services/membersBenifits.php">Read More</a></p>
                         </div>
                     </section>
                     <section class="col-4 col-12-narrower">
@@ -260,7 +260,7 @@
                             <i class="icon solid major"><img src="images/be.png" alt=""></i>
                             <h3>Business Enterprise</h3>
                             <p>We care for our members and we Value human dignity. 
-                               Be INSURED! Avail now our COOP Death Assistance INSURANCE.<a href="Product&Services/BusinessEnterprise.php">More</a></p>
+                               Be INSURED! Avail now our COOP Death Assistance INSURANCE.&nbsp;&nbsp;<a href="Product&Services/BusinessEnterprise.php">Read More</a></p>
                         </div>
                     </section>
                 </div>
