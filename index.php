@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <!-- <link rel="stylesheet" href="assets/sass/main.css"> -->
     <link href="assets/css/aos.css" rel="stylesheet">
-
 </head>
-
 <body class="is-preload">
 
 <div id="fb-root"></div>
@@ -34,7 +32,6 @@
                      <li><a href="AboutUs/coop_officers2.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>COMMITTEES</a></li>
                 </ul>
            </li>
- 
                 <li>
                 <a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>The Management</a>
                     <ul>
