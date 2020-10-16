@@ -10,7 +10,6 @@
     <link href="assets/css/aos.css" rel="stylesheet">
 </head>
 <body class="is-preload">
-
 <div id="fb-root"></div>
      <?php include "includes/social_media.php"; ?>
     <div class="se-pre-con"></div>
@@ -197,7 +196,7 @@
 
             </div>
         </section>
-        <section class="style2">
+        <section class="style1">
             <header class="major" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Products and Services</h2>
             </header>
