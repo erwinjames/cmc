@@ -96,7 +96,7 @@
             <header>
                 <h2>HOW TO BECOME A MEMBER </h2>&nbsp;&nbsp;
                 <em><small>DO YOU WANT TO AVAIL OUR COOPERATIVE'S PRODUCTS AND SERVICES</small></em>
-                <a href="#" class="button">BECOME A MEMBER</a>
+                <a href="membership/regular_membership.php" class="button">BECOME A MEMBER</a>
             </header>
             <div class="container">
             </div>
