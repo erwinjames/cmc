@@ -285,7 +285,7 @@
                                 <h6><?php echo $row[1];?></h6>
                                 <p><?php echo $row[2];?></p>
                                 </div>
-                                <a href="">See More</a>
+                                <a href="WhatsNew/coop_news?pID=<?php echo $row[0];?>">See More</a>
                             </div>
                         </li>
                 <?php } ?>
