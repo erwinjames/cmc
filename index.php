@@ -299,7 +299,7 @@
     </div>
                    </div>
                    <div class="col-4 col-12-narrower">
-                   <iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/cordovampc/?eid=ARDW9z00oM6wXtBNhggGJlME0OgSbl5W1qvl6wvzKZ66WIWC50gfHG7gNsPk1LSXREhbumA9vbwh5JoZ&width=500&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" scrolling="yes" style="border:none; overflow:hidden; width:600px; height:430px; background: white; float:left; " allowtransparency="true" frameborder="0"></iframe>
+                   <iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/cordovampc/?eid=ARDW9z00oM6wXtBNhggGJlME0OgSbl5W1qvl6wvzKZ66WIWC50gfHG7gNsPk1LSXREhbumA9vbwh5JoZ&width=430&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" width="100%" scrolling="yes" style="border:none; overflow:hidden; height:430px; background: white; " allowtransparency="true" frameborder="0"></iframe>
                    </div>
                 </div>
         </section>
