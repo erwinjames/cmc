@@ -73,7 +73,8 @@
                             <h6>Scan the deposit slips and send through email as proof of deposit.</h6>
                             <i class="fas fa-file-download"></i>&nbsp;&nbsp;<a href="#">Download Membership Form</a> <br>
                             <i class="fas fa-file-download"></i>&nbsp;&nbsp;<a href="../downloadable/signature_card.pdf">Signature Card</a>
-                            </div>
+                           </div>
+                           <a href="online-pre-membership-orientation.php" class="button">Online Pre-Membership Orientation</a> 
                             
                     </div>
 

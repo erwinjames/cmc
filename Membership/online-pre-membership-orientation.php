@@ -32,9 +32,9 @@
                 <div class="container mt-2">
                     <div class="row gtr-200">         
                             <div class="online__pre_memberhsip_container">
-                               
-                            </div>
-                </div>
+                   
+                             </div>
+                  </div>
         </section>  
 
         <!-- Footer -->
