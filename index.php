@@ -190,7 +190,7 @@
                             <p data-aos="fade-up" data-aos-duration="3000">
                                 <small>
                                     - CMC existing is already time-tested for its stability as it operates for over 49 years offering relevant
-                                        financial products and services and helping improve the lines of the members by serving their needs and
+                                        financial products and services and helping improve the lives of the members by serving their needs and
                                         demands with a heart.
                                 </small>
                             </p>
