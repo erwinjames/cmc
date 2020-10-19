@@ -4054,6 +4054,118 @@ textarea.input1+.shadow-input1 {
     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
     overflow: hidden;
 }
+/* Style for slider-box DONT TOUCH IT*/
+.slider-box{
+    width:100%;
+    background-color:#eee;
+    position:relative;
+    min-height:100%;
+    z-index:0;
+    overflow:hidden;
+  }
+  
+  .slider-content, .slider-content .slider-item{
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+  }
+
+  .slider-content .slider-item{
+  /*  Offset (effet slide in/out) to off set left:0; */
+    left:5%;
+  }
+  
+  .slider-content .slider-item{
+    visibility:hidden;
+    opacity:0;
+    transition:all 0.5s ease-in-out;
+  }
+ 
+  
+  .slider-content .slider-item.active{
+    visibility:visible;
+    opacity:1;
+    left:0;
+  }
+  
+  .slider-pagin{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translate(-50%, 0);
+  }
+  
+  .slider-pagin ul{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px 0;
+  }
+  
+  .slider-pagin ul li{
+    padding-bottom:0;
+    transition:all 0.2s ease-in-out;
+  }
+  
+  .slider-pagin ul li+li{
+    margin-left:2px;
+  }
+  
+  .slider-pagin ul li a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color:#000;
+    border:2px solid #FFF;
+    text-decoration:none;
+    color:#FFF;
+    transition:all 0.2s ease-in-out;
+  }
+  
+  .slider-pagin ul li.active a, .slider-pagin ul li a:hover, .slider-pagin ul li a:focus{
+    background-color:#FFF;
+    border:2px solid #000;
+  }
+  
+  .slider-pagin ul li.active{
+    padding-bottom:5px;
+  }
+  
+  .slider-fillbar{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:0;/* must be 0, only othe values to preview */
+    height:3px;
+    background-color:rgba(0,0,0,0.25);
+  }
+  
+  .slider-background{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-repeat:none;
+    background-position:center;
+    z-index:-1;
+  }
+  
+  /* Your slider box style */
+  .slider-content .slider-item{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding:2em;
+    color:#FFF;
+    font-size:3rem;
+  }
 
 .module:hover .description {
     height: 100px;

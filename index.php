@@ -266,10 +266,24 @@
         <section class="wrapper style7">
             <div class="row">
                    <div class="col-8 col-12-narrower" data-aos="fade-right" data-aos-duration="1500"> 
-                        
+                   <div class="slider-box" id="sb_1" data-auto-slide="true" data-speed="5000">
+    <div class="slider-content">
+      <div class="slider-item active">
+          <img src="https://images.freeimages.com/images/large-previews/c5a/chapada-1-1361193.jpg" alt="">
+        <h3>My slider</h3>
+      </div>
+      <div class="slider-item">
+      <img src="https://images.freeimages.com/images/large-previews/c5a/chapada-1-1361193.jpg" alt="">
+        <h3>With all components</h3>
+      </div>
+    </div>
+    <div class="slider-pagin"></div>
+    <div class="slider-fillbar"></div>
+    <div class="slider-background"></div>
+  </div>
                    </div>
                    <div class="col-4 col-12-narrower">
-                   <iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/cordovampc/?eid=ARDW9z00oM6wXtBNhggGJlME0OgSbl5W1qvl6wvzKZ66WIWC50gfHG7gNsPk1LSXREhbumA9vbwh5JoZ&width=430&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" width="100%" scrolling="yes" style="border:none; overflow:hidden; height:430px; background: white; " allowtransparency="true" frameborder="0"></iframe>
+                   <iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/cordovampc/?eid=ARDW9z00oM6wXtBNhggGJlME0OgSbl5W1qvl6wvzKZ66WIWC50gfHG7gNsPk1LSXREhbumA9vbwh5JoZ&width=430&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=440" width="100%" height="100%" scrolling="yes" style="border:none; overflow:hidden; height:440px; background: white; " allowtransparency="true" frameborder="0"></iframe>
                    </div>
             </div>
         </section>
@@ -295,6 +309,7 @@
   <script src="assets/js/carousel.js"></script>
   <script src="assets/js/modernizr.js"></script>
   <script src="assets/js/loading.js"></script>
+  <script src="assets/js/news-slider.js"></script>
 </body>
 <script src="assets/js/aos.js"></script>
 <script>

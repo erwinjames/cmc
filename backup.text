@@ -1,0 +1,27 @@
+      <div class="coop_news">
+	<ul class="list-reset">
+    <?php
+                include "includes/connection.php";
+                $sql= "SELECT * FROM blog where P_type=0 order by news_published_on desc";
+                $stmt = $conn->prepare($sql);
+                $stmt->execute();
+                $resultSet = $stmt->get_result();
+                $result = $resultSet->fetch_all();
+                foreach($result as $row){   $extractedDAte = $row[5]; ?>
+                        <li class="active">
+                            <span><?php echo DateTime::createFromFormat("Y-m-d H:i:s",$extractedDAte)->format("d-m-Y");?></span>
+                            <a><?php echo $row[1];?></a>
+                            <img src="images/post_news/<?php echo $row[6]; ?>" alt="">
+                            <div class="new_description">
+                                <div class="description_content">
+                                <h6><?php echo $row[1];?></h6>
+                                <p><?php echo $row[2];?></p>
+                                </div>
+                                <a href="WhatsNew/coop_news?pID=<?php echo $row[0];?>">See More</a>
+                            </div>
+                        </li>
+                <?php } ?>
+                        
+	</ul>
+	<div class="featured-image"></div>
+    </div>
