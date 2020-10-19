@@ -101,7 +101,7 @@
             </div>
         </section>
         <!-- Highlights -->
-        <section>
+        <section class="style1">
             <div class="container">
                 <div class="row">
                     <div class="col-7 col-12-narrower" data-aos="fade-up" data-aos-duration="400">
@@ -265,39 +265,13 @@
 
         <section class="wrapper style7">
             <div class="row">
-                   <div class="col-8 col-12-narrower " data-aos="fade-right" data-aos-duration="1500"> 
-          <div class="coop_news">
-	<ul class="list-reset">
-    <?php
-                include "includes/connection.php";
-                $sql= "SELECT * FROM blog where P_type=0 order by news_published_on desc";
-                $stmt = $conn->prepare($sql);
-                $stmt->execute();
-                $resultSet = $stmt->get_result();
-                $result = $resultSet->fetch_all();
-                foreach($result as $row){   $extractedDAte = $row[5]; ?>
-                        <li class="active">
-                            <span><?php echo DateTime::createFromFormat("Y-m-d H:i:s",$extractedDAte)->format("d-m-Y");?></span>
-                            <a><?php echo $row[1];?></a>
-                            <img src="images/post_news/<?php echo $row[6]; ?>" alt="">
-                            <div class="new_description">
-                                <div class="description_content">
-                                <h6><?php echo $row[1];?></h6>
-                                <p><?php echo $row[2];?></p>
-                                </div>
-                                <a href="WhatsNew/coop_news?pID=<?php echo $row[0];?>">See More</a>
-                            </div>
-                        </li>
-                <?php } ?>
+                   <div class="col-8 col-12-narrower" data-aos="fade-right" data-aos-duration="1500"> 
                         
-	</ul>
-	<div class="featured-image"></div>
-    </div>
                    </div>
                    <div class="col-4 col-12-narrower">
                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/cordovampc/?eid=ARDW9z00oM6wXtBNhggGJlME0OgSbl5W1qvl6wvzKZ66WIWC50gfHG7gNsPk1LSXREhbumA9vbwh5JoZ&width=430&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" width="100%" scrolling="yes" style="border:none; overflow:hidden; height:430px; background: white; " allowtransparency="true" frameborder="0"></iframe>
                    </div>
-                </div>
+            </div>
         </section>
         <section id="cta" class="wrapper style3">
             <div class="container"> 
@@ -325,10 +299,6 @@
 <script src="assets/js/aos.js"></script>
 <script>
     AOS.init();
-  </script>
- 
-
-  
-    
+  </script>    
 </html>
 
