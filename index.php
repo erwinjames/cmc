@@ -269,8 +269,12 @@
                    <div class="slider-box" id="sb_1" data-auto-slide="true" data-speed="5000">
     <div class="slider-content">
       <div class="slider-item active">
+          <div class="slider__image">
           <img src="https://images.freeimages.com/images/large-previews/c5a/chapada-1-1361193.jpg" alt="">
+          </div>
+          <div class="slider__wordings">
         <h3>My slider</h3>
+        </div>
       </div>
       <div class="slider-item">
       <img src="https://images.freeimages.com/images/large-previews/c5a/chapada-1-1361193.jpg" alt="">
