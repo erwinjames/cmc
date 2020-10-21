@@ -27,16 +27,16 @@
 
                             <!-- Sidebar -->
 
-                            <section>
+                            <section class="core__values">
                                 <h2>CORE VALUES</h2>
-                                <h2 style="color:red;">CMC LOVES ME</h2>
-                                <p><a style="color:red;">L</a> - Loyal to the cooperative </p>
-                                <p><a style="color:red;">O</a> - Oneness in achieving our goals </p>
-                                <p><a style="color:red;">V</a>- Valor in upholding fairness, accountability and transparency </p>
-                                <p><a style="color:red;">E</a> - Excellence in all that we do</p>
-                                <p><a style="color:red;">S</a>- Socially and environmentally responsible</p>
-                                <p><a style="color:red;">M</a>- Motivated to serve with a heart and </p>
-                                <p><a style="color:red;">E</a> - Empowered to make a difference </p>
+                                <h2 style="color:red;font-weight:bold;">CMC LOVES ME</h2>
+                                <a style="color:red;font-weight:bold;">L</a> - Loyal to the cooperative </p>
+                                <p><a style="color:red;font-weight:bold;">O</a> - Oneness in achieving our goals </p>
+                                <p><a style="color:red;font-weight:bold;">V</a> - Valor in upholding fairness, accountability and transparency </p>
+                                <p><a style="color:red;font-weight:bold;">E</a> - Excellence in all that we do</p>
+                                <p><a style="color:red;font-weight:bold;">S</a> - Socially and environmentally responsible</p>
+                                <p><a style="color:red;font-weight:bold;">M</a> - Motivated to serve with a heart and </p>
+                                <p><a style="color:red;font-weight:bold;">E</a> - Empowered to make a difference </p>
                                 <footer>
                                     <p>SERVES WITH A HEART</p>
                                     <!--   <a href="#" class="button">Continue Reading</a> -->
@@ -53,7 +53,7 @@
 
                             <article>
                                 <header style="float: center;">
-                                    <h2>VISSION</h2>
+                                    <h2>VISION</h2>
 
                                 </header>
 

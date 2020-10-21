@@ -5,4 +5,7 @@
   <div>
     <a href="mailto:Cordovacoop2020@gmail.com" class="fixed-gplus" target="_blank"><i class="icon brands fa-google-plus-g"></i> <span>Google+</span></a>
   </div>
+  <div>
+    <a href="" class="fixed-tweets" target="_blank"><i class="icon brands fa-twitter"></i> <span>twitter</span></a>
+  </div>
 </div>

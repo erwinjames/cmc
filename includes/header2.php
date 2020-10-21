@@ -3,7 +3,7 @@
 <!-- Logo -->
 <div class="row top__header">
     <div class="col-1 header_image">
-        <img src="images/cmc.png" alt="">
+        <img src="../images/cmc.png" alt="">
     </div>
     <div class="col-7 header_tag">
       <span><h1 style="font-family:'Times New Roman', Times, serif;color:rgb(16, 157, 238);text-decoration: none;">Cordova Multipurpose Cooperative</h1></span>

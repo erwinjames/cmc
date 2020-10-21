@@ -22,7 +22,7 @@
         <section id="cta" class="wrapper style2">
             <div class="container">
                 <header>
-                    <h2>Cordova Multipurpose Cooperative History</h2>
+                    <h2>Cordova Multipurpose Cooperative</h2>
                 </header>
             </div>
         </section>
