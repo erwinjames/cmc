@@ -4096,6 +4096,7 @@ textarea.input1+.shadow-input1 {
     left:5%;
    
   }
+
   .slider-content .slider-item{
     visibility:hidden;
     opacity:0;
@@ -4723,8 +4724,9 @@ div .picture {
     border: 0 none;
     font: bold 12px Arial, Helvetica, Sans-serif;
     color: #777;
-    width: 300px;
+    width: 200px;
     height: 45px;
+    position: absolute;
     padding: 6px 15px 6px 35px;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
@@ -4735,7 +4737,16 @@ div .picture {
     width: 350px;
     outline: 0;
 }
-
+.search__button {
+    right: 3rem;
+    position: absolute;
+    padding: 4px 4px;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    background-color: #474747;
+}
 
 /* fixed social*/
 

@@ -278,7 +278,7 @@
                 foreach($result as $row){   $extractedDAte = $row[5]; ?>
 
       <div class="slider-item active" data-background-url="images/post_news/<?php echo $row[6]; ?>">
-          
+    
           <div class="col-6 slider__image">
           <img src="images/post_news/<?php echo $row[6]; ?>" alt="">
           </div>

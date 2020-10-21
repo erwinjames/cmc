@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    //
+
     var $sb = $(".slider-box");
   
     $sb.each(function(){
@@ -12,7 +12,7 @@ $(document).ready(function(){
           $sbg = $this.find(".slider-background"),
           currentSlider = 0;
   
-      //Check and return speed
+
       function speedo(elem){
         let s = elem.data("speed");
           if(s < 1300){
@@ -23,7 +23,7 @@ $(document).ready(function(){
         return s;
       }
   
-      //Animation for fill bar
+
       function animateFillBar(){
         if($sfb != null){
           $sfb.stop().animate({
@@ -36,7 +36,7 @@ $(document).ready(function(){
       animateFillBar();
   
   
-      //Set background if exist
+    
       function changeBackground(){
         if($sbg != null){
           let url = $si.eq(currentSlider).data("background-url");
@@ -49,7 +49,7 @@ $(document).ready(function(){
       changeBackground();
   
   
-      //Set slider items
+     
       function setSlider(sid){
         animateFillBar();
   
@@ -73,14 +73,14 @@ $(document).ready(function(){
         changeBackground();
       }
   
-      //Check if auto-slide is on and set speed animation
+    
       var autoslide = $this.data("auto-slide"), asInterval;
       if(autoslide){
         let speed = speedo($this);
         asInterval = setInterval(setSlider, speed);
       }
   
-      //Generate pagination
+   
       var sii = 0, paginHTML = "";
       paginHTML+="<ul>";
       $si.each(function(){

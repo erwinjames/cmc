@@ -152,6 +152,9 @@ function getInputValue() {
     var word = document.getElementById("search5").value,
         queue = [document.body],
         curr;
+    if (word=='') {
+        alert('cant read search');
+    } else {
     while (curr = queue.pop()) {
         if (!curr.textContent.match(word)) continue;
         for (var i = 0; i < curr.childNodes.length; ++i) {
@@ -162,6 +165,7 @@ function getInputValue() {
                         curr.style.backgroundColor = "yellow";
                         curr.style.color = "black";
                     }
+                
                     break;
                 case Node.ELEMENT_NODE:
                     queue.push(curr.childNodes[i]);
@@ -169,4 +173,5 @@ function getInputValue() {
             }
         }
     }
+  }
 }
