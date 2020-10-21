@@ -255,8 +255,8 @@
                         <div class="box highlight" data-aos="fade-up" data-aos-duration="2000">
                             <i class="icon solid major"><img src="images/be.png" alt=""></i>
                             <h3>Business Enterprise</h3>
-                            <p>We care for our members and we Value human dignity. 
-                               Be INSURED! Avail now our COOP Death Assistance INSURANCE.&nbsp;&nbsp;<a href="Product&Services/BusinessEnterprise.php">Read More</a></p>
+                            <p>In need of affordable grocery items and quality materials for construction?
+                            <b>COME</b> and <b>VISIT</b> our B.E Consumer and Lumber Store.&nbsp;&nbsp;<a href="Product&Services/BusinessEnterprise.php">Read More</a></p>
                         </div>
                     </section>
                 </div>
