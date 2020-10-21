@@ -163,7 +163,7 @@ function getInputValue() {
                     if (curr.childNodes[i].textContent.match(word)) {
                         curr.scrollIntoView(true);
                         curr.style.backgroundColor = "yellow";
-                        curr.style.color = "black";
+                        curr.style.fontWeight = "bold";
                     }
                     break;
                 case Node.ELEMENT_NODE:
