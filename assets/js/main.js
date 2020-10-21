@@ -164,8 +164,7 @@ function getInputValue() {
                         curr.scrollIntoView(true);
                         curr.style.backgroundColor = "yellow";
                         curr.style.color = "black";
-                    }
-                
+                    } 
                     break;
                 case Node.ELEMENT_NODE:
                     queue.push(curr.childNodes[i]);
