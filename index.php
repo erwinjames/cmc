@@ -265,17 +265,30 @@
 
         <section class="wrapper style7">
             <div class="row">
-                   <div class="col-8 col-12-narrower" data-aos="fade-right" data-aos-duration="1500"> 
-                   <div class="slider-box" id="sb_1" data-auto-slide="true" data-speed="5000">
+     <div class="col-8 col-12-narrower" data-aos="fade-right" data-aos-duration="1500"> 
+      <div class="slider-box" id="sb_1" data-auto-slide="true" data-speed="6000">
     <div class="slider-content">
-      <div class="slider-item active">
-          <div class="slider__image">
-          <img src="" alt="">
+    <?php
+                include "includes/connection.php";
+                $sql= "SELECT * FROM blog where P_type=0 order by news_published_on desc";
+                $stmt = $conn->prepare($sql);
+                $stmt->execute();
+                $resultSet = $stmt->get_result();
+                $result = $resultSet->fetch_all();
+                foreach($result as $row){   $extractedDAte = $row[5]; ?>
+
+      <div class="slider-item active" data-background-url="images/post_news/<?php echo $row[6]; ?>">
+          
+          <div class="col-6 slider__image">
+          <img src="images/post_news/<?php echo $row[6]; ?>" alt="">
           </div>
-          <div class="slider__wordings">
-        <h3>My slider</h3>
+          <div class="col-6 slider__wordings">
+        <span><?php echo DateTime::createFromFormat("Y-m-d H:i:s",$extractedDAte)->format("d-m-Y");?></span>
+        <h3><?php echo $row[1];?></h3>
+        <p><?php echo $row[2];?></p>
         </div>
       </div>
+                <?php } ?>
     </div>
     <div class="slider-pagin"></div>
     <div class="slider-fillbar"></div>

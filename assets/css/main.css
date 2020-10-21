@@ -4054,7 +4054,6 @@ textarea.input1+.shadow-input1 {
     transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
     overflow: hidden;
 }
-/* Style for slider-box DONT TOUCH IT*/
 .slider-box{
     width:100%;
     background-color:#eee;
@@ -4062,6 +4061,8 @@ textarea.input1+.shadow-input1 {
     min-height:100%;
     z-index:0;
     overflow:hidden;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
   }
   .slider-content, .slider-content .slider-item{
     position:absolute;
@@ -4070,20 +4071,44 @@ textarea.input1+.shadow-input1 {
     height:100%;
   }
 .slider-content .slider-item .slider__wordings{
-    width:50px;
+    width:480px;
+    height: 398px;
+    padding: 20px 30px 30px 30px;
+    color: rgb(37, 37, 37);
+    background-color: #ffffff;
+    box-shadow: 0 8px 6px -6px black;
+    border:solid 2px #ffffff;
+    align-content: center;
+    margin-left: 5px;
 }
+.slider-content .slider-item .slider__wordings span{
+    font-size: 13px;
+    
+ }
+.slider-content .slider-item .slider__wordings h3{
+   font-size: 24px;
+   
+}
+.slider-content .slider-item .slider__wordings p{
+    font-size: 16px;
+ }
   .slider-content .slider-item{
-  /*  Offset (effet slide in/out) to off set left:0; */
     left:5%;
+   
   }
-  
   .slider-content .slider-item{
     visibility:hidden;
     opacity:0;
     transition:all 0.5s ease-in-out;
   }
+  .slider-content .slider-item .slider__image img{
+    width: 300px;
+    position: relative;
+    left: 0;
+    box-shadow: 0 8px 6px -6px black;
+    border:solid 2px #ffffff;
+  }
  
-  
   .slider-content .slider-item.active{
     visibility:visible;
     opacity:1;
