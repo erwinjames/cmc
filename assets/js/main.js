@@ -156,7 +156,7 @@ function getInputValue() {
         alert('cant read search');
     } else {
     while (curr = queue.pop()) {
-        if (!curr.textContent.match(word)) continue;
+        if (!curr.textContent.match(word))continue;
         for (var i = 0; i < curr.childNodes.length; ++i) {
             switch (curr.childNodes[i].nodeType) {
                 case Node.TEXT_NODE:
@@ -164,7 +164,7 @@ function getInputValue() {
                         curr.scrollIntoView(true);
                         curr.style.backgroundColor = "yellow";
                         curr.style.color = "black";
-                    } 
+                    }
                     break;
                 case Node.ELEMENT_NODE:
                     queue.push(curr.childNodes[i]);

@@ -14,5 +14,5 @@
         <input id="search5" name="q" type="text" size="40" placeholder="Search..." />
         <button type="submit" class="search__button" onclick="getInputValue();"><i class="fa fa-search"></i></button>
  </div>
-    </div>
+ </div>
 </div>
