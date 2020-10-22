@@ -25,10 +25,6 @@
 
                 <div class="col-8  col-12-narrower imp-narrower">
                     <div id="content">
-
-                        <!-- Content -->
-
-
                         <header>
                             <h2>Head Office</h2>
 
@@ -38,10 +34,14 @@
 
                         <article>
                             <div class="row gtr-200">
+                                <section class="col-9 col-12-narrower">
+                                    <h3>Office of the General Manager</h3>
+                                </section>    
                                 <section class="col-4 col-12-narrower">
+                             <div>
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
-                                    </div>  
+                                    </div> 
                                 <div class="info">
                                         <h4>Neomelito D. Nunez</h4>
                                         <p>General Manager</p>
@@ -65,7 +65,11 @@
                                         <p>Internal Auditor</p>
                                      </div>
                                 </section>
+                                <section class="col-9 col-12-narrower">
+                                    <h3>Treasury Department</h3>
+                                </section> 
                                 <section class="col-4 col-12-narrower">
+            
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
                                        </div> 
@@ -74,6 +78,31 @@
                                         <p>Treasury Head</p>
                                    </div>
                                         
+                                </section>
+                                <section class="col-9 col-12-narrower">
+                                    <h4>Credit and Collection Department</h4>
+                                </section>
+                                <section class="col-4 col-12-narrower">
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/branches/HeadOffice/elen.png" alt=""></i>
+                                      </div>  
+                                      <div class="info">
+                                            <h4>Ellen T. Casquejo</h4>
+                                        <p>Credit and Collection Head</p>
+                                      </div>
+                                      
+                                   
+                                </section>
+                                <section class="col-4 col-12-narrower">
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/branches/HeadOffice/epe.png" alt=""></i>
+                                     </div>  
+                                     <div class="info">
+                                          <h4>Fernando S. Rosani Jr.</h4>
+                                        <p>Remedial Managment Officer</p>
+                                     </div>
+                                       
+                                    
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
@@ -86,6 +115,9 @@
                                        
                                     
                                 </section>
+                                <section class="col-9 col-12-narrower">
+                                    <h4>Business Development Center</h4>
+                                </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
@@ -96,6 +128,9 @@
                                       </div>
                                       
                                     
+                                </section>
+                                <section class="col-9 col-12-narrower">
+                                    <h4>Business Enterprise Department</h4>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
@@ -201,31 +236,7 @@
                                         
                                    
                                 </section>
-                                <section class="col-9 col-12-narrower">
-                                    <h4>Credit and Collection Department</h4>
-                                </section>
-                                <section class="col-4 col-12-narrower">
-                                    <div class="cardsss">
-                                        <i class=""><img src="../images/branches/HeadOffice/elen.png" alt=""></i>
-                                      </div>  
-                                      <div class="info">
-                                            <h4>Ellen T. Casquejo</h4>
-                                        <p>Credit and Collection Head</p>
-                                      </div>
-                                      
-                                   
-                                </section>
-                                <section class="col-4 col-12-narrower">
-                                    <div class="cardsss">
-                                        <i class=""><img src="../images/branches/HeadOffice/epe.png" alt=""></i>
-                                     </div>  
-                                     <div class="info">
-                                          <h4>Fernando S. Rosani Jr.</h4>
-                                        <p>Remedial Managment Officer</p>
-                                     </div>
-                                       
-                                    
-                                </section>
+                        
                                 <section class="col-9 col-12-narrower">
                                     <h4>Membership Department</h4>
                                 </section>
