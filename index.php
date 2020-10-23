@@ -103,7 +103,7 @@
         <!-- Highlights -->
         <section class="style1">
             <div class="container">
-                <div class="row">
+                <div class="row gtr-200">
                     <div class="col-7 col-12-narrower" data-aos="fade-up" data-aos-duration="400">
                         <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <defs>
