@@ -55,7 +55,7 @@
                             </div>
                                 </div>
                                 <div class="col-4 col-12-mobilep">
-                                <input class="calendar" id="datepicker" placeholder="Choose Date">
+                                <input class="calendar" id="datepicker">
                                 </div>
                                 <div class="col-4 col-12-mobilep">
                                 <input type="email" name="Last_name" id="email" placeholder="Email" />
