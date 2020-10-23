@@ -9,6 +9,7 @@
                             <li><a href="#">BASAK BRANCH</a></li>
                             <li><a href="#">OLANGO BRANCH</a></li>
                             <li><a href="#">MANDAUE OFFICE</a></li>
+                            <li><a href="#">BUSINESS ENTERPRISE</a></li>
 
                         </ul>
                     </section>
@@ -19,7 +20,8 @@
                             <li><a href="#">341-3135 / 410-3132</a></li>
                             <li><a href="#">493-6197 / 410-4277</a></li>
                             <li><a href="#">09303876328</a></li>
-                            <li><a href="#"></a></li>
+                            <li><a href="#">+639325912979</a></li>
+                            <li><a href="#">496-8503</a></li>
 
                         </ul>
                     </section>
