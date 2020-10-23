@@ -1,4 +1,4 @@
-<section class="col-6 col-12-narrower">
+                    <section class="col-6 col-12-narrower">
                         <h3>Get In Touch</h3>
                         <form>
                             <div class="row gtr-50">

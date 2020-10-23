@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
    
 
 </head>
@@ -24,7 +25,7 @@
         <section id="cta" class="wrapper style2">
             <div class="container">
                 <header>
-                    <h2>Membership/Online Membership</h2>
+                    <h2>Membership/Online Pre Membership Orientation</h2>
                 </header>
             </div>
         </section>
@@ -47,11 +48,52 @@
                                 <div class="input-radio">
                                 <input type="radio" id="radio-1" name="sex" value="male" checked="checked">
                                 <label for="radio-1">Male</label>
-                            </div>
+                                </div>
                             <div class="input-radio">
                                 <input type="radio" id="radio-2" name="sex" value="female">
                                 <label for="radio-2">Female</label>
                             </div>
+                                </div>
+                                <div class="col-4 col-12-mobilep">
+                                <input id="datepicker" placeholder="Choose Date">
+                                </div>
+                                <div class="col-4 col-12-mobilep">
+                                <input type="email" name="Last_name" id="email" placeholder="Email" />
+                                </div>
+                                <div class="col-12 col-12-mobilep">
+                                <input type="text" name="present_add" id="present_address" placeholder="Present Address" />
+                                </div>
+                                <div class="col-6 col-12-mobilep">
+                                <input type="text" name="occupation" id="occupation" placeholder="Occupation" />
+                                </div>
+                                <div class="col-6 col-12-mobilep">
+                                <input type="text" name="employer_name" id="employer_name" placeholder="Name of Employer/Business Name" />
+                                </div>
+                                <div class="col-4 col-12-mobilep">
+                                <select name="branch">
+                                <option value="Main">Main Branch</option>
+                                <option value="LLC">Lapu-Lapu Branch</option>
+                                <option value="Basak">Basak Branch</option>
+                                <option value="Olango">Olango Branch</option>
+                                <option value="Mandaue">Mandaue</option>
+                                </select>
+                                </div>
+                                <div class="col-4 col-12-mobilep">
+                                <select name="preferd_time">
+                                <option value="10am">10:00 AM</option>
+                                <option value="1pm">1:00 PM</option>
+                                </select>
+                                </div>
+                                <div class="col-4 col-12-mobilep">
+                                <input type="text" name="Contact_num" id="contact_num" placeholder="Contact Number" />
+                                </div>
+                                <div class="col-12 col-12-mobilep">
+                                <b>Data Privacy Consent</b> <br>
+                                    "In compliance with the Data Privacy Act (DPA) of 2012 and Credit Information Corporation (CIC), and its Implementing Rules and Regulations, I agree and authorize Cordova Multipupose Cooperative to use my Personal Information to process any transaction related in the availment of Cordova Cooperative's Products and Services, including the insurance services and administer the benefits as stated in the policy and other service agreements and inform me of future customer campaigns and base its offer using the personal information I shared with the company." *
+                                </div>
+                                <div class="col-4 col-12-mobilep">
+                                <input type="checkbox" id="fruit1" name="fruit-1" value="Apple">
+                               <label for="fruit1">&nbsp; I AGREE</label>
                                 </div>
                                 <div class="col-12">
                                     <ul class="actions">
@@ -80,8 +122,13 @@
   <script src="../assets/js/main.js"></script>
   <script src="../assets/js/carousel.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
   <script src="../assets/js/loading.js"></script>
-
+  <script>
+       $(function() {
+$( "#datepicker").datepicker();
+});
+  </script>
 </body>
 
 </html>

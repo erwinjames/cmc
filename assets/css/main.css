@@ -4757,6 +4757,38 @@ div .picture {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
     transition: all 0.7s ease 0s;
 }
+input[type=checkbox] + label {
+    display: block;
+    cursor: pointer;
+
+  }
+  input[type=checkbox] {
+    display: none;
+    
+  }
+  input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid #000;
+    border-radius: 0.2em;
+    width: 1.4em;
+    height: 1.4em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+  }
+  input[type=checkbox] + label:active:before {
+    transform: scale(0);
+  }
+  input[type=checkbox]:checked + label:before {
+    background-color: rgb(38, 99, 180);
+    border-color: rgb(38, 99, 180);
+    color: #fff;
+  }
+  
+  input[type=checkbox]:disabled + label:before {
+    transform: scale(1);
+    border-color: #aaa;
+  }
 .input-radio {
     position: relative;
     padding-left: 1.5em;
