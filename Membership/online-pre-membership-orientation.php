@@ -32,8 +32,8 @@
         <section class="wrapper style1">
                 <div class="container mt-2">
                     <div class="row gtr-200">   
-                            <div class="online__pre_memberhsip_container">
-                            <form>
+                            <div class="col-12">
+                            <form class="online__pre_memberhsip_container">
                             <div class="row gtr-50">
                                 <div class="col-4 col-12-mobilep">
                                     <input type="text" name="first_name" id="name" placeholder="First Name" />
@@ -97,7 +97,7 @@
                                 </div>
                                 <div class="col-12">
                                     <ul class="actions">
-                                        <li><input type="submit" class="button alt" value="Send Message" /></li>
+                                        <li><input type="submit" class="button alt" value="Submit" /></li>
                                     </ul>
                                 </div>
                             </div>

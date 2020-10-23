@@ -2553,6 +2553,14 @@ button.small,
     font-size: 15px;
     padding: 0 3.5em 3.5em 3.5em;
 }
+.online__pre_memberhsip_container{
+    width:90%;
+    padding: 35px 35px 35px 35px;
+    margin-left: 5%;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
 
 .wrapper.style2 {
     background-color: #fff;

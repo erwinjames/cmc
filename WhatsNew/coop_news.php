@@ -16,13 +16,13 @@
 
         <!-- Header -->
         <?php include "../includes/header2.php";?>  
-        <?php include "news-menu.php";?>a
+        <?php include "news-menu.php";?>
       </div>
         <!-- Main -->
         <section id="cta" class="wrapper style2">
             <div class="container">
                 <header>
-                    <h2>BLOG / COOP NEWS</h2>
+                    <h2>WHAT'S NEW / COOP NEWS</h2>
                 </header>
             </div>
         </section>

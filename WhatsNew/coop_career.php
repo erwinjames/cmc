@@ -22,7 +22,7 @@
         <section id="cta" class="wrapper style2">
             <div class="container">
                 <header>
-                    <h2>BLOG / COOP CAREER</h2>
+                    <h2>WHAT'S NEW / COOP CAREER</h2>
                 </header>
             </div>
         </section>
