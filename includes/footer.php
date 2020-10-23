@@ -34,6 +34,7 @@
                
                 <li data-aos="fade-up" data-aos-duration="2000"><a href="https://www.facebook.com/cordovampc/?eid=ARB2CoSolJopsB31OKkwWLqy7O1dqotM5RXdS3IzsqZaVJTvloyttt2EK0BccX5cnziAMxc1U1r1TR00" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
                 <li data-aos="fade-up" data-aos-duration="1000"><a href="mailto:Cordovacoop2020@gmail.com" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+                <li data-aos="fade-up" data-aos-duration="3000"><a href="mailto:Cordovacoop2020@gmail.com" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
             </ul>
 
             <!-- Copyright -->
