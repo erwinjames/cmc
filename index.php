@@ -304,7 +304,7 @@
             <div class="container"> 
                 <header data-aos="fade-left" data-aos-duration="1500">
                     <h2>HOW TO BECOME A MEMBER?</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="regular_membership.php" class="button">Click me</a>
+                    <a href="Membership/regular_membership.php" class="button">Click me</a>
                 </header>
             </div>
         </section>
