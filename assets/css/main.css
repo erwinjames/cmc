@@ -1813,6 +1813,10 @@ select {
 .calendar input{
     padding-left: 2rem;
 }
+.online_pre_fonts{
+    font-size:12px;
+}
+
 
 input[type="text"]:focus,
 input[type="password"]:focus,
