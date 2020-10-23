@@ -1,70 +1,54 @@
-.searchbox {
+.input-radio {
   position: relative;
-  height: 40px;
-  width: 400px;
-  margin: 50px auto;
-  overflow: hidden;
-  border-bottom: 2px solid #fff;
-  background: none;
-  color: #fff;
-  -webkit-perspective: 1800px;
-          perspective: 1800px;
-  -webkit-perspective-origin: 40% 40%;
-          perspective-origin: 40% 40%;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  -webkit-transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding-left: 1.5em;
 }
 
-.searchbox--active {
-  color: #000;
+.input-radio label {
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.searchbox:after {
-  position: absolute;
+.input-radio label:before, .input-radio label:after {
   content: "";
-  width: 100%;
-  height: 100%;
-  top: 20px;
-  left: 0px;
-  -webkit-transform: rotateX(90deg);
-          transform: rotateX(90deg);
-  background: #fff;
-  -webkit-transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.searchbox--active:after {
-  top: 0px;
-  left: 0px;
-  -webkit-transform: rotateX(0deg);
-          transform: rotateX(0deg);
-}
-
-.searchbox input {
   position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 100%;
-  padding-left: 8px;
-  padding-right: 44px;
-  border: none;
-  font-size: 1em;
-  color: inherit;
-  background: none;
+  display: inline-block;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .2s ease;
+  transition: -webkit-transform .2s ease;
+  transition: transform .2s ease;
+  transition: transform .2s ease, -webkit-transform .2s ease;
 }
 
-.searchbox button {
-  position: absolute;
-  z-index: 1;
-  right: 0px;
-  top: 0px;
-  height: 100%;
-  width: 44px;
-  border: none;
-  background: none;
-  font-size: 1.4em;
-  color: inherit;
+.input-radio label:before {
+  top: 50%;
+  left: 0;
+  width: 0.88em;
+  height: 0.88em;
+  border: 2px solid #999;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.input-radio label:after {
+  top: 50%;
+  left: 0.3em;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: transparent;
+  -webkit-transform: scale(0) translateY(-50%);
+          transform: scale(0) translateY(-50%);
+}
+
+.input-radio input[type="radio"] {
+  display: none;
+  border: 0;
+  margin: 0;
+}
+
+.input-radio input[type="radio"]:checked + label:after {
+  background-color: #5f98e1;
+  -webkit-transform: scale(1) translateY(-50%);
+          transform: scale(1) translateY(-50%);
 }
 /*# sourceMappingURL=main.css.map */

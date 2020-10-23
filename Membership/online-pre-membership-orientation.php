@@ -30,11 +30,39 @@
         </section>
         <section class="wrapper style1">
                 <div class="container mt-2">
-                    <div class="row gtr-200">         
+                    <div class="row gtr-200">   
                             <div class="online__pre_memberhsip_container">
-                   
+                            <form>
+                            <div class="row gtr-50">
+                                <div class="col-4 col-12-mobilep">
+                                    <input type="text" name="first_name" id="name" placeholder="First Name" />
+                                </div>
+                                <div class="col-4 col-12-mobilep">
+                                    <input type="text" name="mid_name" id="mid_name" placeholder="Middle Name" />
+                                </div>
+                                <div class="col-4 col-12-mobilep">
+                                    <input type="text" name="Last_name" id="l_name" placeholder="Last Name" />
+                                </div>
+                                <div class="col-4 col-12-mobilep">
+                                <div class="input-radio">
+                                <input type="radio" id="radio-1" name="sex" value="male" checked="checked">
+                                <label for="radio-1">Male</label>
+                            </div>
+                            <div class="input-radio">
+                                <input type="radio" id="radio-2" name="sex" value="female">
+                                <label for="radio-2">Female</label>
+                            </div>
+                                </div>
+                                <div class="col-12">
+                                    <ul class="actions">
+                                        <li><input type="submit" class="button alt" value="Send Message" /></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </form>
                              </div>
                   </div>
+
         </section>  
 
         <!-- Footer -->

@@ -4542,6 +4542,7 @@ textarea.input1+.shadow-input1 {
     display: none;
 }
 
+
 .icon {
     display: inline-block;
     width: 16px;
@@ -4756,7 +4757,59 @@ div .picture {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
     transition: all 0.7s ease 0s;
 }
-
+.input-radio {
+    position: relative;
+    padding-left: 1.5em;
+  }
+  
+  .input-radio label {
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .input-radio label:before, .input-radio label:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease, -webkit-transform .2s ease;
+  }
+  
+  .input-radio label:before {
+    top: 50%;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    border: 2px solid #999;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  
+  .input-radio label:after {
+    top: 50%;
+    left: 0.3em;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: transparent;
+    -webkit-transform: scale(0) translateY(-50%);
+            transform: scale(0) translateY(-50%);
+  }
+  
+  .input-radio input[type="radio"] {
+    display: none;
+    border: 0;
+    margin: 0;
+  }
+  
+  .input-radio input[type="radio"]:checked + label:after {
+    background-color: #5f98e1;
+    -webkit-transform: scale(1) translateY(-50%);
+            transform: scale(1) translateY(-50%);
+  }
 #search5:focus {
     width: 350px;
     outline: 0;
@@ -4772,6 +4825,7 @@ div .picture {
     color: #fff;
     background-color: #474747;
 }
+
 
 
 /* fixed social*/
