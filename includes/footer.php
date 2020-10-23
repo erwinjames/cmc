@@ -16,12 +16,12 @@
                     <section class="col-3 col-6-narrower col-12-mobilep">
                         <h3>CONTACT:</h3>
                         <ul class="links">
-                            <li><a href="#">496-8213</a></li>
-                            <li><a href="#">341-3135 / 410-3132</a></li>
-                            <li><a href="#">493-6197 / 410-4277</a></li>
-                            <li><a href="#">09303876328</a></li>
-                            <li><a href="#">+639325912979</a></li>
-                            <li><a href="#">496-8503</a></li>
+                            <li>496-8213</li>
+                            <li>341-3135 / 410-3132</li>
+                            <li>493-6197 / 410-4277</li>
+                            <li>09303876328</li>
+                            <li>+639325912979</li>
+                            <li>496-8503</li>
 
                         </ul>
                     </section>
