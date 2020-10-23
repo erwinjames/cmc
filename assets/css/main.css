@@ -4793,10 +4793,6 @@ input[type=checkbox] + label {
     color: #fff;
   }
   
-  input[type=checkbox]:disabled + label:before {
-    transform: scale(1);
-    border-color: #aaa;
-  }
 .input-radio {
     position: relative;
     padding-left: 1.5em;

@@ -92,8 +92,8 @@
                                     "In compliance with the Data Privacy Act (DPA) of 2012 and Credit Information Corporation (CIC), and its Implementing Rules and Regulations, I agree and authorize Cordova Multipupose Cooperative to use my Personal Information to process any transaction related in the availment of Cordova Cooperative's Products and Services, including the insurance services and administer the benefits as stated in the policy and other service agreements and inform me of future customer campaigns and base its offer using the personal information I shared with the company." *
                                 </div>
                                 <div class="col-4 col-12-mobilep">
-                                <input type="checkbox" id="fruit1" name="fruit-1" value="Apple">
-                               <label for="fruit1">&nbsp; I AGREE</label>
+                                <input type="checkbox" id="agree" name="fruit-1" value="Apple">
+                               <label for="agree">&nbsp; I AGREE</label>
                                 </div>
                                 <div class="col-12">
                                     <ul class="actions">
