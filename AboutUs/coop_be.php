@@ -3,9 +3,26 @@
 
 <head>
     <title>Cordova Multipupose Cooperative</title>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKLzuUoXmmeAjXfrHV4SEnq_wFjeFNn_g&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
+    <script>
+      function initMap() {
+            const cordova = { lat: 10.252751, lng: 123.949263 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 20,
+          center: cordova,
+        });
+        const marker = new google.maps.Marker({
+          position: cordova,
+          map: map,
+        });
+      }
+    </script>
 </head>
 
 <body class="is-preload">
@@ -34,8 +51,11 @@
 
                         </header>
 
-                        <span class="image featured"><img src="../images/history.png" alt="" /></span>
-
+                        <span class="image featured picture">
+                            
+                            <div class="col-6" style="position: absolute;width:600px;z-index:1;"><img src="../images/building_nav.png" alt="" /></div>   
+                            <div class="col-6" id="map"></div>
+                            </span>
                         <article>
                             <div class="row gtr-200">
                                 <section class="col-4 col-12-narrower">
