@@ -51,9 +51,9 @@
 
                         </header>
 
-                        <span class="image featured picture">
+                        <span class="image featured ">
                             
-                            <div class="col-6" style="position: absolute;width:550px;z-index:1;"><img src="../images/building_nav.png" alt="" /></div>   
+                            <div class="col-6 picture" style="position: absolute;width:550px;z-index:1;"><img src="../images/building_nav.png" alt="" /></div>   
                             <div class="col-6" id="map"></div>
                             </span>
                         <article>
