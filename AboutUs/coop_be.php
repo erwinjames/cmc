@@ -53,7 +53,7 @@
 
                         <span class="image featured picture">
                             
-                            <div class="col-6" style="position: absolute;width:600px;z-index:1;"><img src="../images/building_nav.png" alt="" /></div>   
+                            <div class="col-6" style="position: absolute;width:550px;z-index:1;"><img src="../images/building_nav.png" alt="" /></div>   
                             <div class="col-6" id="map"></div>
                             </span>
                         <article>
