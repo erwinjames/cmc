@@ -59,6 +59,7 @@
                     <div class="col-8  col-12-narrower imp-narrower">
                         <div id="content">
                             <article>
+                            <span class="image featured"><img src="../images/members_benefits.png" alt="" /></span>
                                  <button class="colapse">FONUS / DAMAYAN PROGRAM</button>
                                      <div class="contenting">
                                      <span class="image featured"><img src="../images/fonus.png" alt="" /></span>
