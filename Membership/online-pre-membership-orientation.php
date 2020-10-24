@@ -67,7 +67,7 @@
                                 <input type="email" name="email" id="email" placeholder="Email" />
                                 </div>
                                 <div class="col-12 col-12-mobilep">
-                                <h6 class="online_pre_fonts">Present Address *</h6>
+                                <h6 class="onl      ine_pre_fonts">Present Address *</h6>
                                 <input type="text" name="present_add" id="present_address" placeholder="Present Address" />
                                 </div>
                               
