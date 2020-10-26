@@ -48,18 +48,15 @@
                         </header>
 
                         <span class="image featured">
-                        <div class="col-6 picture" style="position: absolute;width:600px;z-index:1;"><img src="../images/building_nav.png" alt="" /></div>   
+                        <div class="col-6 picture" style="position:absolute;width:600px;z-index:1;"><img src="../images/building_nav.png" alt="" /></div>   
                         <div class="col-6" id="map"></div>
-                    
                     </span>
-
                         <article>
                             <div class="row gtr-200">
                                 <section class="col-9 col-12-narrower">
                                     <h3>Office of the General Manager</h3>
                                 </section>    
                                 <section class="col-4 col-12-narrower">
-                             <div>
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
                                     </div> 
