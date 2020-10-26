@@ -157,7 +157,10 @@ function getInputValue() {
         alert('cant read search');
     } else {
     while (curr = queue.pop()) {
-        if (!curr.textContent.match(word))continue;
+        if (!curr.textContent.match(word)){
+            alert("please check your word");
+            continue;   
+        }
         for (var i = 0; i < curr.childNodes.length; ++i) {
             switch (curr.childNodes[i].nodeType) {
                 case Node.TEXT_NODE:
