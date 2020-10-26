@@ -60,7 +60,7 @@
                     <div class="col-8  col-12-narrower imp-narrower">
                         <div id="content">
                             <article>
-                            
+                            <span class="image featured"><img src="../images/time_deposit.png" alt="" /></span>
                             <button class="colapse">Requirements</button>
                                 <div class="contenting">
                                     <p>•	The depositor must be a regular member of CORDOVA MULTIPURPOSE COOPERATIVE (CMC) with a paid-up share capital of at least Five Thousand Pesos (Php 5,000).</p>

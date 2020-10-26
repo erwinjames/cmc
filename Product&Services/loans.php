@@ -59,6 +59,7 @@
                     <div class="col-8  col-12-narrower imp-narrower">
                         <div id="content">
                             <article>
+                            <span class="image featured"><img src="../images/loans.png" alt="" /></span>
                                 <h3>Productive Loans</h3> 
                                 <button class="colapse">Working Capital</button>
                                 <div class="contenting">
@@ -75,6 +76,7 @@
                                         fruits and vegetables, fish, flour, rice, and other goods for use or for sale depending on the 
                                         type of business.
                                     </pre>
+                                    
                                     <h4>Basic Processing Requirements Needed</h4>
                                     <pre style="margin-left:-6em; ">
                                     - 5 sets of complete Loan Application and other documents (Co-maker, Promissory Notes, Mortgage documents if with collateral)
