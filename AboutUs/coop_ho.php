@@ -28,7 +28,6 @@
 <body class="is-preload">
 <?php include "../includes/social_media.php"; ?>
     <div id="page-wrapper">
-
         <!-- Header -->
         <?php include "../includes/header2.php";?>
             <!-- Nav -->
