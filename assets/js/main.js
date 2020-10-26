@@ -154,11 +154,11 @@ function getInputValue() {
         queue = [document.body],
         curr;
     if (word=='') {
-        alert('cant read search');
+        alert('Input Blank');
     } else {
     while (curr = queue.pop()) {
         if (!curr.textContent.match(word)){
-            alert("please check your word");
+            alert("Please check your word");
             continue;   
         }
         for (var i = 0; i < curr.childNodes.length; ++i) {

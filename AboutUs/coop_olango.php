@@ -38,22 +38,13 @@
         <!-- Main -->
         <section class="wrapper style1">
             <div class="container">
-
-
                 <div class="col-8  col-12-narrower imp-narrower">
                     <div id="content">
-
-                        <!-- Content -->
-
-
                         <header>
                             <h2>Olango Branch</h2>
-
                         </header>
-
-                        <span class="image featured picture">
-                            
-                            <div class="col-6" style="position: absolute;width:600px;z-index:1;"><img src="../images/building_nav.png" alt="" /></div>   
+                        <span class="image featured">
+                            <div class="col-6 picture" style="position: absolute;width:600px;z-index:1;"><img src="../images/building_nav.png" alt="" /></div>   
                             <div class="col-6" id="map"></div>
                             </span>
                         <article>
