@@ -160,14 +160,13 @@ function getInputValue() {
         if (!curr.textContent.match(word)){
             alert("Please check your word");
             continue;   
-        }
+        }else{
         for (var i = 0; i < curr.childNodes.length; ++i) {
             switch (curr.childNodes[i].nodeType) {
                 case Node.TEXT_NODE:
                     if (curr.childNodes[i].textContent.match(word)) {
                         curr.scrollIntoView(true);
-                        curr.style.backgroundColor = "yellow";
-                        curr.style.fontWeight = "bold";
+                       
                     }
                     break;
                 case Node.ELEMENT_NODE:
@@ -175,6 +174,8 @@ function getInputValue() {
                     break;
             }
         }
+        continue;   
+    }
     }
   }
 }
