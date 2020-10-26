@@ -157,25 +157,21 @@ function getInputValue() {
         alert('Input Blank');
     } else {
     while (curr = queue.pop()) {
-        if (!curr.textContent.match(word)){
-            alert("Please check your word");
-            continue;   
-        }else{
+        if (!curr.textContent.match(word))continue;   
+       
         for (var i = 0; i < curr.childNodes.length; ++i) {
             switch (curr.childNodes[i].nodeType) {
                 case Node.TEXT_NODE:
                     if (curr.childNodes[i].textContent.match(word)) {
                         curr.scrollIntoView(true);
-                       
                     }
                     break;
                 case Node.ELEMENT_NODE:
                     queue.push(curr.childNodes[i]);
                     break;
-            }
-        }
-        continue;   
-    }
+          }
+         
+      }
     }
   }
 }

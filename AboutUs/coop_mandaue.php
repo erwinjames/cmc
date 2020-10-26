@@ -38,21 +38,13 @@
         <!-- Main -->
         <section class="wrapper style1">
             <div class="container">
-
-
                 <div class="col-8  col-12-narrower imp-narrower">
                     <div id="content">
-
-                        <!-- Content -->
-
-
                         <header>
                             <h2>Mandaue Office</h2>
-
                         </header>
 
                         <span class="image featured ">
-                            
                             <div class="col-6 picture" style="position: absolute;width:600px;z-index:1;"><img src="../images/mandaue.jpg" alt="" /></div>   
                             <div class="col-6" id="map"></div>
                             </span>
