@@ -91,17 +91,11 @@ setInterval(function() {
 }, 5000);
 
 $(document).ready(function() {
-
     var timerId = setInterval(function() {
-
         $('h3.whr-title').each(function() {
-
             var href = $(this).children().first().attr('href');
-
             var new_content = $(this).parent().html() + "<div class='apply-now-btn'><a href='" + href + "' target='_blank'>Apply Now</a></div>";
-
             $(this).parent().html(new_content);
-
             clearInterval(timerId);
         });
 
