@@ -98,7 +98,6 @@ $(document).ready(function() {
             $(this).parent().html(new_content);
             clearInterval(timerId);
         });
-
     }, 1000);
 
 
