@@ -44,7 +44,6 @@
                     </ul>
                 </li>
                 <li><a href="AboutUs/coop_FAQ's.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>FAQ's</a></li>
-
                 <li><a href="AboutUs/gallery.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Gallery</a></li>
             </ul>
         </li>
