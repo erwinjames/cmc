@@ -166,7 +166,6 @@
                         </svg>
                                 </a>
                             </div>
-
                         </section>
                     </div>
                     <div class="col-4 col-12-narrower">
