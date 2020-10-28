@@ -126,27 +126,27 @@
                             <div class="display">
                              
                                 <div class="slide">
-                                    <a class="link" href="#">
+                                    <a class="link" href="Product&Services/Regular.php">
                                         <img src="images/reg.png">
                                     </a>
                                 </div>
                                 <div class="slide">
-                                    <a class="link" href="#">
+                                    <a class="link" href="Product&Services/TimeDeposit.php">
                                         <img src="images/times.png">
                                     </a>
                                 </div>
                                 <div class="slide">
-                                    <a class="link" href="#">
+                                    <a class="link" href="Product&Services/membersBenifits.php">
                                         <img src="images/members_benefits.png">
                                     </a>
                                 </div>
                                 <div class="slide">
-                                    <a class="link" href="#">
+                                    <a class="link" href="Product&Services/loans.php">
                                         <img src="images/loans.png">
                                     </a>
                                 </div>
                                 <div class="slide">
-                                    <a class="link" href="#">
+                                    <a class="link" href="Product&Services/BusinessEnterprise.php">
                                         <img src="images/business_enterprise.png">
                                     </a>
                                 </div>
