@@ -155,7 +155,6 @@
                                         <img src="images/slider/FONUS.jpg">
                                     </a>
                                 </div>
-                              
                                 <a class=" btn-left">
                                     <svg class="icon icon-arrow-left">
                           <use xlink:href="#icon-arrow-left"></use>
