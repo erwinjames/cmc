@@ -170,7 +170,7 @@
                         </section>
                     </div>
                     <div class="col-4 col-12-narrower">
-                        <div class="services" >
+                        <div class="services">
                             <h1 data-aos="fade-up" data-aos-duration="700"><b><i style="color:rgb(74, 165, 218)"> Why choose CORDOVA MULTIPURPOSE COOPERATIVE (CMC) as your primary coop ?</i></b></h1><br>
                             <p data-aos="fade-up" data-aos-duration="3000">
                                 <small>
