@@ -66,7 +66,6 @@
                                         <p>General Manager</p>
                                 </div>
                                     </div> 
-                               
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
@@ -217,8 +216,7 @@
                                             <h4>Ruthie F. Villaflor</h4>
                                         <p>Accounting Head</p>
                                       </div>
-                                    </div> 
-                                        
+                                    </div>       
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
@@ -229,9 +227,6 @@
                                         <p>Accounting Staff</p>
                                       </div>
                                     </div>  
-                                     
-                                       
-                                    
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
