@@ -162,8 +162,7 @@ function getInputValue() {
                 case Node.ELEMENT_NODE:
                     queue.push(curr.childNodes[i]);
                     break;
-          }
-         
+        }
       }
     }
   }

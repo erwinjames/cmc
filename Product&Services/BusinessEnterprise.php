@@ -27,7 +27,7 @@
                                 <h2>Product & Services</h2>
                             <nav id="nav" >
                                    <ul >
-                                        <li style="margin-left:14px;" class="current active">
+                                        <li style="margin-left:14px;" class="">
                                             <a href="Regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Savings Deposit</a>
                                          </li>
                                          <li>
@@ -42,7 +42,7 @@
                                             <a href="membersBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Members Benifits</a>
                                         </li>
                                         <br>
-                                        <li>
+                                        <li class="current active">
                                             <a href="BusinessEnterprise.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Bussines Enterprise</a>
                                         </li>
                                      </ul>
@@ -53,13 +53,12 @@
                                     <!--   <a href="#" class="button">Continue Reading</a> -->
                                 </footer>
                     </section>
-
                         </div>
                     </div>
                     <div class="col-8  col-12-narrower imp-narrower">
                         <div id="content">
                             <article>
-                            <span class="image featured"><img src="../images/reg.png" alt="" /></span>
+                            <span class="image featured"><img src="../images/business_enterprise.png" alt="" /></span>
                                  <button class="colapse">Regular Savings</button>
                                      <div class="contenting">
                                         <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
@@ -75,6 +74,7 @@
                                         <p>•	Passbook cost is Php 20.00. A fee of Php50.00 is required for the re-issuance of lost passbook with supporting notarized affidavit of loss</p>
                                         <p>•	Closing of deposit account service charge is Php 50.00</p>
                                     </div>
+                                
                                     <button class="colapse">Associate Savings </button>
                                     <div class="contenting">
                                         <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
@@ -90,21 +90,7 @@
                                         <p>•	Passbook cost is Php 20.00. A fee of Php50.00 is required for the re-issuance of lost passbook with supporting notarized affidavit of loss</p>
                                         <p>•	Closing of deposit account service charge is Php 50.00</p>
                                     </div>
-                                    <button class="colapse">Yulabco Savings</button>
-                                    <div class="contenting">
-                                    <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
-                                        <p>•    Members of Cordova Multipurpose Cooperative Youth United Laboratory Cooperative ( YU LABCO )</p>
-                                        <h3> PRODUCT FEATURES</h3>
-                                        <p>•	Initial  amount of deposit - 		Php 20.00</p>
-                                        <p>•	Minimum deposit to earn interest - 	Php 500.00</p>
-                                        <p>•	Maintaining Balance - 			    Php 50.00</p>
-                                        <p>•	Interest rate (computed quarterly) - 	2.5% p.a</p>
-                                        <p>•	No monthly charges</p>
-                                        <p>•	Interest earned is not subject to withholding tax</p>
-                                        <p>•	Can be withdrawn from Monday to Friday , 8:00 A.M to 3:00 P.M. Strictly No passbook No withdrawals</p>
-                                        <p>•	Passbook cost is Php 20.00. A fee of Php50.00 is required for the re-issuance of lost passbook with supporting notarized affidavit of loss</p>
-                                        <p>•	Closing of deposit account service charge is Php 50.00</p>
-                                    </div>
+                               
                       
                             </article>
                         </div>
@@ -115,8 +101,6 @@
 
         <!-- Footer -->
         <?php include "../includes/footer.php"?>
-
-
         </div>
 
     </div>

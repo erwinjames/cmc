@@ -43,7 +43,7 @@
                                         </li>
                                         <br>
                                         <li>
-                                            <a href="Yulabco.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Bussines Enterprise</a>
+                                            <a href="BusinessEnterprise.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Bussines Enterprise</a>
                                         </li>
                                      </ul>
                             </nav>
