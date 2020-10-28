@@ -7,7 +7,7 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKLzuUoXmmeAjXfrHV4SEnq_wFjeFNn_g&callback=initMap&libraries=&v=weekly"
       defer
     ></script>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
     <script>
@@ -43,7 +43,9 @@
                     <div id="content">
                         <header>
                             <h2>Head Office</h2>
+
                         </header>
+
                         <span class="image featured">
                         <div class="col-6 picture" style="position:absolute;width:600px;z-index:1;"><img src="../images/building_nav.png" alt="" /></div>   
                         <div class="col-6" id="map"></div>
@@ -52,7 +54,10 @@
                             <div class="row gtr-200">
                                 <section class="col-8 col-12-narrower">
                                     <h3>Office of the General Manager</h3>
-                                </section>    
+                                </section> 
+                                <section class="col-4 col-12-narrower">
+                                    <h3>Office of the General Manager</h3>
+                                </section>     
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
@@ -211,7 +216,8 @@
                                             <h4>Ruthie F. Villaflor</h4>
                                         <p>Accounting Head</p>
                                       </div>
-                                    </div>       
+                                    </div> 
+                                        
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
@@ -222,6 +228,9 @@
                                         <p>Accounting Staff</p>
                                       </div>
                                     </div>  
+                                     
+                                       
+                                    
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
