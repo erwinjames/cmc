@@ -54,35 +54,35 @@
                             <span class="image featured"><img src="../images/business_enterprise.png" alt="" /></span>
                             <div id="contenair_slider">
         <div id="product_slides">
-            <div class="content_slide"><img src="http://timivey.com/external/codepen/thumbslider/slides/device-imac.png" width="900" height="200"></div>
-            <div class="content_slide"><img src="http://timivey.com/external/codepen/thumbslider/slides/device-macbook.png" width="900" height="200"></div>
-            <div class="content_slide"><img src="http://timivey.com/external/codepen/thumbslider/slides/device-iphone.png" width="900" height="200"></div>
-            <div class="content_slide"><img src="http://timivey.com/external/codepen/thumbslider/slides/device-ipad.png" width="900" height="200"></div>
+            <div class="content_slide"><img src="" width="773" height="200"></div>
+            <div class="content_slide"><img src="" width="773" height="200"></div>
+            <div class="content_slide"><img src="" width="773" height="200"></div>
+            <div class="content_slide"><img src="" width="773" height="200"></div>
         </div>
         <nav id="slider_menu">
             <ul>
                 <li class="sep"></li>
                 <li class="product">
                     <a href="">
-                        <img src="http://timivey.com/external/codepen/thumbslider/slides/device-imac-thumb.png" alt="thumbnail">
+                        <img src="">
                     </a>
                 </li>
 
                 <li class="product">
                     <a href="">
-                        <img src="http://timivey.com/external/codepen/thumbslider/slides/device-macbook-thumb.png" alt="thumbnail">
+                        <img src="">
                     </a>
                 </li>
 
                 <li class="product">
                     <a href="">
-                        <img src="http://timivey.com/external/codepen/thumbslider/slides/device-iphone-thumb.png" alt="thumbnail">
+                        <img src="">
                     </a>
                 </li>
 
                 <li class="product">
                     <a href="">
-                        <img src="http://timivey.com/external/codepen/thumbslider/slides/device-ipad-thumb.png" alt="thumbnail">
+                        <img src="">
                     </a>
                 </li>
             </ul>
