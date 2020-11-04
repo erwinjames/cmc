@@ -13,7 +13,6 @@
 <?php include "../includes/social_media.php"; ?>
     <div class="se-pre-con"></div>
     <div id="page-wrapper">
-
         <!-- Header -->
         <?php include "../includes/header2.php";?>  
         <?php include "AboutUs-menu.php"?>

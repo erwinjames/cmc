@@ -25,32 +25,31 @@
                         <div id="sidebar">
                         <section> 
                                 <h2>Product & Services</h2>
-                            <nav id="nav" >
-                                   <ul >
+                            <nav id="nav">
+                                   <ul>
                                         <li style="margin-left:14px;" class="">
-                                            <a href="Regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Savings Deposit</a>
+                                            <a href="Regular.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Savings Deposit</a>
                                          </li>
                                          <li>
-                                            <a href="TimeDeposit.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Time Deposit</a>
+                                            <a href="TimeDeposit.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Time Deposit</a>
                                         </li>
                                         <br>
                                         <li>
-                                            <a href="loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Loans</a>
+                                            <a href="loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a>
                                         </li>
                                         <br>
                                         <li>
-                                            <a href="membersBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Members Benifits</a>
+                                            <a href="membersBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Members Benifits</a>
                                         </li>
                                         <br>
                                         <li class="current active">
-                                            <a href="BusinessEnterprise.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Bussines Enterprise</a>
+                                            <a href="BusinessEnterprise.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Bussines Enterprise</a>
                                         </li>
                                      </ul>
                             </nav>
                             <br>
                                 <footer>
                                     <p>SERVES WITH A HEART</p>
-                                    <!--   <a href="#" class="button">Continue Reading</a> -->
                                 </footer>
                     </section>
                         </div>
@@ -90,8 +89,6 @@
                                         <p>•	Passbook cost is Php 20.00. A fee of Php50.00 is required for the re-issuance of lost passbook with supporting notarized affidavit of loss</p>
                                         <p>•	Closing of deposit account service charge is Php 50.00</p>
                                     </div>
-                               
-                      
                             </article>
                         </div>
                     </div>
@@ -102,9 +99,7 @@
         <!-- Footer -->
         <?php include "../includes/footer.php"?>
         </div>
-
     </div>
-
     <!-- Scripts -->
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/jquery.dropotron.min.js"></script>

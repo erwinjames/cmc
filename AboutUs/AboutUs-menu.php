@@ -45,7 +45,7 @@
             </ul>
         </li>
         <li >
-            <a href="">Membership</a>
+            <a>Membership</a>
             <ul>
                 <li>
                     <a href="../membership/regular_membership.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Regular Membership</a>
