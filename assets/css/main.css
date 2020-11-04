@@ -2594,7 +2594,71 @@ button.small,
     position: inherit;
     align-content: center;
 }
+#contenair_slider {
+	-moz-box-shadow: 0 0 3px #aaa;
+	-webkit-box-shadow: 0 0 3px #aaa;
+	box-shadow: 0 0 3px #aaa;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width: 900px;
+	overflow: hidden;
+}
 
+#product_slides {
+	height: 240px;
+	width: 900px;
+	overflow: hidden;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+.content_slide{
+	float: left !important;
+}
+
+#slider_menu {
+	height: 45px;
+}
+
+#slider_menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#slider_menu li {
+	width: 60px;
+	margin-left: -4px;
+	display: inline-block;
+	list-style: none;
+	height: 45px;
+	overflow: hidden;
+}
+
+#slider_menu li.active,
+#slider_menu li.active:hover {
+	background: url('http://timivey.com/external/codepen/thumbslider/active_bg.png') no-repeat;
+}
+
+#slider_menu li.active {
+	cursor: default;
+}
+
+#slider_menu .sep {
+	width: 2px;
+	background: url('http://timivey.com/external/codepen/thumbslider/seperator.png') no-repeat right;
+	margin-right: -2px;
+}
+
+#slider_menu li a {
+	display: block;
+	background: url('http://timivey.com/external/codepen/thumbslider/seperator.png') no-repeat right;
+	height: 35px;
+	padding-top: 10px;
+}
+
+#slider_menu a img {
+	border: none;
+}
 .history_div h1 {
     text-align: center;
 }

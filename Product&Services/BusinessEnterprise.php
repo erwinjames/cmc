@@ -52,37 +52,43 @@
                         <div id="content">
                             <article>
                             <span class="image featured"><img src="../images/business_enterprise.png" alt="" /></span>
-                                 <button class="colapse">Regular Savings</button>
-                                     <div class="contenting">
-                                        <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
-                                        <p>•	Regular members who are willing to abide by the rules and regulations set by the cooperative.</p>
-                                        <h3> PRODUCT FEATURES</h3>
-                                        <p>•	Initial  amount of deposit - 		Php 500.00</p>
-                                        <p>•	Minimum deposit to earn interest - 	Php 500.00</p>
-                                        <p>•	Maintaining Balance - 			Php 1,000.00</p>
-                                        <p>•	Interest rate (computed quarterly) - 	2.5% p.a</p>
-                                        <p>•	No monthly charges</p>
-                                        <p>•	Interest earned is not subject to withholding tax</p>
-                                        <p>•	Can be withdrawn from Monday to Friday , 8:00 A.M to 3:00 P.M. Strictly No passbook No withdrawals</p>
-                                        <p>•	Passbook cost is Php 20.00. A fee of Php50.00 is required for the re-issuance of lost passbook with supporting notarized affidavit of loss</p>
-                                        <p>•	Closing of deposit account service charge is Php 50.00</p>
-                                    </div>
+                            <div id="contenair_slider">
+        <div id="product_slides">
+            <div class="content_slide"><img src="http://timivey.com/external/codepen/thumbslider/slides/device-imac.png" width="900" height="200"></div>
+            <div class="content_slide"><img src="http://timivey.com/external/codepen/thumbslider/slides/device-macbook.png" width="900" height="200"></div>
+            <div class="content_slide"><img src="http://timivey.com/external/codepen/thumbslider/slides/device-iphone.png" width="900" height="200"></div>
+            <div class="content_slide"><img src="http://timivey.com/external/codepen/thumbslider/slides/device-ipad.png" width="900" height="200"></div>
+        </div>
+        <nav id="slider_menu">
+            <ul>
+                <li class="sep"></li>
+                <li class="product">
+                    <a href="">
+                        <img src="http://timivey.com/external/codepen/thumbslider/slides/device-imac-thumb.png" alt="thumbnail">
+                    </a>
+                </li>
+
+                <li class="product">
+                    <a href="">
+                        <img src="http://timivey.com/external/codepen/thumbslider/slides/device-macbook-thumb.png" alt="thumbnail">
+                    </a>
+                </li>
+
+                <li class="product">
+                    <a href="">
+                        <img src="http://timivey.com/external/codepen/thumbslider/slides/device-iphone-thumb.png" alt="thumbnail">
+                    </a>
+                </li>
+
+                <li class="product">
+                    <a href="">
+                        <img src="http://timivey.com/external/codepen/thumbslider/slides/device-ipad-thumb.png" alt="thumbnail">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
                                 
-                                    <button class="colapse">Associate Savings </button>
-                                    <div class="contenting">
-                                        <h3>WHO MAY OPEN A DEPOSIT ACCOUNT</h3>
-                                        <p>•	Associate members who have not meet all the criteria to become a regular member.</p>
-                                        <h3> PRODUCT FEATURES</h3>
-                                        <p>•	Initial  amount of deposit - 		Php 500.00</p>
-                                        <p>•	Minimum deposit to earn interest - 	Php 500.00</p>
-                                        <p>•	Maintaining Balance - 			Php 1,000.00</p>
-                                        <p>•	Interest rate (computed quarterly) - 	2.5% p.a</p>
-                                        <p>•	No monthly charges</p>
-                                        <p>•	Interest earned is not subject to withholding tax</p>
-                                        <p>•	Can be withdrawn from Monday to Friday , 8:00 A.M to 3:00 P.M. Strictly No passbook No withdrawals</p>
-                                        <p>•	Passbook cost is Php 20.00. A fee of Php50.00 is required for the re-issuance of lost passbook with supporting notarized affidavit of loss</p>
-                                        <p>•	Closing of deposit account service charge is Php 50.00</p>
-                                    </div>
                             </article>
                         </div>
                     </div>
@@ -101,7 +107,7 @@
     <script src="../assets/js/breakpoints.min.js"></script>
     <script src="../assets/js/util.js"></script>
     <script src="../assets/js/main.js"></script>
-
+    <script src="../assets/js/product_slider.js"></script>
 </body>
 
 </html>
