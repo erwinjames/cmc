@@ -53,10 +53,10 @@
                         <article>
                             <div class="row gtr-200">
                           
-                                <section class="col-4 col-12-narrower">
+                                <!-- <section class="col-4 col-12-narrower">
                                     <h3>Office of the General Manager</h3>
-                                </section>     
-                                <section class="col-4 col-12-narrower">
+                                </section>      -->
+                                <section class="col-4 col-12-narrower imp-narrower">
                                 <h3>Office of the General Manager</h3>
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>

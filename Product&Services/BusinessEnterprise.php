@@ -6,18 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
 </head>
-
 <body class="is-preload">
 <?php include "../includes/social_media.php"; ?>
     <div id="page-wrapper">
-
-        <!-- Header -->
         <?php include "../includes/header2.php";?>
-            <!-- Nav -->
           <?php include "savings-menu.php"?>
         </div>
-
-        <!-- Main -->
         <section class="wrapper style1">
             <div class="container">
                 <div class="row gtr-200">
