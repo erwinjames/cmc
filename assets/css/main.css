@@ -2601,7 +2601,7 @@ button.small,
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	width: 900px;
+	width: 100%;
 	overflow: hidden;
 }
 

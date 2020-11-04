@@ -87,14 +87,13 @@
                 </li>
             </ul>
         </nav>
-    </div>
-                                
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    </div>   
+   </article>
+  </div>
+   </div>
+  </div>
+ </div>
+ </section>
 
         <!-- Footer -->
         <?php include "../includes/footer.php"?>
