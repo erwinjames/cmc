@@ -35,7 +35,7 @@
                             <h5>Regular Membership</h5>
                             <div class="col-12 col-12-narrower">
                                 <h2>STEP 1</h2>
-                                 <span> Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at <b>10:00 to 11:00 AM</b and 1:00 to 2:00 PM.</span>                      
+                                 <span> Attend the Pre-Membership Education Seminar and Orientation from Monday to Saturday during office hours or as scheduled.</span>                      
                             </div>
                             <br>
                             <div class="col-12 col-12-narrower">

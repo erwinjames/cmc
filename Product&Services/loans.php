@@ -39,7 +39,7 @@
                                         </li>
                                         <br>
                                         <li>
-                                            <a href="membersbenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Members Benifits</a>
+                                            <a href="membersbenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Members Benefits</a>
                                         </li>
                                         <br>
                                         <li>
