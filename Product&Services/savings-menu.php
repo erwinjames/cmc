@@ -40,7 +40,11 @@
                 <li><a href="loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a> </li>
                 <li ><a href ="membersBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Members Benefits</a>
                  <li><a href="BusinessEnterprise.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Business Enterprise</a>
-                 <li><a href="others.php"><i  class="fa fa-chevron-circle-right" aria-hidden="true"></i>Others</a>
+                 <li><a href=""><i  class="fa fa-chevron-circle-right" aria-hidden="true"></i>Others</a>
+               <ul>
+                     <li><a href="bayad_center.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Bayad Center</a></li>
+                     <li><a href="rental.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Rental</a></li>
+                </ul>
                </li>
             </ul>
         </li>
