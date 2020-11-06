@@ -344,8 +344,19 @@
                 </li>
             </ul>
         </nav>
-    </div>   
-    
+    </div> 
+    <section class="col-12 ">
+
+    </section>  
+    <div class="col-4 col-12-narrower">
+    <div class="cardsss">
+     <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
+        <div class="info">
+          <h4>Neomelito D. Nunez</h4>
+          <p>General Manager</p>
+        </div>
+         </div> 
+    </div>
    </article>
   </div>
    </div>
