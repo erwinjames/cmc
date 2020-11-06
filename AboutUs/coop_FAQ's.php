@@ -84,7 +84,7 @@
                                    </tr> 
                                    <tr>
                                         <td>Memmbership Fee</td>
-                                        <td>100</td>
+                                        <td>P 100</td>
                                         <td>P 100</td>
                                    </tr>  
                                    <tr>
