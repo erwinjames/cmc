@@ -2617,12 +2617,15 @@ button.small,
 }
 
 #slider_menu {
-	height: 45px;
+    height: auto;
+    overflow-y: scroll;
+    
 }
 
 #slider_menu ul {
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    
 }
 
 #slider_menu li {
@@ -2657,7 +2660,8 @@ button.small,
 }
 
 #slider_menu a img {
-	border: none;
+    border: none;
+    width: 60px;
 }
 .history_div h1 {
     text-align: center;
