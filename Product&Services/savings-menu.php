@@ -39,7 +39,7 @@
                 <li><a href="TimeDeposit.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Time Deposits</a></li>
                 <li><a href="loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a> </li>
                 <li ><a href ="membersBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Members Benefits</a>
-                 <li><a><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Business Enterprise</a>
+                 <li><a href="BusinessEnterprise.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Business Enterprise</a>
                   
                </li>
             </ul>
