@@ -12,7 +12,7 @@
 
 <body class="is-preload">
 <?php include "../includes/social_media.php"; ?>
-    <div class="se-pre-con"></div>
+    <!-- <div class="se-pre-con"></div> -->
     <div id="page-wrapper">
 
         <!-- Header -->
@@ -37,9 +37,19 @@
                                 <h2>STEP 1</h2>
                                  <span> Attend one(1) hour Pre-Membership Orientation from Monday to Saturday at <b>10:00 to 11:00 AM</b and 1:00 to 2:00 PM.</span>                      
                             </div>
-                           
+                            <br>
                             <div class="col-12 col-12-narrower">
                                 <h2>STEP 2</h2>
+                                <h4>Document Needed</h4>
+                                <span class="bullets"><i class="fa fa-check"></i> &nbsp; Membership Application</span> <br> 
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp;  Signature Card</span> <br> 
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp; 2×2 ID Picture</span> <br> 
+                                  <span class="bullets"><i class="fa fa-check"></i> &nbsp;  Photocopy of valid ID (TIN,SSS, and other government issued ID)</span> <br> 
+                                                    
+                            </div>
+                            <br>
+                            <div class="col-12 col-12-narrower">
+                                <h2>STEP 3</h2>
                                 <h6>Payments and Deposit:</h6>
                                   <span class="bullets"><i class="fa fa-check"></i> &nbsp; Membership Fee P <b>100.00</b></span> <br> 
                                   <span class="bullets"><i class="fa fa-check"></i> &nbsp;  Initial Share Capital Deposit P <b>1250</b></span> <br> 

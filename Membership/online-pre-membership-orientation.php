@@ -40,11 +40,11 @@
                                     <input type="text" name="first_name" id="name" placeholder="First Name" />
                                 </div>
                                 <div class="col-4 col-12-mobilep">
-                                <h6 class="online_pre_fonts">Middle Name</h6>
+                                <h6 class="online_pre_fonts">Middle Name *</h6>
                                     <input type="text" name="mid_name" id="mid_name" placeholder="Middle Name" />
                                 </div>
                                 <div class="col-4 col-12-mobilep">
-                                <h6 class="online_pre_fonts">Last Name</h6>
+                                <h6 class="online_pre_fonts">Last Name *</h6>
                                     <input type="text" name="Last_name" id="l_name" placeholder="Last Name" />
                                 </div>
                                 <div class="col-4 col-12-mobilep">
@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="col-4 col-12-mobilep">
                                 <h6 class="online_pre_fonts">Birthdate *</h6>
-                                <input class="calendar" id="datepicker">
+                                <input class="calendar" name="bdate" id="datepicker">
                                 </div>
                                 <div class="col-4 col-12-mobilep">
                                 <h6 class="online_pre_fonts">Email Address</h6>
@@ -98,9 +98,14 @@
                                 </select>
                                 </div>
                                 <div class="col-4 col-12-mobilep">
+                                <h6 class="online_pre_fonts">Preferred Date *</h6>
+                                <input class="calendar" name="pre_date" id="datepicker">
+                                </div>
+                                <div class="col-4 col-12-mobilep">
                                     <h6 class="online_pre_fonts">Contact number *</h6>
                                 <input type="text" name="Contact_num" id="contact_num" placeholder="Contact Number" />
                                 </div>
+                               
                                 <div class="col-12 col-12-mobilep">
                                 <b>Data Privacy Consent</b> <br>
                                     "In compliance with the Data Privacy Act (DPA) of 2012 and Credit Information Corporation (CIC), and its Implementing Rules and Regulations, I agree and authorize Cordova Multipupose Cooperative to use my Personal Information to process any transaction related in the availment of Cordova Cooperative's Products and Services, including the insurance services and administer the benefits as stated in the policy and other service agreements and inform me of future customer campaigns and base its offer using the personal information I shared with the company." *
@@ -134,7 +139,6 @@
   <script src="../assets/js/breakpoints.min.js"></script>
   <script src="../assets/js/util.js"></script>
   <script src="../assets/js/main.js"></script>
-  <script src="../assets/js/carousel.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
   <script src="../assets/js/loading.js"></script>

@@ -74,7 +74,7 @@
                                    </tr>
                                    <tr>
                                         <td>Initial Deposit</td>
-                                        <td>none</td>
+                                        <td>P 200</td>
                                         <td>P 1,250</td>
                                    </tr>  
                                    <tr>
@@ -84,7 +84,7 @@
                                    </tr> 
                                    <tr>
                                         <td>Memmbership Fee</td>
-                                        <td>none</td>
+                                        <td>100</td>
                                         <td>P 100</td>
                                    </tr>  
                                    <tr>
@@ -132,7 +132,6 @@
    <script src="../assets/js/breakpoints.min.js"></script>
    <script src="../assets/js/util.js"></script>
    <script src="../assets/js/main.js"></script>
-   <script src="../assets/js/carousel.js"></script>
    <script src="../https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
    <script src="../assets/js/loading.js"></script>
 

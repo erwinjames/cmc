@@ -49,24 +49,23 @@
                         <span class="image featured">
                         <div class="col-6 picture" style="position:absolute;width:600px;z-index:1;"><img src="../images/building_nav.png" alt="" /></div>   
                         <div class="col-6" id="map"></div>
-                    </span>
+                          </span>
                         <article>
-                            <div class="row gtr-200">
-                          
-                                <!-- <section class="col-4 col-12-narrower">
-                                    <h3>Office of the General Manager</h3>
-                                </section>      -->
-                                <section class="col-4 col-12-narrower imp-narrower">
-                                <h3>Office of the General Manager</h3>
+                            <div class="row gtr-200">  
+                            <div class="col-12 col-12-narrower">
+                            <h3>Office of the General Manager</h3>
+                                </div>
+                                <div class="col-5 col-12-narrower">
+                               
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
                                         <div class="info">
                                         <h4>Neomelito D. Nunez</h4>
                                         <p>General Manager</p>
-                                </div>
+                                    </div>
                                     </div> 
-                                </section>
-                                <section class="col-4 col-12-narrower">
+                                     </div>
+                                <div class="col-5 col-12-narrower">
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
                                         <div class="info">
@@ -75,8 +74,10 @@
                                     </div>   
                                     </div>   
                                      
-                                </section>
-                                <section class="col-4 col-12-narrower">
+                                </div>
+                              
+                                <div class="col-4 col-12-narrower">
+                                <h3>Internal Audit Department</h3><br><br><br>
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
                                         <div class="info"> 
@@ -84,13 +85,10 @@
                                         <p>Internal Auditor</p>
                                      </div>
                                     </div>  
-                                    
-                                </section>
-                                <section class="col-9 col-12-narrower">
-                                    <h3>Treasury Department</h3>
-                                </section> 
+                                </div>
+                       
                                 <section class="col-4 col-12-narrower">
-            
+                                <h3>Treasury Department</h3><br><br><br>
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
                                         <div class="info">
@@ -101,10 +99,22 @@
                                      
                                         
                                 </section>
-                                <section class="col-9 col-12-narrower">
-                                    <h4>Credit and Collection Department</h4>
-                                </section>
                                 <section class="col-4 col-12-narrower">
+                                <h3>Credit and Saving Department</h3><br><br><br>
+                                    <div class="cardsss">
+                                        <i class=""><img src="../images/branches/HeadOffice/dindin.png" alt=""></i>
+                                        <div class="info">
+                                            <h3>Henedina T. Sumalinog</h3>
+                                        <p>Credit and Savings Head</p>
+                                       </div>
+                                         
+                                    </div>
+
+                                </section>
+                                <section class="col-9 col-12-narrower">
+                                    <h3>Credit and Collection Department</h3>
+                                </section>
+                                <section class="col-5 col-12-narrower">
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/elen.png" alt=""></i>
                                         <div class="info">
@@ -114,7 +124,7 @@
                                       </div>  
                                      
                                 </section>
-                                <section class="col-4 col-12-narrower">
+                                <section class="col-5 col-12-narrower">
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/epe.png" alt=""></i>
                                         <div class="info">
@@ -122,23 +132,10 @@
                                         <p>Remedial Managment Officer</p>
                                      </div>
                                     </div>  
-                    
                                 </section>
-                                <section class="col-4 col-12-narrower">
-                                    <div class="cardsss">
-                                        <i class=""><img src="../images/branches/HeadOffice/dindin.png" alt=""></i>
-                                        <div class="info">
-                                            <h4>Henedina T. Sumalinog</h4>
-                                        <p>Credit and Savings Head</p>
-                                       </div>
-                                         
-                                    </div>
 
-                                </section>
-                                <section class="col-9 col-12-narrower">
-                                    <h4>Business Development Center</h4>
-                                </section>
                                 <section class="col-4 col-12-narrower">
+                                <h3>Business Development Center</h3><br><br><br>
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
                                         <div class="info">
@@ -147,10 +144,8 @@
                                       </div>  
                                     </div>      
                                 </section>
-                                <section class="col-9 col-12-narrower">
-                                    <h4>Business Enterprise Department</h4>
-                                </section>
                                 <section class="col-4 col-12-narrower">
+                                <h3>Business Enterprise Department</h3><br><br><br>
                                     <div class="cardsss">
                                         <i class=""><img src="../images/branches/HeadOffice/" alt=""></i>
                                         <div class="info">
@@ -160,8 +155,8 @@
                                     </div>
                   
                                 </section>
-                                <section class="col-9 col-12-narrower">
-                                    <h4>Human Resources Department</h4>
+                                <section class="col-12 col-12-narrower">
+                                    <h3>Human Resources Department</h3>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
@@ -205,7 +200,7 @@
                                     
                                 </section>
                                 <section class="col-9 col-12-narrower">
-                                    <h4>Accounting Department</h4>
+                                    <h3>Accounting Department</h3>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
@@ -251,7 +246,7 @@
                                 </section>
                         
                                 <section class="col-9 col-12-narrower">
-                                    <h4>Membership Department</h4>
+                                    <h3>Membership Department</h3>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
@@ -272,7 +267,7 @@
                                     </div>  
                                 </section>
                                 <section class="col-9 col-12-narrower">
-                                    <h4>General Support and Services Department</h4>
+                                    <h3>General Support and Services Department</h3>
                                 </section>
                                 <section class="col-4 col-12-narrower">
                                     <div class="cardsss">
@@ -323,6 +318,7 @@
                                     </div>        
                                 </section>
                             </div>
+                               
                         </article>
 
                     </div>
