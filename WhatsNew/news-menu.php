@@ -40,7 +40,7 @@
                 <li><a href="../Product&Services/loans.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Loans</a> </li>
                 <li ><a href ="../Product&Services/membersBenifits.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Members Benefits</a>
                  <li><a href="../Product&Services/BusinessEnterprise.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Business Enterprise</a>
-                  
+                 <li><a href="../Product&Services/others.php"><i  class="fa fa-chevron-circle-right" aria-hidden="true"></i>Others</a>
                </li>
             </ul>
         </li>
