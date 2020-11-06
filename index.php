@@ -35,10 +35,10 @@
                 <a href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>The Management</a>
                     <ul>
                         <li><a href="AboutUs/coop_ho.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Head Office</a></li>
-                        <li><a href="AboutUs//coop_main.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Main Office</a></li>
+                        <li><a href="AboutUs/coop_main.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Main Office</a></li>
                         <li><a href="AboutUs/coop_llc.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Lapu-Lapu Branch</a></li>
                         <li><a href="AboutUs/coop_basak.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Basak Branch</a></li>
-                        <li><a href="AboutUs//coop_olango.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Olango Branch</a></li>
+                        <li><a href="AboutUs/coop_olango.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Olango Branch</a></li>
                         <li><a href="AboutUs/coop_mandaue.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Mandaue Office</a></li>
                         <li><a href="AboutUs/coop_be.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Business Enterprise</a></li>
                     </ul>
