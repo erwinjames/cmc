@@ -33,28 +33,29 @@
                 <div class="row gtr-200">
                     <div class="col-3 col-12-narrower items" >
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="../images/download/1st.jpg">
-                            <a href="../downloadable/Authority-to-Debit-Deposit-Account.pdf" download><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
+                            <img src="../images/loan_form.png">
+                            <a href="../downloadable/loan/STANDARD-LOAN-APPLICATION-FORM-complete.pdf"><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items" >
-                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="2000">
-                            <img src="../images/download/prommisorry.jpg" >
-                            <a href="../downloadable/PROMISSORY-NOT-NEW.pdf" download><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
+                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
+                            <img src="../images/witdrawal_form.png">
+                            <a href="../downloadable/withdrawal/withdrawal-form.pdf"><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items" >
-                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="3000">
-                            <img src="../images/download/standarCoMakerStatement.jpg">
-                            <a href="../downloadable/STANDARD-CO-MAKER-STATEMENT.pdf" download><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
+                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
+                            <img src="../images/witdrawal_slip.png">
+                            <a href="../downloadable/withrawal_slip.pdf"><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
                     <div class="col-3 col-12-narrower items" >
-                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="4000">
-                            <img src="../images/download/standardLoanApplication.jpg">
-                            <a href="../downloadable/STANDARD-LOAN-APPLICATION-FORM.pdf" download><i class="fas fa-download "></i>&nbsp;&nbsp;Downloads</a>
+                        <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
+                            <img src="../images/deposit_slip.png">
+                            <a href="../downloadable/deposit_slip.pdf"><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
+             
 
                 </div>
             </div>

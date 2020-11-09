@@ -58,8 +58,7 @@
                         <div id="content">
                   <article>
                             <span class="image featured"><img src="../images/rental.png" alt="" /></span>
-                            
-
+                            <span class="image featured"><img src="../images/rental_building.png" alt="" /></span>
                   </article>
   </div>
    </div>
