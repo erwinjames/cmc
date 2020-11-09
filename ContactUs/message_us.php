@@ -213,8 +213,6 @@
             scale: 1.1
         })
     </script>
-  
-
 </body>
 <script src="../assets/js/aos.js"></script>
 <script>
