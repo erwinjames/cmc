@@ -44,7 +44,13 @@
                                         </li>
                                         <br>
                                         <li>
-                                            <a href="Yulabco.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Bussines Enterprise</a>
+                                            <a href="BusinessEnterprise.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> Bussines Enterprise</a>
+                                        </li>
+                                        <li> <a href=""><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Others</a>
+                                          <ul>
+                                           <li><a href="bayad_center.php"><i class="fa fa-chevron-circle-right"></i>Bayad Center</a></li>
+                                            <li><a href="rental.php"><i class="fa fa-chevron-circle-right"></i>Rental</a></li>
+                                          </ul>
                                         </li>
                                      </ul>
                             </nav>
