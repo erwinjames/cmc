@@ -31,7 +31,7 @@
         <section class="wrapper style1">
             <div class="container">
                 <div class="row gtr-200">
-                    <div class="col-3 col-12-narrower items" >
+                    <div class="col-3 col-12-narrower items">
                         <div class="cards item-card card-block" data-aos="fade-up" data-aos-duration="1000">
                             <img src="../images/loan_form.png">
                             <a href="../downloadable/loan/STANDARD-LOAN-APPLICATION-FORM-complete.pdf"><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
