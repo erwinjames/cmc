@@ -143,13 +143,9 @@
                                 </button>
                         </div>
                     </form>
-
                 </div>
             </div>
-
-
         </section>
-
         <!-- Footer -->
         <div id="footer">
             <div class="container">
