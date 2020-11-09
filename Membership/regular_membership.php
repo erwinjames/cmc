@@ -57,7 +57,6 @@
                                   <span class="bullets"><i class="fa fa-check"></i> &nbsp;  Funos P <b>720.00</b></span> <br> 
                                   <span class="bullets"><i class="fa fa-check"></i> &nbsp; Health Care (optional) P <b>500</b></span> <br>                     
                             </div>
-
                             <div class="download__file">
                             <i class="fas fa-file-download"></i>&nbsp;&nbsp;<a href="../downloadable/withdrawal/withdrawal-form.pdf" download>Download Membership Form</a>
                             </div>
@@ -83,5 +82,8 @@
  <script src="../assets/js/loading.js"></script>
 
 </body>
-
+<script src="../assets/js/aos.js"></script>
+<script>
+    AOS.init();
+  </script>   
 </html>

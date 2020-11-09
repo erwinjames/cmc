@@ -28,14 +28,10 @@
         <section class="wrapper style1">
             <div class="container">
                 <div class="row gtr-200">
-                   
                     <div class="">
                         <div id="content">
-
                             <!-- Content -->
-
                             <article>
-                                
                                 <span class="image featured"><img src="../images/history.png" alt="" /></span>
                                 <h3>HOW CMC STARTED ?</h3>
                                 <p>Cordova Multipurpose Cooperative is a large cooperative and one of the pioneering 
@@ -128,19 +124,14 @@
                                 <p>
                                 September 8, 2016 – Cordova Multipurpose Cooperative opened its first satellite office at Mandaue City.
                                 </p>
-                               
                             </article>
-
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
         <!-- Footer -->
-        <?php include "../includes/footer.php"?>
-  
-
+        <?php include "../includes/footer.php"; ?>
     <!-- Scripts -->
    <script src="../assets/js/jquery.min1.js"></script>
    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
@@ -153,5 +144,8 @@
    <script src="../assets/js/loading.js"></script>
 
 </body>
-
+<script src="../assets/js/aos.js"></script>
+<script>
+    AOS.init();
+  </script>   
 </html>

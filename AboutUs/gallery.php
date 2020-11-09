@@ -67,5 +67,8 @@
     <script src="../assets/js/gallery.js"></script>
 
 </body>
-
+<script src="../assets/js/aos.js"></script>
+<script>
+    AOS.init();
+  </script>   
 </html>

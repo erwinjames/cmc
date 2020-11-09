@@ -136,5 +136,8 @@
    <script src="../assets/js/loading.js"></script>
 
 </body>
-
+<script src="../assets/js/aos.js"></script>
+<script>
+    AOS.init();
+  </script>   
 </html>
