@@ -55,15 +55,11 @@
                             <a href="../downloadable/deposit_slip.pdf"><i class="fas fa-download"></i>&nbsp;&nbsp;Downloads</a>
                         </div>
                     </div>
-             
-
                 </div>
             </div>
         </section>
-
         <!-- Footer -->
         <?php include "../includes/footer.php"?>
-
     <!-- Scripts -->
     <!-- <script src="assets/js/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
