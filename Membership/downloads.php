@@ -14,7 +14,7 @@
 
 <body class="is-preload">
 <?php include "../includes/social_media.php"; ?>
-    <!-- <div class="se-pre-con"></div> -->
+    <div class="se-pre-con"></div>
     <div id="page-wrapper">
 
         <?php include "../includes/header2.php";?>  

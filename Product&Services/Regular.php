@@ -8,6 +8,7 @@
 </head>
 
 <body class="is-preload">
+<div class="se-pre-con"></div>
 <?php include "../includes/social_media.php"; ?>
     <div id="page-wrapper">
 
@@ -133,6 +134,7 @@
     <script src="../assets/js/breakpoints.min.js"></script>
     <script src="../assets/js/util.js"></script>
     <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/loading.js"></script>
 
 </body>
 

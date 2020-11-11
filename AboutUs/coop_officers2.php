@@ -9,14 +9,16 @@
 </head>
 
 <body class="is-preload">
+<div class="se-pre-con"></div>
 <?php include "../includes/social_media.php"; ?>
+
     <div id="page-wrapper">
 
         <!-- Header -->
                  <?php include "../includes/header2.php";?>
             <!-- Nav -->
             <?php include "AboutUs-menu.php"?>
-
+    </div>
         <!-- Main -->
         <section id="cta" class="wrapper style2">
              <div class="container">
@@ -164,6 +166,7 @@
     <script src="../assets/js/breakpoints.min.js"></script>
     <script src="../assets/js/util.js"></script>
     <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/loading.js"></script>
 
 </body>
 

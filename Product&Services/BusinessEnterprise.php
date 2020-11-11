@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../assets/css/main.css" />
 </head>
 <body class="is-preload">
+<div class="se-pre-con"></div>
 <?php include "../includes/social_media.php"; ?>
     <div id="page-wrapper">
         <?php include "../includes/header2.php";?>
@@ -370,6 +371,7 @@
     <script src="../assets/js/util.js"></script>
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/product_slider.js"></script>
+    <script src="../assets/js/loading.js"></script>
 </body>
 
 </html>
