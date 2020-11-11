@@ -62,7 +62,6 @@
                      <li><a href=Product&Services/rental.php"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Rental</a></li>
                 </ul>
                </li>
-                  
                </li>
             </ul>
         </li>
