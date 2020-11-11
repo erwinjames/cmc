@@ -1,4 +1,4 @@
-<div id="fixed-social">
+<div id="fixed-social" class="social_medias">
   <div>
     <a href="https://www.facebook.com/cordovampc/?eid=ARB2CoSolJopsB31OKkwWLqy7O1dqotM5RXdS3IzsqZaVJTvloyttt2EK0BccX5cnziAMxc1U1r1TR00" class="fixed-facebook" target="_blank"><i class="icon brands fa-facebook"></i> <span>Facebook</span></a>
   </div>
