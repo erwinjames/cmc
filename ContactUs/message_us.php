@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
     <link rel="stylesheet" href="../assets/css/util.css" />
-    <link href="../assets/css/aos.css" rel="stylesheet">
+    <!-- <link href="../assets/css/aos.css" rel="stylesheet"> -->
 </head>
 
 <body class="is-preload">
@@ -209,8 +209,8 @@
         })
     </script>
 </body>
-<script src="../assets/js/aos.js"></script>
+<!-- <script src="../assets/js/aos.js"></script>
 <script>
     AOS.init();
-  </script>   
+  </script>    -->
 </html>

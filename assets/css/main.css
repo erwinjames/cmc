@@ -3188,6 +3188,9 @@ button.small,
         line-height: 4em;
         box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
     }
+    .social_medias{
+        display:none;
+    }
     .icon.major:before {
         font-size: 24px;
     }
@@ -3715,6 +3718,9 @@ textarea.input1+.shadow-input1 {
 }
 
 @media (max-width: 768px) {
+    .social_medias{
+        display: none;
+    }
     .container-contact1 {
         padding: 90px 80px 88px 80px;
     }

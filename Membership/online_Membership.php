@@ -12,7 +12,7 @@
 
 <body class="is-preload">
 <?php include "../includes/social_media.php"; ?>
-    <div class="se-pre-con"></div>
+    <!-- <div class="se-pre-con"></div> -->
     <div id="page-wrapper">
 
         <!-- Header -->
@@ -98,8 +98,8 @@
   <script src="../assets/js/loading.js"></script>
 
 </body>
-<script src="../assets/js/aos.js"></script>
+<!-- <script src="../assets/js/aos.js"></script>
 <script>
     AOS.init();
-  </script>   
+  </script>    -->
 </html>

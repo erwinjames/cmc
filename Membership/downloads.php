@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
     <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css">
-    <link href="../assets/css/aos.css" rel="stylesheet">
+    <!-- <link href="../assets/css/aos.css" rel="stylesheet"> -->
 
 
 </head>
 
 <body class="is-preload">
 <?php include "../includes/social_media.php"; ?>
-    <div class="se-pre-con"></div>
+    <!-- <div class="se-pre-con"></div> -->
     <div id="page-wrapper">
 
         <?php include "../includes/header2.php";?>  
@@ -71,8 +71,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
     <script src="../assets/js/loading.js"></script>
 </body>
-<script src="../assets/js/aos.js"></script>
+<!-- <script src="../assets/js/aos.js"></script>
 <script>
     AOS.init();
- </script>
+ </script> -->
 </html>

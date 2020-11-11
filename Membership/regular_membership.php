@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
-    <link href="../assets/css/aos.css" rel="stylesheet">
+    <!-- <link href="../assets/css/aos.css" rel="stylesheet"> -->
 
 </head>
 
@@ -82,8 +82,8 @@
  <script src="../assets/js/loading.js"></script>
 
 </body>
-<script src="../assets/js/aos.js"></script>
+<!-- <script src="../assets/js/aos.js"></script>
 <script>
     AOS.init();
-  </script>   
+  </script>    -->
 </html>
