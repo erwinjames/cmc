@@ -187,7 +187,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <section class="style1">
